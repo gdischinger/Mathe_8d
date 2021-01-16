@@ -10,8 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
-
-Nur um zusehen, was passiert... Hier ist der Tipp: <http://rmarkdown.rstudio.com>.
+Hier schreib ich also einfach meinen Text rein. Und wenn ich Latex will, dann krieg ich das so ${5x \over 2a} = \sqrt{9}$
+Nur um zusehen, was passiert... Hier geht's [zurück:](https://gdischinger.github.io/Mathe_8d/Test.html)
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
