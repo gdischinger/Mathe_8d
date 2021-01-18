@@ -1,16 +1,21 @@
 ---
 title: "Dreieck, Trapez und Parallelogramm"
-date: "18. Januar 2021"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Drei kleine Aufgaben zum Aufwärmen
+
+
+Und nun geht's los:
 
 ## Flächeninhalte berechnen
 
 Erinnert ihr euch noch an lang vergangene Zeiten? An die 6. Klasse? Oder vielleicht an die Stunden vor Weihnachten?
+
+
 
 ### [Das Dreieck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/Dreieck.html)
 
@@ -18,12 +23,5 @@ Erinnert ihr euch noch an lang vergangene Zeiten? An die 6. Klasse? Oder viellei
 ### [Das Parallelogramm](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/Parallelogramm.html)
 
 
-## Including Plots
+### [Das Trapez](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/Trapez.html)
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

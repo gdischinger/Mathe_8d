@@ -1,13 +1,12 @@
 ---
-title: "Parallelogramm"
+title: "Trapez"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-## Das Parallelogramm{.tabset}
+## Das Trapez{.tabset}
 
 ### Allgemeines
 
