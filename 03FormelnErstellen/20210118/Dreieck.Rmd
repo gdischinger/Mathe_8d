@@ -1,6 +1,5 @@
 ---
 title: "Das Dreieck"
-date: "18 1 2021"
 output: html_document
 ---
 
@@ -50,7 +49,21 @@ $$A = {1 \over 2} \cdot g \cdot h$$
 ::::
 
 
+**Was heißt das doch gleich?**
 
+Hier einmal in Worten: Den Flächeninhalt $A$ eines Dreiecks erhältst du, indem du die Länge der Höhe $h$ mit der Länge der Grundseite $g$ multiplizierst und das Ergebnis durch 2 dividierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch "zusammengehören". Im Beispiel oben sind die Grundseite $c$ und die zugehörige Höhe $h_c$ eingezeichnet. Die Höhe $h_c$ gehört zur Grundseite $c$, weil sie auf dieser senkrecht steht. Sie gehört nicht zur Seite $a$ und genauso wenig zur Seite $b$.
+
+Natürlich erhält man denselben Flächeninhalt, wenn man sich für eine andere Grundseite und die dazugehörige Höhe entscheidet. Also:
+
+$$A_{Dreieck} = {1 \over 2} \cdot a \cdot h_{a} = {1 \over 2} \cdot b \cdot h_{b} = {1 \over 2} \cdot c \cdot h_{c}$$
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
+
+#### Aufgabe 1
+Ermittle die fehlende...
+
+
+#### Aufgabe 2
 ```{r dirac1, animation.hook="gifski", interval=0.5, fig.align="center", echo=FALSE}
 xxd <- c(1,2,3,4,5,6)
 xxd <- c(xxd,rev(xxd))
@@ -58,19 +71,6 @@ for(i in 1:length(xxd)){
   meinDreieck(B = c(8,0), C = c(6,xxd[i]))
 }
 ```
-
-
-
-**Was heißt das doch gleich?**
-
-Hier einmal in Worten: Den Flächeninhalt $A$ eines Dreiecks erhältst du, indem du die Länge der Höhe $h$ mit der Länge der Grundseite $g$ multiplizierst und das Ergebnis durch 2 dividierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch "zusammengehören". Im Beispiel oben sind die Grundseite $c$ und die zugehörige Höhe $h_c$ eingezeichnet. Die Höhe $h_c$ gehört zur Grundseite $c$, weil sie auf dieser senkrecht steht. Sie gehört nicht zur Seite $a$ und genauso wenig zur Seite $b$.
-
-Natürlich erhält man denselben Flächeninhalt, wenn man sich für eine andere Grundseite und die dazugehörige Höhe entscheidet. Also:
-
-$$A_{Dreieck} = {1 \over 2} \cdot a \cdot h_{a} = {1 \over 2} \cdot b \cdot h_{b} = {1 \over 2} \cdot c \cdot h_{c}$$ 
-
-#### Aufgaben
-
 
 #### Tipp 1
 

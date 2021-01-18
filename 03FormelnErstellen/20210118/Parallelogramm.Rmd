@@ -1,7 +1,5 @@
 ---
 title: "Parallelogramm"
-author: "Gisela Dischinger"
-date: "18 1 2021"
 output: html_document
 ---
 
@@ -28,6 +26,8 @@ text(D[1], D[2], labels = "D", pos = 2)
 }
 meinParallelogramm(B = c(8,0), C = c(10,6), D = c(2, 6))
 ```
+
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 ### Aufgaben
 
