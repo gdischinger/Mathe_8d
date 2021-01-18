@@ -21,13 +21,13 @@ plot(x = c(A[1],B[1]),y = c(A[2],B[2]),type="l",xlim=c(-0.5,C[1]+1),ylim=c(-0.5,
 lines(x = c(B[1],C[1]),y = c(B[2],C[2]), col=1, lwd=2)
 lines(x = c(C[1],D[1]),y = c(C[2],D[2]), col=1, lwd=2)
 lines(x = c(D[1],A[1]),y = c(D[2],A[2]), col=1, lwd=2)
-lines(x=c(6,6), y=c(0,6), col=1, lwd=1)
+lines(x=c(B[1],B[1]), y=c(B[2],C[2]), col=1, lwd=1)
 text(A[1], A[2], labels = "A", pos = 2)
 text(B[1], B[2], labels = "B", pos = 4)
 text(C[1], C[2], labels = "C", pos = 3)
 text(D[1], D[2], labels = "D", pos = 2)
 text(x=4, y=0, labels = "g", col=1, pos = 1)
-text(x= 6 , y=C[2]/2 , labels = expression(h), col=1, pos = 4)
+text(x= B[1] , y=C[2]/2 , labels = expression(h), col=1, pos = 4)
 fl <- round((B[1]-A[1])*C[2],2)
 text(x = 1.5, y = Cy_max-3.5,      labels = bquote("Länge der Seite g:"~g==.(round(B[1],2))), pos=4)
 text(x = 1.5, y = Cy_max-4.25,      labels = bquote("Höhe:"~h==.(round(C[2],2))), pos=4)
@@ -58,7 +58,7 @@ $$U = a + b + c + d$$
 Hier einmal in Worten: Den Flächeninhalt $A$ eines Parallelogramms erhältst du, indem du die Länge der Höhe $h$ mit der Länge der Grundseite $g$ multiplizierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch "zusammengehören". Die Höhe $h$ im obigen Beispiel gehört zur Grundseite $g$, weil sie auf dieser senkrecht steht.
 
 
-Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 ### Aufgabe 1
 **Berechne die fehlende Größe des Parallelogramms.**
@@ -70,9 +70,19 @@ Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03F
  Höhe h | 3 cm | 25 cm | 
  Flächeninhalt A|  | 625 cm² | 72 cm²
 
-Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 ### Aufgabe 2
+
+<!-- ```{r dirac1, animation.hook="gifski", interval=1.3, fig.align="center", echo=FALSE} -->
+<!-- xxd <- c(0,1,2,3,4,5,6,7) -->
+<!-- xxd <- c(xxd,rev(xxd)) -->
+<!-- for(i in 1:length(xxd)){ -->
+<!--   meinParallelogramm(B = c(xxd[i]*8/7,0), C = c(xxd[i]*10/7,xxd[i]*6/7), D = c(xxd[i]*2/7,xxd[i]*6/7)) -->
+<!-- } -->
+<!-- ``` -->
+
+
 Frau Dischinger behauptet:
 
 > "Der Flächeninhalt eines Parallelogramms ändert sich nicht, wenn man eine Grundseite halbiert und die zugehörige Höhe verdoppelt."
@@ -80,4 +90,4 @@ Frau Dischinger behauptet:
 Stimmt das?
 Begründe deine Antwort.
 
-Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
