@@ -64,8 +64,11 @@ Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03F
 
 ### Aufgabe 1
 Ein Dreieck habe eine Grundseite $g$ der Länge 4cm und eine zugehörige Höhe $h$ der Länge 6cm.
-Gibe die Höhe eines flächengleichen Trapezes mit den parallelen Seiten $a = 2cm$ und $c = 4cm$ an.
+Gib die Höhe eines flächengleichen Trapezes mit den parallelen Seiten $a = 2cm$ und $c = 4cm$ an.
+
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 ### Aufgabe 2
 Ein Trapez hat den Flächeninhalt 1m². Die Höhe beträgt 20cm. Gib drei verschiedene Möglichkeiten für die Länge der zueinander parallelen Seiten an.
 
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).

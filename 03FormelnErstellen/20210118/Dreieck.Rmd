@@ -75,6 +75,7 @@ Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03F
  Höhe h | 6 cm | 30 cm | 
  Flächeninhalt A|  | 24 cm² | 12 cm²
 
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 #### Aufgabe 2
 **Gegeben ist ein Dreieck mit Grundseite $g$ und Höhe $h$. Wie verändert sich der Flächeninhalt, wenn die Höhe verdoppelt/vervierfacht/halbiert wird?**
@@ -92,9 +93,9 @@ for(i in 1:length(xxd)){
 * Notiere deine Beobachtungen.
   + Wenn die Höhe verdoppelt wird, ...... sich der Flächeninhalt.
   + Wenn die Höhe vervierfacht wird, .... sich der Flächeninhalt.
-  + Wenn die Höhe verdreifacht wird, ... sich der Flächeninhalt.
+  + Wenn die Höhe halbiert wird, ... sich der Flächeninhalt.
 
 * Versuche nun deine Beobachtungen auch zu zeigen. Verändere dafür die Variablen in der Gleichung zur Berechnung des Flächeninhaltes eines Dreiecks auf geeignete Weise.
 
 
-
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).

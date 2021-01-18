@@ -70,6 +70,7 @@ Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03F
  Höhe h | 3 cm | 25 cm | 
  Flächeninhalt A|  | 625 cm² | 72 cm²
 
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 ### Aufgabe 2
 Frau Dischinger behauptet:
@@ -79,3 +80,4 @@ Frau Dischinger behauptet:
 Stimmt das?
 Begründe deine Antwort.
 
+Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
