@@ -1,9 +1,9 @@
 {
     "id": "E9923A17",
     "path": "~/github/Mathe_8d/03FormelnErstellen/20210118/Dreieck.Rmd",
-    "project_path": null,
+    "project_path": "03FormelnErstellen/20210118/Dreieck.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1632258893",
     "contents": "",
     "dirty": false,
     "created": 1610924708388.0,
@@ -18,11 +18,11 @@
         "last_setup_crc32": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1610957522,
+    "lastKnownWriteTime": 1611006098,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1610957522404,
+    "last_content_update": 1611007082713,
     "read_only": false,
     "read_only_alternatives": []
 }
