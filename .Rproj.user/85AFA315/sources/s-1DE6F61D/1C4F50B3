@@ -1,9 +1,9 @@
 {
     "id": "1C4F50B3",
     "path": "~/github/Mathe_8d/03FormelnErstellen/20210118/Trapez.Rmd",
-    "project_path": "03FormelnErstellen/20210118/Trapez.Rmd",
+    "project_path": null,
     "type": "r_markdown",
-    "hash": "2356769308",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1610928513225.0,
@@ -14,7 +14,7 @@
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "61,27",
-        "scrollLine": "56"
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1610957558,
