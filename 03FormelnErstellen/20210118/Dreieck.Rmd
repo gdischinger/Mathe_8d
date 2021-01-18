@@ -1,0 +1,77 @@
+---
+title: "Das Dreieck"
+date: "18 1 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### Das Dreieck{.tabset}
+
+#### Allgemeines
+:::: {style="display: flex;"}
+
+::: {}
+<!-- First div -->
+```{r Dreieck, echo = FALSE}
+B <- c(8,0); C <- c(6,2.5)
+meinDreieck<-function(A=c(0,0), B=B, C=C, Cy_max=6){
+plot(x = c(A[1],B[1]),y = c(A[2],B[2]),type="l",xlim=c(-0.5,B[1]+1),ylim=c(-0.5,Cy_max + 1), axes=F,col="darkorange",lwd=2,xlab = "",ylab="")
+lines(x = c(A[1],C[1]),y = c(A[2],C[2]), col="red", lwd=2)
+lines(x = c(B[1],C[1]),y = c(B[2],C[2]), col="blue", lwd=2)
+lines(x=c(6,6), y=c(0,C[2]), col="darkorange", lwd=1)
+text(A[1], A[2], labels = "A", pos = 2)
+text(B[1], B[2], labels = "B", pos = 4)
+text(C[1], C[2], labels = "C", pos = 3)
+text(x=7.2, y= C[2]*0.5, labels = "a", col = "blue", pos = 4)
+text(x=3.2, y= C[2]*0.6, labels = "b", col = "red",pos = 2)
+text(x=4, y=0, labels = "c", col="darkorange", pos = 1)
+text(x= 6 , y=C[2]/2 , labels = expression(h[c]), col="darkorange", pos = 4)
+fl <- round(0.5*(B[1]-A[1])*C[2],2)
+text(x = 0, y = Cy_max,      labels = bquote("Höhe:"~h[c]==.(round(C[2],2))), pos=4)
+text(x = 0, y = Cy_max-0.75, labels = bquote("Flächeninhalt:"~A==.(fl)),pos=4)
+}
+meinDreieck(B = c(8,0), C = c(6,2.5))
+```
+
+:::
+
+::: {}
+<!-- Second div -->
+
+<br><br><br><br><br><br>
+
+**Flächeninhalt des Dreiecks:** 
+
+$$A = {1 \over 2} \cdot g \cdot h$$  
+:::
+
+::::
+
+
+
+```{r dirac1, animation.hook="gifski", interval=0.5, fig.align="center", echo=FALSE}
+xxd <- c(1,2,3,4,5,6)
+xxd <- c(xxd,rev(xxd))
+for(i in 1:length(xxd)){
+  meinDreieck(B = c(8,0), C = c(6,xxd[i]))
+}
+```
+
+
+
+**Was heißt das doch gleich?**
+
+Hier einmal in Worten: Den Flächeninhalt $A$ eines Dreiecks erhältst du, indem du die Länge der Höhe $h$ mit der Länge der Grundseite $g$ multiplizierst und das Ergebnis durch 2 dividierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch "zusammengehören". Im Beispiel oben sind die Grundseite $c$ und die zugehörige Höhe $h_c$ eingezeichnet. Die Höhe $h_c$ gehört zur Grundseite $c$, weil sie auf dieser senkrecht steht. Sie gehört nicht zur Seite $a$ und genauso wenig zur Seite $b$.
+
+Natürlich erhält man denselben Flächeninhalt, wenn man sich für eine andere Grundseite und die dazugehörige Höhe entscheidet. Also:
+
+$$A_{Dreieck} = {1 \over 2} \cdot a \cdot h_{a} = {1 \over 2} \cdot b \cdot h_{b} = {1 \over 2} \cdot c \cdot h_{c}$$ 
+
+#### Aufgaben
+
+
+#### Tipp 1
+
+
