@@ -3,7 +3,7 @@
     "path": "~/github/Mathe_8d/03FormelnErstellen/20210118/Parallelogramm.Rmd",
     "project_path": "03FormelnErstellen/20210118/Parallelogramm.Rmd",
     "type": "r_markdown",
-    "hash": "3805291847",
+    "hash": "3854987103",
     "contents": "",
     "dirty": false,
     "created": 1610927897749.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "29,138",
-        "scrollLine": "10"
+        "cursorPosition": "14,6",
+        "scrollLine": "8"
     },
     "folds": "",
-    "lastKnownWriteTime": 1610928976,
+    "lastKnownWriteTime": 1610939490,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1610928976819,
+    "last_content_update": 1610939490190,
     "read_only": false,
     "read_only_alternatives": []
 }

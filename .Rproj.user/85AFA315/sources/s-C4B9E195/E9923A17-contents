@@ -5,6 +5,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(xtable)
 ```
 ### Das Dreieck{.tabset}
 
@@ -28,8 +30,9 @@ text(x=3.2, y= C[2]*0.6, labels = "b", col = "red",pos = 2)
 text(x=4, y=0, labels = "c", col="darkorange", pos = 1)
 text(x= 6 , y=C[2]/2 , labels = expression(h[c]), col="darkorange", pos = 4)
 fl <- round(0.5*(B[1]-A[1])*C[2],2)
-text(x = 0, y = Cy_max,      labels = bquote("Höhe:"~h[c]==.(round(C[2],2))), pos=4)
-text(x = 0, y = Cy_max-0.75, labels = bquote("Flächeninhalt:"~A==.(fl)),pos=4)
+text(x = 0, y = Cy_max,      labels = bquote("Länge der Seite c:"~c==.(round(B[1],2))), pos=4)
+text(x = 0, y = Cy_max-0.75,      labels = bquote("Höhe:"~h[c]==.(round(C[2],2))), pos=4)
+text(x = 0, y = Cy_max-1.5, labels = bquote("Flächeninhalt:"~A==.(fl)),pos=4)
 }
 meinDreieck(B = c(8,0), C = c(6,2.5))
 ```
@@ -44,6 +47,9 @@ meinDreieck(B = c(8,0), C = c(6,2.5))
 **Flächeninhalt des Dreiecks:** 
 
 $$A = {1 \over 2} \cdot g \cdot h$$  
+
+**Umfang des Dreiecks**
+$$U = a + b + c$$
 :::
 
 ::::
@@ -60,10 +66,21 @@ Hier geht es zurück zur [Startseite](https://gdischinger.github.io/Mathe_8d/03F
 
 
 #### Aufgabe 1
-Ermittle die fehlende...
+**Berechne die fehlende Größe des Dreiecks.**
+```{r, 'kable'}
+```
+<br> |a) |b) | c)
+------|------|------|-----
+ Grundseite g| 3 cm | | 8cm
+ Höhe h | 6 cm | 30 cm | 
+ Flächeninhalt A|  | 24 cm² | 12 cm²
 
 
 #### Aufgabe 2
+**Gegeben ist ein Dreieck mit Grundseite $g$ und Höhe $h$. Wie verändert sich der Flächeninhalt, wenn die Höhe verdoppelt/vervierfacht/halbiert wird?**
+
+Betrachte zunächst folgende Animation:
+
 ```{r dirac1, animation.hook="gifski", interval=0.5, fig.align="center", echo=FALSE}
 xxd <- c(1,2,3,4,5,6)
 xxd <- c(xxd,rev(xxd))
@@ -72,6 +89,12 @@ for(i in 1:length(xxd)){
 }
 ```
 
-#### Tipp 1
+* Notiere deine Beobachtungen.
+  + Wenn die Höhe verdoppelt wird, ...... sich der Flächeninhalt.
+  + Wenn die Höhe vervierfacht wird, .... sich der Flächeninhalt.
+  + Wenn die Höhe verdreifacht wird, ... sich der Flächeninhalt.
+
+* Versuche nun deine Beobachtungen auch zu zeigen. Verändere dafür die Variablen in der Gleichung zur Berechnung des Flächeninhaltes eines Dreiecks auf geeignete Weise.
+
 
 
