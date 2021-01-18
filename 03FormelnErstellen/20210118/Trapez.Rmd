@@ -68,7 +68,30 @@ Gib die Höhe eines flächengleichen Trapezes mit den parallelen Seiten $a = 2cm
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
+### Lösung 1
+Ein Dreieck habe eine Grundseite $g$ der Länge 4cm und eine zugehörige Höhe $h$ der Länge 6cm.
+
+Damit hat das Dreieck den Flächeninhalt:
+$$ A = {1 \over 2} \cdot g \cdot h = {1 \over 2} \cdot 4 cm \cdot 6 cm = 12 cm² $$
+Gesucht ist nun die Länge der Höhe eines flächengleichen Trapezes mit den parallelen Seiten $a = 2cm$ und $c = 4cm$.
+
+Für den Flächeninhalt eines Trapezes gilt:
+$$ A = {(a+c) \cdot h \over 2}$$
+Nun setzen wir alle bekannten Größen ein, das führt zu:
+$$ \begin{align} 12 cm² &= {(2cm + 4 cm) \cdot h \over 2}\\
+12cm² &= {6cm \cdot h \over 2} \\
+12cm² &= 3cm \cdot h \quad\quad |:3cm\\
+4cm &=h\end{align}$$
+
+Die Höhe eines flächengleichen Trapezes muss also 4 cm lang sein.¸
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
 ### Aufgabe 2
 Ein Trapez hat den Flächeninhalt 1m². Die Höhe beträgt 20cm. Gib drei verschiedene Möglichkeiten für die Länge der zueinander parallelen Seiten an.
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
+### Lösung 2
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).

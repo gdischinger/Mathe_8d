@@ -77,6 +77,60 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
+
+#### Lösung 1
+**Die fehlende Größe des Dreiecks lautet:**
+```{r, 'kable'}
+```
+<br> |a) |b) | c)
+------|------|------|-----
+ Grundseite g| 3 cm |**1,6cm** | 8cm
+ Höhe h | 6 cm | 30 cm | **3cm** 
+ Flächeninhalt A| **9 cm²** | 24 cm² | 12 cm²
+ 
+ **Rechnungen:**
+ 
+:::: {style="display: flex;"}
+
+::: {}
+a)
+$$\begin{align} A &= {1 \over 2} \cdot g \cdot h \\
+A &= {1 \over 2} \cdot 3 cm \cdot 6 cm = 9 cm² \quad \end{align}$$
+:::
+
+::: {}
+
+:::
+
+::: {}
+b) 
+$$\begin{align} A\quad &= {1 \over 2} \cdot g \cdot h \\
+24 cm² &= {1 \over 2} \cdot g \cdot 30cm \\
+24 cm² &= {1 \over 2} \cdot 30cm \cdot g \\
+24 cm² &= 15cm \cdot g  \quad\quad\quad | : 15 cm\\
+{8 \over 5} cm &= g\\
+\Rightarrow g &= 1,6 cm \end{align}$$
+:::
+
+::: {}
+
+:::
+
+::: {}
+c)   
+$$ \begin{align} A\quad &= {1 \over 2} \cdot g \cdot h \\
+12 cm² &= {1 \over 2} \cdot 8cm \cdot h\\
+12 cm² &= 4cm \cdot h \quad\quad\quad |:4cm\\
+3cm &= h \end{align}$$
+:::
+
+:::: 
+ 
+ 
+
+ 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
 #### Aufgabe 2
 **Gegeben ist ein Dreieck mit Grundseite $g$ und Höhe $h$. Wie verändert sich der Flächeninhalt, wenn die Höhe verdoppelt/vervierfacht/halbiert wird?**
 
@@ -97,5 +151,34 @@ for(i in 1:length(xxd)){
 
 * Versuche nun deine Beobachtungen auch zu zeigen. Verändere dafür die Variablen in der Gleichung zur Berechnung des Flächeninhaltes eines Dreiecks auf geeignete Weise.
 
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
+
+#### Lösung 2
+
+```{r dirac2, animation.hook="gifski", interval=1.3, fig.align="center", echo=FALSE}
+xxd <- c(1,2,3,4,5,6)
+xxd <- c(xxd,rev(xxd))
+for(i in 1:length(xxd)){
+  meinDreieck(B = c(8,0), C = c(6,xxd[i]))
+}
+```
+
+
+* Folgende Beobachtungen lassen sich hier notieren:
+  + Wenn die Höhe verdoppelt wird, **verdoppelt** sich der Flächeninhalt.
+  + Wenn die Höhe vervierfacht wird, **vervierfacht** sich der Flächeninhalt.
+  + Wenn die Höhe halbiert wird, **halbiert** sich der Flächeninhalt.
+
+Beweis:
+Den Flächeninhalt eines Dreiecks berechnet man folgendermaßen:
+$$ A = {1 \over 2} \cdot g \cdot h $$
+Verdoppelt man die Höhe $h$, so erhält man eine neue Höhe der Länge $2h$, für die Berechnung des Flächeninhaltes $A_{neu}$ des neuen Dreiecks mit der verdoppelten Höhe ergibt sich dann:
+$$\begin{align} A_{neu} &= {1 \over 2} \cdot g \cdot (2h) = \\
+&= 2 \cdot \underbrace{\left({1 \over 2} \cdot g \cdot h\right)}_{=A} =  2 \cdot A \end{align}$$
+Damit ist der neue Flächeninhalt, der zur verdoppelten Höhe gehört, doppelt (zweimal) so groß wie der alte Flächeninhalt.
+
+Die beiden anderen Aussagen zeigt man genauso! Versuch's doch auch mal mit der vierfachen Höhe!
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
