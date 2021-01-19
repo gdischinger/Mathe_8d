@@ -8,9 +8,9 @@ knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(xtable)
 ```
-### Das Dreieck{.tabset}
+## Das Dreieck{.tabset}
 
-#### Allgemeines
+### Allgemeines
 :::: {style="display: flex;"}
 
 ::: {}
@@ -65,7 +65,7 @@ $$A_{Dreieck} = {1 \over 2} \cdot a \cdot h_{a} = {1 \over 2} \cdot b \cdot h_{b
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 
-#### Aufgabe 1
+### Aufgabe 1
 **Berechne die fehlende Größe des Dreiecks.**
 ```{r, 'kable'}
 ```
@@ -78,7 +78,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 
-#### Lösung 1
+### Lösung 1
 **Die fehlende Größe des Dreiecks lautet:**
 ```{r, 'kable'}
 ```
@@ -128,7 +128,7 @@ $$ \begin{align} c) \quad\quad A\quad &= {1 \over 2} \cdot g \cdot h \\
  
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
-#### Aufgabe 2
+### Aufgabe 2
 **Gegeben ist ein Dreieck mit Grundseite $g$ und Höhe $h$. Wie verändert sich der Flächeninhalt, wenn die Höhe verdoppelt/vervierfacht/halbiert wird?**
 
 Betrachte zunächst folgende Animation:
@@ -152,7 +152,7 @@ for(i in 1:length(xxd)){
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 
-#### Lösung 2
+### Lösung 2
 
 ```{r dirac2, animation.hook="gifski", interval=1.3, fig.align="center", echo=FALSE}
 xxd <- c(1,2,3,4,5,6)
@@ -177,5 +177,10 @@ $$\begin{align} A_{neu} &= {1 \over 2} \cdot g \cdot (2h) = \\
 Damit ist der neue Flächeninhalt, der zur verdoppelten Höhe gehört, doppelt (zweimal) so groß wie der alte Flächeninhalt.
 
 Die beiden anderen Aussagen zeigt man genauso! Versuch's doch auch mal mit der vierfachen Höhe!
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
+### Aufgabe 3
+In einem Dreieck beträgt der Flächeninhalt $A=20cm²$. Die Höhe $h_c$ ist doppelt so lang wie die zugehörige Grundseite $c$. Berechne $c$ und $h_c$.
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).

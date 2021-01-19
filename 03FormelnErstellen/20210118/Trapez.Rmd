@@ -93,5 +93,32 @@ Ein Trapez hat den Flächeninhalt 1m². Die Höhe beträgt 20cm. Gib drei versch
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
 ### Lösung 2
+Ein Trapez hat den Flächeninhalt 1m². Die Höhe beträgt 20cm. Gib drei verschiedene Möglichkeiten für die Länge der zueinander parallelen Seiten an.
+
+Den Flächeninhalt eines Trapezes berechnet man folgendermaßen:
+$$A = {(a+c) \cdot h \over 2}$$  
+
+Setzt man nun alle bekannten Größen ein, erhält man folgenden Gleichung:
+$$1 m² = {(a+c) \cdot 0,2 m \over 2}$$ 
+
+Diese Gleichung muss man nun nach $(a+c)$ auflösen:
+$$\begin{align}1 m² &= {(a+c) \cdot 0,2 m \over 2} \\
+1 m² &= (a+c) \cdot 0,1 m \quad\quad\quad |:0,1m\\
+10 m &=a+c
+\end{align}$$
+
+Daraus ergeben sich zum Beispiel folgende Längen für die Seiten a und c:
+
+1. Möglichkeit: Die Seite a ist einen Meter lang, die Seite c neun Meter (denn 1+9=10)
+
+2. Möglichkeit: Die Seite a ist zwei Meter lang, die Seite c acht Meter (denn 2+8=10)
+
+3. Möglichkeit: Die Seite a ist drei Meter lang, die Seite c sieben Meter (denn 3+7=10)
+
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
+### Aufgabe 3
+Bei einem Trapez beträgt der Flächeninhalt $A=12cm²$ und die Höhe $h=1,5cm$. die zu $a$ parallele Seite $c$ ist dreimal so lang wie $a$. Berechne $a$ und $c$.
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).

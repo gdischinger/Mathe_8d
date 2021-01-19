@@ -12,31 +12,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- Render this Rmarkdown doc to html to make an interactive html / js multiple choice question -->
 
-Multipliziere folgenden Term aus: $(7a+2b) \cdot (7a -2b)$. Welcher Term ist äquivalent?
+Multipliziere folgenden Term aus: $(11a-3b)²$. Welcher Term ist äquivalent?
 
 <!-- Answer options go here -->
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt1" value="$49a²-28ab+4b²$" onclick="check_answer()">
-    $49a²-28ab+4b²$ 
+    <input type="radio" name="question01" id="opt1" value="$11a²-66ab+3b²$" onclick="check_answer()">
+    $11a²-66ab+3b²$ 
   </label>
 </div>
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt2" value="$49a²-4b²$" onclick="check_answer()">
-    $49a²-4b²$
+    <input type="radio" name="question01" id="opt2" value="$121a²-9b²$" onclick="check_answer()">
+    $121a²-9b²$
   </label>
 </div>
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt3" value="$7a²-2b²$" onclick="check_answer()">
-    $7a²-2b²$ 
+    <input type="radio" name="question01" id="opt3" value="$121a²-66ab+9b²$" onclick="check_answer()">
+    $121a²-66ab+9b²$ 
   </label>
 </div>
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt4" value="$7a²-28ab+2b²$" onclick="check_answer()">
-    $7a²-28ab+2b²$ 
+    <input type="radio" name="question01" id="opt4" value="$11a²-33ab+3b²$" onclick="check_answer()">
+    $11a²-33ab+3b²$ 
   </label>
 </div>
 <!-- Check answer button -->
@@ -62,7 +62,7 @@ function check_answer()
             var selectedAnswer = " ";
             <!-- feedback for correct / incorrect response -->
             var feedback = "Leider falsch! Versuch's nochmal!" 
-            if(radioButtons[i].value == "$49a²-4b²$") {
+            if(radioButtons[i].value == "$121a²-66ab+9b²$") {
               feedback = "Richtig!"
             }
             document.getElementById("answerFeedback").innerHTML = selectedAnswer + "<br>" + feedback;
