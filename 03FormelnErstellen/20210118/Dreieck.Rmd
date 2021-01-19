@@ -198,6 +198,8 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 ### Lösung 3
 In einem Dreieck beträgt der Flächeninhalt $A=20cm²$. Die Höhe $h_c$ ist doppelt so lang wie die zugehörige Grundseite $c$. Berechne $c$ und $h_c$.
 
+**Gegeben**
+
 Gegeben ist also:
 
 1. Der Flächeninhalt: $A=20cm²$ und
@@ -206,9 +208,13 @@ Gegeben ist also:
 Den Flächeninhalt eines Dreiecks berechnet man folgendermaßen:
 $$ A = {1 \over 2} \cdot c \cdot h_c $$  
 
+**Einsetzen**
+
 Setzt man nun alle Angaben ein, erhält man folgenden Gleichung:
 
 $$ 20 cm² = {1 \over 2} \cdot c \cdot (2c) $$
+
+**Auflösen**
 
 Diese Gleichung muss man jetzt nach $c$ auflösen:
 
@@ -221,6 +227,8 @@ $$ \begin{align} 20 cm² &= {1 \over 2} \cdot c \cdot (2c) \\
 \Rightarrow c &= \sqrt{20} cm \approx 4,47 cm \\
 \Rightarrow h_c &= 2 \cdot c = 2 \cdot \sqrt{20} cm \approx 8,94cm
 \end{align}$$ 
+
+**Antwort**
 
 Die Seite $c$ ist also ungefähr 4,47 cm lang und die Höhe $h_c$ hat eine Länge von etwa 8,94 cm.
 
