@@ -87,8 +87,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 :::: {style="display: flex;"}
 
 ::: {}
-a)
-$$\begin{align} A &= g \cdot h \\
+$$\begin{align} a) \quad\quad A &= g \cdot h \\
 A &= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}$$
 :::
 
@@ -97,8 +96,7 @@ A &= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}$$
 :::
 
 ::: {}
-b) 
-$$\begin{align} A\quad &= g \cdot h \\
+$$\begin{align} b) \quad\quad A\quad &= g \cdot h \\
 625 cm² &= g \cdot 25cm  \quad\quad | : 25 cm\\
 25 cm &= g \end{align}$$
 :::
@@ -108,8 +106,7 @@ $$\begin{align} A\quad &= g \cdot h \\
 :::
 
 ::: {}
-c)   
-$$ \begin{align} A\quad &=  g \cdot h \\
+$$ \begin{align} c) \quad\quad A\quad &=  g \cdot h \\
 72 cm² &= 90mm \cdot h\\
 72 cm² &= 9cm \cdot h \quad\quad |:9cm\\
 8cm &= h \end{align}$$
@@ -166,7 +163,7 @@ Die Grundseite $g$ wird halbiert, das heißt man erhält eine neue Grundseite $g
 Gleichzeitig wird die Höhe $h$ verdoppelt, das heißt man erhält eine neue Höhe $h_{neu}$, die zweimal so lang ist, wie die alte Höhe $h$, also $h_{neu}= 2 \cdot h$.
 
 Damit ergibt sich für den neuen Flächeninhalt:
-$$\begin{align} A_{neu} &= \underbrace{g_{neu}}_{{1 \over 2}} \cdot g} \cdot \underbrace{h_{neu}}_{2 \cdot h} = \\
+$$\begin{align} A_{neu} &= \underbrace{g_{neu}}_{{1 \over 2} \cdot g} \cdot \underbrace{h_{neu}}_{2 \cdot h} = \\
 & = {1 \over 2} \cdot g \cdot 2 \cdot h =\\
 & = {1 \over 2} \cdot 2 \cdot g \cdot h =\\
 &= g \cdot h = A \end{align}$$

@@ -93,8 +93,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 :::: {style="display: flex;"}
 
 ::: {}
-a)
-$$\begin{align} A &= {1 \over 2} \cdot g \cdot h \\
+$$\begin{align} a) \quad\quad A &= {1 \over 2} \cdot g \cdot h \\
 A &= {1 \over 2} \cdot 3 cm \cdot 6 cm = 9 cm² \quad \end{align}$$
 :::
 
@@ -103,8 +102,7 @@ A &= {1 \over 2} \cdot 3 cm \cdot 6 cm = 9 cm² \quad \end{align}$$
 :::
 
 ::: {}
-b) 
-$$\begin{align} A\quad &= {1 \over 2} \cdot g \cdot h \\
+$$\begin{align} b) \quad\quad A\quad &= {1 \over 2} \cdot g \cdot h \\
 24 cm² &= {1 \over 2} \cdot g \cdot 30cm \\
 24 cm² &= {1 \over 2} \cdot 30cm \cdot g \\
 24 cm² &= 15cm \cdot g  \quad\quad\quad | : 15 cm\\
@@ -117,8 +115,7 @@ $$\begin{align} A\quad &= {1 \over 2} \cdot g \cdot h \\
 :::
 
 ::: {}
-c)   
-$$ \begin{align} A\quad &= {1 \over 2} \cdot g \cdot h \\
+$$ \begin{align} c) \quad\quad A\quad &= {1 \over 2} \cdot g \cdot h \\
 12 cm² &= {1 \over 2} \cdot 8cm \cdot h\\
 12 cm² &= 4cm \cdot h \quad\quad\quad |:4cm\\
 3cm &= h \end{align}$$
