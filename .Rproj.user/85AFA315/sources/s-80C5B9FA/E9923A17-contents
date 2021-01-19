@@ -94,6 +94,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 ::: {}
 $$\begin{align} a) \quad\quad A &= {1 \over 2} \cdot g \cdot h \\
+{}\\
 A &= {1 \over 2} \cdot 3 cm \cdot 6 cm = 9 cm² \quad \end{align}$$
 :::
 
@@ -103,10 +104,15 @@ A &= {1 \over 2} \cdot 3 cm \cdot 6 cm = 9 cm² \quad \end{align}$$
 
 ::: {}
 $$\begin{align} b) \quad\quad A\quad &= {1 \over 2} \cdot g \cdot h \\
+{}\\
 24 cm² &= {1 \over 2} \cdot g \cdot 30cm \\
+{}\\
 24 cm² &= {1 \over 2} \cdot 30cm \cdot g \\
+{}\\
 24 cm² &= 15cm \cdot g  \quad\quad\quad | : 15 cm\\
+{}\\
 {8 \over 5} cm &= g\\
+{}\\
 \Rightarrow g &= 1,6 cm \end{align}$$
 :::
 
@@ -116,8 +122,11 @@ $$\begin{align} b) \quad\quad A\quad &= {1 \over 2} \cdot g \cdot h \\
 
 ::: {}
 $$ \begin{align} c) \quad\quad A\quad &= {1 \over 2} \cdot g \cdot h \\
+{}\\
 12 cm² &= {1 \over 2} \cdot 8cm \cdot h\\
+{}\\
 12 cm² &= 4cm \cdot h \quad\quad\quad |:4cm\\
+{}\\
 3cm &= h \end{align}$$
 :::
 
@@ -182,5 +191,37 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 ### Aufgabe 3
 In einem Dreieck beträgt der Flächeninhalt $A=20cm²$. Die Höhe $h_c$ ist doppelt so lang wie die zugehörige Grundseite $c$. Berechne $c$ und $h_c$.
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+
+
+### Lösung 3
+In einem Dreieck beträgt der Flächeninhalt $A=20cm²$. Die Höhe $h_c$ ist doppelt so lang wie die zugehörige Grundseite $c$. Berechne $c$ und $h_c$.
+
+Gegeben ist also:
+
+1. Der Flächeninhalt: $A=20cm²$ und
+2. der Hinweis, dass die Höhe $h_c$ doppelt so lang ist wie die zugehörige Grundseite $c$, also: $h_c= 2 \cdot c$.
+
+Den Flächeninhalt eines Dreiecks berechnet man folgendermaßen:
+$$ A = {1 \over 2} \cdot c \cdot h_c $$  
+
+Setzt man nun alle Angaben ein, erhält man folgenden Gleichung:
+
+$$ 20 cm² = {1 \over 2} \cdot c \cdot (2c) $$
+
+Diese Gleichung muss man jetzt nach $c$ auflösen:
+
+$$ \begin{align} 20 cm² &= {1 \over 2} \cdot c \cdot (2c) \\
+{}\\
+20 cm² &= {1 \over 2} \cdot 2 \cdot c \cdot c \\
+{}\\
+20 cm² &= c² \quad\quad\quad |\sqrt{\quad}\\
+{}\\
+\Rightarrow c &= \sqrt{20} cm \approx 4,47 cm \\
+\Rightarrow h_c &= 2 \cdot c = 2 \cdot \sqrt{20} cm \approx 8,94cm
+\end{align}$$ 
+
+Die Seite $c$ ist also ungefähr 4,47 cm lang und die Höhe $h_c$ hat eine Länge von etwa 8,94 cm.
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).

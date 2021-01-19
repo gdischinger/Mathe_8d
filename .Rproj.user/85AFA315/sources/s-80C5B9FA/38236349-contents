@@ -88,6 +88,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 ::: {}
 $$\begin{align} a) \quad\quad A &= g \cdot h \\
+{}\\
 A &= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}$$
 :::
 
@@ -97,7 +98,9 @@ A &= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}$$
 
 ::: {}
 $$\begin{align} b) \quad\quad A\quad &= g \cdot h \\
+{}\\
 625 cm² &= g \cdot 25cm  \quad\quad | : 25 cm\\
+{}\\
 25 cm &= g \end{align}$$
 :::
 
@@ -107,8 +110,11 @@ $$\begin{align} b) \quad\quad A\quad &= g \cdot h \\
 
 ::: {}
 $$ \begin{align} c) \quad\quad A\quad &=  g \cdot h \\
+{}\\
 72 cm² &= 90mm \cdot h\\
+{}\\
 72 cm² &= 9cm \cdot h \quad\quad |:9cm\\
+{}\\
 8cm &= h \end{align}$$
 :::
 
@@ -164,8 +170,11 @@ Gleichzeitig wird die Höhe $h$ verdoppelt, das heißt man erhält eine neue Hö
 
 Damit ergibt sich für den neuen Flächeninhalt:
 $$\begin{align} A_{neu} &= g_{neu} \cdot h_{neu} = \\
+{}\\
 & = {1 \over 2} \cdot g \cdot 2 \cdot h =\\
+{}\\
 & = {1 \over 2} \cdot 2 \cdot g \cdot h =\\
+{}\\
 &= g \cdot h = A \end{align}$$
 
 
