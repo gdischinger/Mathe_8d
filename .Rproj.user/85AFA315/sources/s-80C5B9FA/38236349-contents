@@ -163,10 +163,15 @@ Die Grundseite $g$ wird halbiert, das heißt man erhält eine neue Grundseite $g
 Gleichzeitig wird die Höhe $h$ verdoppelt, das heißt man erhält eine neue Höhe $h_{neu}$, die zweimal so lang ist, wie die alte Höhe $h$, also $h_{neu}= 2 \cdot h$.
 
 Damit ergibt sich für den neuen Flächeninhalt:
-$$\begin{align} A_{neu} &= \underbrace{g_{neu}}_{{1 \over 2} \cdot g} \cdot \underbrace{h_{neu}}_{2 \cdot h} = \\
+$$\begin{align} A_{neu} &= g_{neu} \cdot h_{neu} = \\
 & = {1 \over 2} \cdot g \cdot 2 \cdot h =\\
 & = {1 \over 2} \cdot 2 \cdot g \cdot h =\\
 &= g \cdot h = A \end{align}$$
+
+<!-- $$\begin{align} A_{neu} &= \underbrace{g_{neu}}_{{1 \over 2} \cdot g} \cdot \underbrace{h_{neu}}_{2 \cdot h} = \\ -->
+<!-- & = {1 \over 2} \cdot g \cdot 2 \cdot h =\\ -->
+<!-- & = {1 \over 2} \cdot 2 \cdot g \cdot h =\\ -->
+<!-- &= g \cdot h = A \end{align}$$ -->
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
