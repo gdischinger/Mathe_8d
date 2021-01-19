@@ -168,10 +168,6 @@ $$\begin{align} A_{neu} &= g_{neu} \cdot h_{neu} = \\
 & = {1 \over 2} \cdot 2 \cdot g \cdot h =\\
 &= g \cdot h = A \end{align}$$
 
-<!-- $$\begin{align} A_{neu} &= \underbrace{g_{neu}}_{{1 \over 2} \cdot g} \cdot \underbrace{h_{neu}}_{2 \cdot h} = \\ -->
-<!-- & = {1 \over 2} \cdot g \cdot 2 \cdot h =\\ -->
-<!-- & = {1 \over 2} \cdot 2 \cdot g \cdot h =\\ -->
-<!-- &= g \cdot h = A \end{align}$$ -->
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
 
