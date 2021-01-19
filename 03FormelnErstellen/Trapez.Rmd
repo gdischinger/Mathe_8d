@@ -59,14 +59,14 @@ $$U = a + b + c + d$$
 Hier einmal in Worten: Den Flächeninhalt $A$ eines Trapezes erhältst du, indem du die Länge der Höhe $h$ mit der Summe aus der Länge parallelen Seiten a und c multiplizierst und das Ergebnis durch 2 teilst. Auch hier steht die Höhe auf den Seiten a und c senkrecht.
 
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
 ### Aufgabe 1
 Ein Dreieck habe eine Grundseite $g$ der Länge 4cm und eine zugehörige Höhe $h$ der Länge 6cm.
 Gib die Höhe eines flächengleichen Trapezes mit den parallelen Seiten $a = 2cm$ und $c = 4cm$ an.
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 ### Lösung 1
 Ein Dreieck habe eine Grundseite $g$ der Länge 4cm und eine zugehörige Höhe $h$ der Länge 6cm.
@@ -123,14 +123,14 @@ $$ \begin{align} 12 cm² &= {(2cm + 4 cm) \cdot h \over 2}\\
 
 Die Höhe eines flächengleichen Trapezes muss also 4 cm lang sein.¸
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
 
 ### Aufgabe 2
 Ein Trapez hat den Flächeninhalt 1m². Die Höhe beträgt 20cm. Gib drei verschiedene Möglichkeiten für die Länge der zueinander parallelen Seiten an.
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 ### Lösung 2
 Ein Trapez hat den Flächeninhalt 1m². Die Höhe beträgt 20cm. Gib drei verschiedene Möglichkeiten für die Länge der zueinander parallelen Seiten an.
@@ -176,14 +176,14 @@ Daraus ergeben sich zum Beispiel folgende Längen für die Seiten a und c:
 3. Möglichkeit: Die Seite a ist drei Meter lang, die Seite c sieben Meter (denn 3+7=10)
 
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
 
 ### Aufgabe 3
 Bei einem Trapez beträgt der Flächeninhalt $A=12cm²$ und die Höhe $h=1,5cm$. die zu $a$ parallele Seite $c$ ist dreimal so lang wie $a$. Berechne $a$ und $c$.
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
 ### Lösung 3
@@ -233,4 +233,4 @@ $$ \begin{align}
 
 Die Seite a ist also 4cm lang, die Länge der Seite c beträgt 12cm.
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).

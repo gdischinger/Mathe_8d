@@ -1,9 +1,9 @@
 {
     "id": "1C4F50B3",
-    "path": "~/github/Mathe_8d/03FormelnErstellen/20210118/Trapez.Rmd",
-    "project_path": "03FormelnErstellen/20210118/Trapez.Rmd",
+    "path": "~/github/Mathe_8d/03FormelnErstellen/Trapez.Rmd",
+    "project_path": "03FormelnErstellen/Trapez.Rmd",
     "type": "r_markdown",
-    "hash": "959377783",
+    "hash": "959496877",
     "contents": "",
     "dirty": false,
     "created": 1610928513225.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "158,25",
-        "scrollLine": "152"
+        "cursorPosition": "132,99",
+        "scrollLine": "122"
     },
     "folds": "",
-    "lastKnownWriteTime": 1611056438,
+    "lastKnownWriteTime": 1611077202,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1611056438896,
+    "last_content_update": 1611077202067,
     "read_only": false,
     "read_only_alternatives": []
 }

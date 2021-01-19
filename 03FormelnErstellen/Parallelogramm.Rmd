@@ -58,7 +58,7 @@ $$U = a + b + c + d$$
 Hier einmal in Worten: Den Flächeninhalt $A$ eines Parallelogramms erhältst du, indem du die Länge der Höhe $h$ mit der Länge der Grundseite $g$ multiplizierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch "zusammengehören". Die Höhe $h$ im obigen Beispiel gehört zur Grundseite $g$, weil sie auf dieser senkrecht steht.
 
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 ### Aufgabe 1
 **Berechne die fehlende Größe des Parallelogramms.**
@@ -70,7 +70,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
  Höhe h | 3 cm | 25 cm | 
  Flächeninhalt A|  | 625 cm² | 72 cm²
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 ### Lösung 1
 **Die fehlende Größe des Parallelogramms lautet:**
@@ -121,7 +121,7 @@ $$ \begin{align} c) \quad\quad A\quad &=  g \cdot h \\
 :::: 
  
  
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
 
@@ -143,7 +143,7 @@ Frau Dischinger behauptet:
 Stimmt das?
 Begründe deine Antwort.
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
 ### Lösung 2
@@ -178,5 +178,5 @@ $$\begin{align} A_{neu} &= g_{neu} \cdot h_{neu} = \\
 &= g \cdot h = A \end{align}$$
 
 
-Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/FlächenberechnungErinnerung.html).
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 

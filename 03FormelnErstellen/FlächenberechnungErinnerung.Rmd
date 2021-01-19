@@ -83,11 +83,11 @@ Erinnert ihr euch noch an lang vergangene Zeiten? An die 6. Klasse? Oder viellei
 
 
 
-### [Das Dreieck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/Dreieck.html)
+### [Das Dreieck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Dreieck.html)
 
 
-### [Das Parallelogramm](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/Parallelogramm.html)
+### [Das Parallelogramm](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Parallelogramm.html)
 
 
-### [Das Trapez](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/20210118/Trapez.html)
+### [Das Trapez](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Trapez.html)
 
