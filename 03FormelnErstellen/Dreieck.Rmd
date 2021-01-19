@@ -1,5 +1,5 @@
 ---
-title: "Das Dreieck"
+title: "Dreieck"
 output: html_document
 ---
 

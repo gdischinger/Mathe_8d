@@ -1,14 +1,14 @@
 ---
-title: "Dreieck, Trapez und Parallelogramm ..."
+title: "03 Formeln aufstellen, vereinfachen und auflösen"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-![... können so allerhand!](tangram.png)
+![Dreieck, Trapez und Parallelogramm können so allerhand!](tangram.png)
 
-## Eine kleine Aufgaben zum Aufwärmen
+## Aufwärmtraining des Tages
 
 <!-- Render this Rmarkdown doc to html to make an interactive html / js multiple choice question -->
 
@@ -74,8 +74,6 @@ function check_answer()
 
 <hr>
 
-Und nun geht's los:
-
 
 ## Flächeninhalte berechnen
 
@@ -83,11 +81,21 @@ Erinnert ihr euch noch an lang vergangene Zeiten? An die 6. Klasse? Oder viellei
 
 
 
-### [Das Dreieck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Dreieck.html)
+### [Dreieck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Dreieck.html)
 
 
-### [Das Parallelogramm](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Parallelogramm.html)
+### [Parallelogramm](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Parallelogramm.html)
 
 
-### [Das Trapez](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Trapez.html)
+### [Trapez](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Trapez.html)
 
+
+### [Vieleck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Vieleck.html)
+
+
+<hr>
+
+## Trainingsraum
+
+### [Grundlagenausdauer](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html)
+### [Höhentraining](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html)
