@@ -12,31 +12,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- Render this Rmarkdown doc to html to make an interactive html / js multiple choice question -->
 
-Multipliziere folgenden Term aus: $(11a-3b)²$. Welcher Term ist äquivalent?
+Multipliziere folgenden Term aus: $(6a+8b)²$. Welcher Term ist äquivalent?
 
 <!-- Answer options go here -->
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt1" value="$11a²-66ab+3b²$" onclick="check_answer()">
-    $11a²-66ab+3b²$ 
+    <input type="radio" name="question01" id="opt1" value="$36a²+96ab+64b²$" onclick="check_answer()">
+    $36a²+96ab+64b²$ 
   </label>
 </div>
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt2" value="$121a²-9b²$" onclick="check_answer()">
-    $121a²-9b²$
+    <input type="radio" name="question01" id="opt2" value="$36a²+64b²$" onclick="check_answer()">
+    $36a²+64b²$
   </label>
 </div>
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt3" value="$121a²-66ab+9b²$" onclick="check_answer()">
-    $121a²-66ab+9b²$ 
+    <input type="radio" name="question01" id="opt3" value="$6a²+96ab+8b²$" onclick="check_answer()">
+    $6a²+96ab+8b²$ 
   </label>
 </div>
 <div class="radio">
   <label>
-    <input type="radio" name="question01" id="opt4" value="$11a²-33ab+3b²$" onclick="check_answer()">
-    $11a²-33ab+3b²$ 
+    <input type="radio" name="question01" id="opt4" value="$6a²+48ab+8b²$" onclick="check_answer()">
+    $6a²+48ab+8b²$ 
   </label>
 </div>
 <!-- Check answer button -->
@@ -62,7 +62,7 @@ function check_answer()
             var selectedAnswer = " ";
             <!-- feedback for correct / incorrect response -->
             var feedback = "Leider falsch! Versuch's nochmal!" 
-            if(radioButtons[i].value == "$121a²-66ab+9b²$") {
+            if(radioButtons[i].value == "$36a²+96ab+64b²$") {
               feedback = "Richtig!"
             }
             document.getElementById("answerFeedback").innerHTML = selectedAnswer + "<br>" + feedback;
@@ -93,9 +93,11 @@ Erinnert ihr euch noch an lang vergangene Zeiten? An die 6. Klasse? Oder viellei
 ### [Vieleck](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Vieleck.html)
 
 
-<hr>
+<!-- <hr> -->
 
-## Trainingsraum
+<!-- ## Trainingsraum -->
 
-### [Grundlagenausdauer](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html)
-### [Höhentraining](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html)
+<!-- ### [Grundlagenausdauer](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html) -->
+<!-- ### [Höhentraining](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html) -->
+
+

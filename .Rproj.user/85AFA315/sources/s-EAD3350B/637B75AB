@@ -1,27 +1,27 @@
 {
-    "id": "1C4F50B3",
-    "path": "~/github/Mathe_8d/03FormelnErstellen/Trapez.Rmd",
-    "project_path": "03FormelnErstellen/Trapez.Rmd",
+    "id": "637B75AB",
+    "path": "~/github/Mathe_8d/03FormelnErstellen/Vieleck.Rmd",
+    "project_path": "03FormelnErstellen/Vieleck.Rmd",
     "type": "r_markdown",
-    "hash": "959496877",
+    "hash": "478162768",
     "contents": "",
     "dirty": false,
-    "created": 1610928513225.0,
+    "created": 1611078904922.0,
     "source_on_save": false,
     "relative_order": 5,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "132,99",
-        "scrollLine": "122"
+        "cursorPosition": "80,34",
+        "scrollLine": "62"
     },
     "folds": "",
-    "lastKnownWriteTime": 1611077202,
+    "lastKnownWriteTime": 1611111875,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1611077202067,
+    "last_content_update": 1611111875170,
     "read_only": false,
     "read_only_alternatives": []
 }

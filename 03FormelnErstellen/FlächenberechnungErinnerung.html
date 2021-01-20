@@ -199,19 +199,19 @@ summary {
 <div id="aufwärmtraining-des-tages" class="section level2">
 <h2>Aufwärmtraining des Tages</h2>
 <!-- Render this Rmarkdown doc to html to make an interactive html / js multiple choice question -->
-<p>Multipliziere folgenden Term aus: <span class="math inline">\((11a-3b)²\)</span>. Welcher Term ist äquivalent?</p>
+<p>Multipliziere folgenden Term aus: <span class="math inline">\((6a+8b)²\)</span>. Welcher Term ist äquivalent?</p>
 <!-- Answer options go here -->
 <div class="radio">
-<p><label> <input type="radio" name="question01" id="opt1" value="$11a²-66ab+3b²$" onclick="check_answer()"> <span class="math inline">\(11a²-66ab+3b²\)</span> </label></p>
+<p><label> <input type="radio" name="question01" id="opt1" value="$36a²+96ab+64b²$" onclick="check_answer()"> <span class="math inline">\(36a²+96ab+64b²\)</span> </label></p>
 </div>
 <div class="radio">
-<p><label> <input type="radio" name="question01" id="opt2" value="$121a²-9b²$" onclick="check_answer()"> <span class="math inline">\(121a²-9b²\)</span> </label></p>
+<p><label> <input type="radio" name="question01" id="opt2" value="$36a²+64b²$" onclick="check_answer()"> <span class="math inline">\(36a²+64b²\)</span> </label></p>
 </div>
 <div class="radio">
-<p><label> <input type="radio" name="question01" id="opt3" value="$121a²-66ab+9b²$" onclick="check_answer()"> <span class="math inline">\(121a²-66ab+9b²\)</span> </label></p>
+<p><label> <input type="radio" name="question01" id="opt3" value="$6a²+96ab+8b²$" onclick="check_answer()"> <span class="math inline">\(6a²+96ab+8b²\)</span> </label></p>
 </div>
 <div class="radio">
-<p><label> <input type="radio" name="question01" id="opt4" value="$11a²-33ab+3b²$" onclick="check_answer()"> <span class="math inline">\(11a²-33ab+3b²\)</span> </label></p>
+<p><label> <input type="radio" name="question01" id="opt4" value="$6a²+48ab+8b²$" onclick="check_answer()"> <span class="math inline">\(6a²+48ab+8b²\)</span> </label></p>
 </div>
 <!-- Check answer button -->
 <div>
@@ -237,7 +237,7 @@ function check_answer()
             var selectedAnswer = " ";
             <!-- feedback for correct / incorrect response -->
             var feedback = "Leider falsch! Versuch's nochmal!" 
-            if(radioButtons[i].value == "$121a²-66ab+9b²$") {
+            if(radioButtons[i].value == "$36a²+96ab+64b²$") {
               feedback = "Richtig!"
             }
             document.getElementById("answerFeedback").innerHTML = selectedAnswer + "<br>" + feedback;
@@ -262,16 +262,10 @@ function check_answer()
 </div>
 <div id="vieleck" class="section level3">
 <h3><a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Vieleck.html">Vieleck</a></h3>
-<hr>
-</div>
-</div>
-<div id="trainingsraum" class="section level2">
-<h2>Trainingsraum</h2>
-<div id="grundlagenausdauer" class="section level3">
-<h3><a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html">Grundlagenausdauer</a></h3>
-</div>
-<div id="höhentraining" class="section level3">
-<h3><a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html">Höhentraining</a></h3>
+<!-- <hr> -->
+<!-- ## Trainingsraum -->
+<!-- ### [Grundlagenausdauer](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html) -->
+<!-- ### [Höhentraining](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html) -->
 </div>
 </div>
 

@@ -1,28 +1,27 @@
 {
-    "id": "E9923A17",
-    "path": "~/github/Mathe_8d/03FormelnErstellen/Dreieck.Rmd",
-    "project_path": "03FormelnErstellen/Dreieck.Rmd",
+    "id": "1C4F50B3",
+    "path": "~/github/Mathe_8d/03FormelnErstellen/Trapez.Rmd",
+    "project_path": "03FormelnErstellen/Trapez.Rmd",
     "type": "r_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1610924708388.0,
+    "created": 1610928513225.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 5,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "12,15",
-        "scrollLine": "0",
-        "last_setup_crc32": ""
+        "cursorPosition": "14,18",
+        "scrollLine": "8"
     },
     "folds": "",
-    "lastKnownWriteTime": 1611079046,
+    "lastKnownWriteTime": 1611077202,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1611079046311,
+    "last_content_update": 1611077202067,
     "read_only": false,
     "read_only_alternatives": []
 }
