@@ -286,11 +286,13 @@ meinFuenfeck(B = c(4,0), C = c(4,2.4), D = c(1,2.4), E = c(0,1.4))
   a) Berechne den Flächeninhalt des abgebildeten Fünfecks ABCDE.
   b) **Expertenaufgabe:** Man kann die Ecke E so bewegen, dass der Flächeninhalt des Fünfecks ABCDE unverändert bleibt. Wie ist das möglich?
 
+Hier gibt's Tipps zur Teilaufgabe b):
+
 :::::: {class="box"}
 
 ::: {}
 
-`r hide("Tipp 1 zu Teilaufgaben b)")`
+`r hide("Tipp 1")`
 Die Diagonale AD zerlegt das Fünfeck in das Viereck ABCD und das Dreieck ADE. Bewegt man nun die Ecke E auf der Parallelen p zu (AD) durch E, so bleibt der Flächeninhalt des Dreiecks ADE immer derselbe. Warum gilt das? Mach dir eine Skizze!
 `r unhide()`
 
@@ -298,7 +300,7 @@ Die Diagonale AD zerlegt das Fünfeck in das Viereck ABCD und das Dreieck ADE. B
 
 ::: {}
 
-`r hide("Tipp 2 zu Teilaufgabe b)")`
+`r hide("Tipp 2")`
 Betrachte folgende Skizze:
 
 ```{r Fuenfeck2, echo = FALSE}
@@ -333,7 +335,7 @@ Warum bleibt der Flächeninhalt des Dreiecks ADE gleich, unabhängig davon, wohi
 ::: {}
 
 
-`r hide("Tipp 3 zu Teilaufgaben b)")`
+`r hide("Tipp 3")`
 
 Erinnere dich: Parallele Geraden haben überall denselben Abstand von einander!
 
