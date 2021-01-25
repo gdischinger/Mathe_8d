@@ -3,7 +3,7 @@
     "path": "~/github/Mathe_8d/03FormelnErstellen/Vieleck.Rmd",
     "project_path": "03FormelnErstellen/Vieleck.Rmd",
     "type": "r_markdown",
-    "hash": "1535167179",
+    "hash": "3787604215",
     "contents": "",
     "dirty": false,
     "created": 1611538533223.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "305,19",
-        "scrollLine": "290"
+        "cursorPosition": "332,5",
+        "scrollLine": "313"
     },
     "folds": "",
-    "lastKnownWriteTime": 1611557124,
+    "lastKnownWriteTime": 1611564527,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1611557124224,
+    "last_content_update": 1611564527189,
     "read_only": false,
     "read_only_alternatives": []
 }
