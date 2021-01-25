@@ -137,7 +137,7 @@ Den Flächeninhalt eines Trapezes berechnet man bekanntlich folgendermaßen:
 $$A_{Trapez} = {(a+c) \cdot h \over 2}$$  
 
 Setzt man alle bekannten Größen ein, ergibt sich folgender Flächeninhalt:
-$$ A_{Trapez} = {(10 + 8) \cdot 4  \over 2} = {{18 \cdot 4} \over 2} = 36$$ 
+$$ A_{Trapez} = {(10 + 8) \cdot 4  \over 2} = {18 \cdot 4 \over 2} = 36$$ 
 
 **Der Flächeninhalt des Dreiecks:**
 
