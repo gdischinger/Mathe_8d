@@ -9,7 +9,9 @@ library(knitr)
 library(xtable)
 library(webex)
 ```
+## Das Dreieck{.tabset}
 
+### Allgemeines
 :::: {style="display: flex;"}
 
 ::: {}
@@ -61,15 +63,8 @@ Hier einmal in Worten: Den Flächeninhalt $A$ eines Dreiecks erhältst du, indem
 Natürlich erhält man denselben Flächeninhalt, wenn man sich für eine andere Grundseite und die dazugehörige Höhe entscheidet. Also:
 
 $$A_{Dreieck} = {1 \over 2} \cdot a \cdot h_{a} = {1 \over 2} \cdot b \cdot h_{b} = {1 \over 2} \cdot c \cdot h_{c}$$
-
-## Aufgaben{.tabset}
-
-### { }
-
-
-<br><br>
- 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
 
 ### Aufgabe 1
 **Berechne die fehlende Größe des Dreiecks.**

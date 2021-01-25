@@ -1,16 +1,15 @@
 ---
 title: "Parallelogramm"
-output: webex::webex_default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(knitr)
-library(xtable)
-library(webex)
 ```
 
+## Das Parallelogramm{.tabset}
 
+### Allgemeines
 :::: {style="display: flex;"}
 
 ::: {}
@@ -54,21 +53,12 @@ $$U = a + b + c + d$$
 
 ::::
 
-
 **Was heißt das doch gleich?**
 
 Hier einmal in Worten: Den Flächeninhalt $A$ eines Parallelogramms erhältst du, indem du die Länge der Höhe $h$ mit der Länge der Grundseite $g$ multiplizierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch "zusammengehören". Die Höhe $h$ im obigen Beispiel gehört zur Grundseite $g$, weil sie auf dieser senkrecht steht.
 
-<br><br>
 
-## Aufgaben{.tabset}
-
-### { }
-
-<br><br>
- 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
-
 
 ### Aufgabe 1
 **Berechne die fehlende Größe des Parallelogramms.**
@@ -80,8 +70,9 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
  Höhe h | 3 cm | 25 cm | 
  Flächeninhalt A|  | 625 cm² | 72 cm²
 
-`r hide("Lösung")`
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
+### Lösung 1
 **Die fehlende Größe des Parallelogramms lautet:**
 ```{r, 'kable'}
 ```
@@ -128,13 +119,10 @@ $$ \begin{align} c) \quad\quad A\quad &=  g \cdot h \\
 :::
 
 :::: 
-
-
-`r unhide()`
-
-<br><br>
+ 
  
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
 
 
 ### Aufgabe 2
@@ -155,14 +143,29 @@ Frau Dischinger behauptet:
 Stimmt das?
 Begründe deine Antwort.
 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
-`r hide("Lösung")`
 
-**Ja, das stimmt!**
+### Lösung 2
+
+<!-- ```{r dirac1, animation.hook="gifski", interval=1.3, fig.align="center", echo=FALSE} -->
+<!-- xxd <- c(0,1,2,3,4,5,6,7) -->
+<!-- xxd <- c(xxd,rev(xxd)) -->
+<!-- for(i in 1:length(xxd)){ -->
+<!--   meinParallelogramm(B = c(xxd[i]*8/7,0), C = c(xxd[i]*10/7,xxd[i]*6/7), D = c(xxd[i]*2/7,xxd[i]*6/7)) -->
+<!-- } -->
+<!-- ``` -->
+
+
+Frau Dischinger behauptet:
+
+> "Der Flächeninhalt eines Parallelogramms ändert sich nicht, wenn man eine Grundseite halbiert und die zugehörige Höhe verdoppelt."
+
+Stimmt das? **Ja, das stimmt!**
 
 Begründung:
 
-Die Grundseite $g$ wird halbiert, das heißt, man erhält eine neue Grundseite $g_{neu}$, die halb so lang ist, wie die alte Grundseite $g$, also: $g_{neu}={1 \over 2} \cdot g$.
+Die Grundseite $g$ wird halbiert, das heißt man erhält eine neue Grundseite $g_{neu}$, die halb so lang ist, wie die alte Grundseite $g$, also: $g_{neu}={1 \over 2} \cdot g$.
 Gleichzeitig wird die Höhe $h$ verdoppelt, das heißt man erhält eine neue Höhe $h_{neu}$, die zweimal so lang ist, wie die alte Höhe $h$, also $h_{neu}= 2 \cdot h$.
 
 Damit ergibt sich für den neuen Flächeninhalt:
@@ -174,8 +177,6 @@ $$\begin{align} A_{neu} &= g_{neu} \cdot h_{neu} = \\
 {}\\
 &= g \cdot h = A \end{align}$$
 
-`r unhide()`
 
-<br><br>
- 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+

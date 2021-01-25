@@ -79,6 +79,7 @@ h6 {
 </style>
 
 
+<link rel="stylesheet" href="data:text/css,%0A%2Esolveme%20%7B%20border%3A%202px%20dotted%20red%3B%20%7D%0A%2Esolveme%2Ecorrect%20%7B%20border%3A%202px%20solid%20blue%3B%20%7D%0A%0A%2Esolution%20%7B%0Aheight%3A%202%2E5em%3B%0Aoverflow%2Dy%3A%20hidden%3B%0Apadding%3A%200%2E5em%3B%0A%7D%0A%2Esolution%2Eopen%20%7B%0Aheight%3A%20auto%3B%0Abackground%2Dcolor%3A%20rgba%280%2C%200%2C%200%2C%200%2E1%29%3B%0Aborder%2Dradius%3A%205px%3B%0A%7D%0A%2Esolution%20button%20%7B%0Aheight%3A%202em%3B%0Amargin%2Dbottom%3A%200%2E5em%3B%0A%7D%0A%2Esolution%20pre%2EsourceCode%20%7B%0Aborder%2Dcolor%3A%20green%3B%0A%7D%0A" type="text/css" />
 
 
 
@@ -198,54 +199,8 @@ summary {
 </div>
 <div id="aufwärmtraining-des-tages" class="section level2">
 <h2>Aufwärmtraining des Tages</h2>
-<!-- Render this Rmarkdown doc to html to make an interactive html / js multiple choice question -->
-<p>Multipliziere folgenden Term aus: <span class="math inline">\((6a+8b)²\)</span>. Welcher Term ist äquivalent?</p>
-<!-- Answer options go here -->
-<div class="radio">
-<p><label> <input type="radio" name="question01" id="opt1" value="$36a²+96ab+64b²$" onclick="check_answer()"> <span class="math inline">\(36a²+96ab+64b²\)</span> </label></p>
-</div>
-<div class="radio">
-<p><label> <input type="radio" name="question01" id="opt2" value="$36a²+64b²$" onclick="check_answer()"> <span class="math inline">\(36a²+64b²\)</span> </label></p>
-</div>
-<div class="radio">
-<p><label> <input type="radio" name="question01" id="opt3" value="$6a²+96ab+8b²$" onclick="check_answer()"> <span class="math inline">\(6a²+96ab+8b²\)</span> </label></p>
-</div>
-<div class="radio">
-<p><label> <input type="radio" name="question01" id="opt4" value="$6a²+48ab+8b²$" onclick="check_answer()"> <span class="math inline">\(6a²+48ab+8b²\)</span> </label></p>
-</div>
-<!-- Check answer button -->
-<div>
-<button class="btn btn-primary" type="button" onclick="check_answer()" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-Stimmt’s?
-</button>
-</div>
-<div id="collapseExample" class="collapse">
-<div id="answerFeedback" class="card card-body">
-<pre><code>Du hast die folgende Antwort gewählt ...</code></pre>
-</div>
-</div>
-<!-- Code to update answer feedback -->
-<script type="text/javascript">
-function check_answer()
-{
-    var radioButtons = document.getElementsByName("question01");
-    document.getElementById("answerFeedback").innerHTML = "Versuch's!!";
-    for(var i = 0; i < radioButtons.length; i++)
-    {
-        if(radioButtons[i].checked == true)
-        {
-            var selectedAnswer = " ";
-            <!-- feedback for correct / incorrect response -->
-            var feedback = "Leider falsch! Versuch's nochmal!" 
-            if(radioButtons[i].value == "$36a²+96ab+64b²$") {
-              feedback = "Richtig!"
-            }
-            document.getElementById("answerFeedback").innerHTML = selectedAnswer + "<br>" + feedback;
-            return true;
-        }
-    }
-}
-</script>
+<p><span class="math inline">\((6a+8b)² =\)</span> <select class="solveme" data-answer="[&quot;36a²+96ab+64b²&quot;]"> <option></option> <option>36a²+64b²</option> <option>6a²+48ab+8b²</option> <option>36a²+96ab+64b²</option> <option>6a²+96ab+8b²</option> <option>nichts davon ist richtig</option></select></p>
+<p><span class="math inline">\((4s-3t)² =\)</span> <select class="solveme" data-answer="[&quot;16s²-24st+9t²&quot;]"> <option></option> <option>4s²-12st+3t²</option> <option>16s²-24st+9t²</option> <option>16s²-9t²</option> <option>4s²-3t²</option> <option>nichts davon ist richtig</option></select></p>
 <hr>
 </div>
 <div id="flächeninhalte-berechnen" class="section level2">
@@ -262,13 +217,121 @@ function check_answer()
 </div>
 <div id="vieleck" class="section level3">
 <h3><a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Vieleck.html">Vieleck</a></h3>
-<!-- <hr> -->
-<!-- ## Trainingsraum -->
-<!-- ### [Grundlagenausdauer](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html) -->
-<!-- ### [Höhentraining](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html) -->
+<hr>
+</div>
+</div>
+<div id="trainingsraum" class="section level2">
+<h2>Trainingsraum</h2>
+<div id="grundlagenausdauer" class="section level3">
+<h3><a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html">Grundlagenausdauer</a></h3>
+</div>
+<div id="höhentraining" class="section level3">
+<h3><a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Höhentraining.html">Höhentraining</a></h3>
 </div>
 </div>
 
+<script>
+
+/* update total correct if #total_correct exists */
+update_total_correct = function() {
+  if (t = document.getElementById("total_correct")) {
+    t.innerHTML =
+      document.getElementsByClassName("correct").length + " of " +
+      document.getElementsByClassName("solveme").length + " correct";
+  }
+}
+
+/* solution button toggling function */
+b_func = function() {
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "");
+  }
+  
+  if (my_answer !== "" & real_answers.includes(my_answer)) {
+    cl.add("correct");
+  } else {
+    cl.remove("correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol){
+    var tol = JSON.parse(this.dataset.tol);  
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("correct");
+    } else {
+      cl.remove("correct");
+    }  
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("correct");
+    }  
+  }
+  
+  update_total_correct();
+}
+
+window.onload = function() {
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+  
+  /* set up solveme inputs */
+  var solveme = document.getElementsByClassName("solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off"); 
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+    
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+    
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+  }
+  
+  update_total_correct();
+}
+
+</script>
 
 
 

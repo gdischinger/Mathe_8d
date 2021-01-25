@@ -79,6 +79,7 @@ h6 {
 </style>
 
 
+<link rel="stylesheet" href="data:text/css,%0A%2Esolveme%20%7B%20border%3A%202px%20dotted%20red%3B%20%7D%0A%2Esolveme%2Ecorrect%20%7B%20border%3A%202px%20solid%20blue%3B%20%7D%0A%0A%2Esolution%20%7B%0Aheight%3A%202%2E5em%3B%0Aoverflow%2Dy%3A%20hidden%3B%0Apadding%3A%200%2E5em%3B%0A%7D%0A%2Esolution%2Eopen%20%7B%0Aheight%3A%20auto%3B%0Abackground%2Dcolor%3A%20rgba%280%2C%200%2C%200%2C%200%2E1%29%3B%0Aborder%2Dradius%3A%205px%3B%0A%7D%0A%2Esolution%20button%20%7B%0Aheight%3A%202em%3B%0Amargin%2Dbottom%3A%200%2E5em%3B%0A%7D%0A%2Esolution%20pre%2EsourceCode%20%7B%0Aborder%2Dcolor%3A%20green%3B%0A%7D%0A" type="text/css" />
 
 
 
@@ -192,10 +193,6 @@ summary {
 </div>
 
 
-<div id="das-parallelogramm" class="section level2 tabset">
-<h2 class="tabset">Das Parallelogramm</h2>
-<div id="allgemeines" class="section level3">
-<h3>Allgemeines</h3>
 <div style="display: flex;">
 <div>
 <!-- First div -->
@@ -211,6 +208,12 @@ summary {
 </div>
 <p><strong>Was heißt das doch gleich?</strong></p>
 <p>Hier einmal in Worten: Den Flächeninhalt <span class="math inline">\(A\)</span> eines Parallelogramms erhältst du, indem du die Länge der Höhe <span class="math inline">\(h\)</span> mit der Länge der Grundseite <span class="math inline">\(g\)</span> multiplizierst. Dabei ist es wichtig, dass die Höhe und die Grundseite auch “zusammengehören”. Die Höhe <span class="math inline">\(h\)</span> im obigen Beispiel gehört zur Grundseite <span class="math inline">\(g\)</span>, weil sie auf dieser senkrecht steht.</p>
+<p><br><br></p>
+<div id="aufgaben" class="section level2 tabset">
+<h2 class="tabset">Aufgaben</h2>
+<div id="section" class="section level3">
+<h3></h3>
+<p><br><br></p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
 </div>
 <div id="aufgabe-1" class="section level3">
@@ -246,10 +249,10 @@ summary {
 </tr>
 </tbody>
 </table>
-<p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
-</div>
-<div id="lösung-1" class="section level3">
-<h3>Lösung 1</h3>
+<div class="solution">
+<button>
+Lösung
+</button>
 <p><strong>Die fehlende Größe des Parallelogramms lautet:</strong></p>
 <table>
 <thead>
@@ -311,6 +314,8 @@ A &amp;= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}\]</span></p>
 8cm &amp;= h \end{align}\]</span></p>
 </div>
 </div>
+</div>
+<p><br><br></p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
 </div>
 <div id="aufgabe-2" class="section level3">
@@ -327,24 +332,13 @@ A &amp;= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}\]</span></p>
 <p>“Der Flächeninhalt eines Parallelogramms ändert sich nicht, wenn man eine Grundseite halbiert und die zugehörige Höhe verdoppelt.”</p>
 </blockquote>
 <p>Stimmt das? Begründe deine Antwort.</p>
-<p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
-</div>
-<div id="lösung-2" class="section level3">
-<h3>Lösung 2</h3>
-<!-- ```{r dirac1, animation.hook="gifski", interval=1.3, fig.align="center", echo=FALSE} -->
-<!-- xxd <- c(0,1,2,3,4,5,6,7) -->
-<!-- xxd <- c(xxd,rev(xxd)) -->
-<!-- for(i in 1:length(xxd)){ -->
-<!--   meinParallelogramm(B = c(xxd[i]*8/7,0), C = c(xxd[i]*10/7,xxd[i]*6/7), D = c(xxd[i]*2/7,xxd[i]*6/7)) -->
-<!-- } -->
-<!-- ``` -->
-<p>Frau Dischinger behauptet:</p>
-<blockquote>
-<p>“Der Flächeninhalt eines Parallelogramms ändert sich nicht, wenn man eine Grundseite halbiert und die zugehörige Höhe verdoppelt.”</p>
-</blockquote>
-<p>Stimmt das? <strong>Ja, das stimmt!</strong></p>
+<div class="solution">
+<button>
+Lösung
+</button>
+<p><strong>Ja, das stimmt!</strong></p>
 <p>Begründung:</p>
-<p>Die Grundseite <span class="math inline">\(g\)</span> wird halbiert, das heißt man erhält eine neue Grundseite <span class="math inline">\(g_{neu}\)</span>, die halb so lang ist, wie die alte Grundseite <span class="math inline">\(g\)</span>, also: <span class="math inline">\(g_{neu}={1 \over 2} \cdot g\)</span>. Gleichzeitig wird die Höhe <span class="math inline">\(h\)</span> verdoppelt, das heißt man erhält eine neue Höhe <span class="math inline">\(h_{neu}\)</span>, die zweimal so lang ist, wie die alte Höhe <span class="math inline">\(h\)</span>, also <span class="math inline">\(h_{neu}= 2 \cdot h\)</span>.</p>
+<p>Die Grundseite <span class="math inline">\(g\)</span> wird halbiert, das heißt, man erhält eine neue Grundseite <span class="math inline">\(g_{neu}\)</span>, die halb so lang ist, wie die alte Grundseite <span class="math inline">\(g\)</span>, also: <span class="math inline">\(g_{neu}={1 \over 2} \cdot g\)</span>. Gleichzeitig wird die Höhe <span class="math inline">\(h\)</span> verdoppelt, das heißt man erhält eine neue Höhe <span class="math inline">\(h_{neu}\)</span>, die zweimal so lang ist, wie die alte Höhe <span class="math inline">\(h\)</span>, also <span class="math inline">\(h_{neu}= 2 \cdot h\)</span>.</p>
 <p>Damit ergibt sich für den neuen Flächeninhalt: <span class="math display">\[\begin{align} A_{neu} &amp;= g_{neu} \cdot h_{neu} = \\
 {}\\
 &amp; = {1 \over 2} \cdot g \cdot 2 \cdot h =\\
@@ -352,10 +346,114 @@ A &amp;= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}\]</span></p>
 &amp; = {1 \over 2} \cdot 2 \cdot g \cdot h =\\
 {}\\
 &amp;= g \cdot h = A \end{align}\]</span></p>
+</div>
+<p><br><br></p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
 </div>
 </div>
 
+<script>
+
+/* update total correct if #total_correct exists */
+update_total_correct = function() {
+  if (t = document.getElementById("total_correct")) {
+    t.innerHTML =
+      document.getElementsByClassName("correct").length + " of " +
+      document.getElementsByClassName("solveme").length + " correct";
+  }
+}
+
+/* solution button toggling function */
+b_func = function() {
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "");
+  }
+  
+  if (my_answer !== "" & real_answers.includes(my_answer)) {
+    cl.add("correct");
+  } else {
+    cl.remove("correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol){
+    var tol = JSON.parse(this.dataset.tol);  
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("correct");
+    } else {
+      cl.remove("correct");
+    }  
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("correct");
+    }  
+  }
+  
+  update_total_correct();
+}
+
+window.onload = function() {
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+  
+  /* set up solveme inputs */
+  var solveme = document.getElementsByClassName("solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off"); 
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+    
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+    
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+  }
+  
+  update_total_correct();
+}
+
+</script>
 
 
 
