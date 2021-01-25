@@ -65,7 +65,7 @@ Den Flächeninhalt eines Trapezes berechnet man bekanntlich folgendermaßen:
 $$A_{Trapez} = {(a+c) \cdot h \over 2}$$  
 
 Setzt man alle bekannten Größen ein, ergibt sich folgender Flächeninhalt:
-$$ A_{Trapez} = {(11 cm + 7 cm) \cdot 5 cm \over 2} = {{18 cm \cdot 5 cm} \over 2} = 45 cm²$$ 
+$$ A_{Trapez} = {(11 cm + 7 cm) \cdot 5 cm \over 2} = {18 cm \cdot 5 cm \over 2} = 45 cm²$$ 
 
 **Berechnung der Rechtecksfläche**
 
