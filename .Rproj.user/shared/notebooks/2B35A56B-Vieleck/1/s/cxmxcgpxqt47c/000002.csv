@@ -1,5 +1,0 @@
-"0","lines(x = c(-0.58333333,0.4166666666),y = c(0,2.5), col=1, lwd=1)
-"
-"2","Fehler in plot.xy(xy.coords(x, y), type = type, ...) : 
-  plot.new has not been called yet
-"
