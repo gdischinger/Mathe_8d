@@ -1,0 +1,56 @@
+---
+title: "Kreis"
+output: webex::webex_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+```{css, echo=FALSE}
+.box {
+        display: flex;
+      }
+
+      .box > * {
+        flex: 1 1 0;
+      }
+```
+## 1. Der Kreisumfang
+
+![Das machen wir heute!](./Bilder/Umfang.jpeg)
+
+>  Du brauchst:
+>
+>  + ein Maßband oder eine Stück Schnur und ein Lineal
+>  + ein Blatt Papier und
+>  + einen Bleistift.
+    
+1. Geh bitte los und suche mindestens 10 verschieden große Gegensände, die kreisförmig sind bzw. mindestens eine kreisförmige Fläche haben.
+
+2. Miss jeweils Umfang und Durchmesser des Kreises stelle deine Ergebnisse tabellarisch dar.
+Deine Tabelle soll wie folgt aussehen:
+
+```{r, 'kable'}
+```
+Gegenstand | Umfang $U$ | Durchmesser $d$ | $U \over d$
+------|------|------|-----
+ großer Topf|   |   | 
+ Pfanne |  |  | 
+ Tasse |   |  | 
+ usw. |  |  |  
+
+3. Stelle deine Messergebnisse in einem Diagramm dar.
+```{r, echo=FALSE}
+plot(x=0, y=0, axes=FALSE, xlab="Durchmesser (cm)", ylab="Umfang (cm)", 
+     xlim=c(0,10), ylim=c(0,10), type="n", yaxs="i", xaxs="i")
+axis(1, at=seq(from=0,to=10,by=2), labels = NA); axis(2, at=seq(from=0,to=10,by=2), labels = NA)
+```
+
+
+

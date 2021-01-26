@@ -1,0 +1,54 @@
+---
+title: "Höhentraining"
+output: webex::webex_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+![Kuh beim Höhentraining](./Bilder/kuh.jpg)
+
+## Aufgaben{.tabset}
+
+### { }
+
+
+<br><br>
+ 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+### Aufgabe 1
+Der Umfang eines gleichschenkligen Dreiecks beträgt $21cm$. Die Basislänge ist um $3cm$ größer als die Schenkellänge. Wie lang ist die Basis, wie lang sind die Schenkel?
+
+<br><br>
+ 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+
+### Aufgabe 2
+Ein Rechteck ist $2,5$-mal so lang wie breit. Sein Umfang beträgt $33,6cm$. Berechne seinen Flächeninhalt.
+
+<br><br>
+ 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+### Aufgabe 3
+Ein Rechteck ist dreimal so lang wie breit. Verkürzt man die längere Seite um $5cm$ und verlängert gleichzeitig die kürzere Seite um $5cm$, dann nimmt der Flächeninhalt um $35cm²$ zu. Wie lang sind die Seiten des ursprünglichen Rechtecks?
+
+<br><br>
+ 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+
+### Aufgabe 4
+Der Flächeninhalt eines Rechtecks beträgt $120m²$. Die beiden Seiten unterscheiden sich um $7m$. Wie lang sind sie?
+
+<br><br>
+ 
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).

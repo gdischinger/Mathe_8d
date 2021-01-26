@@ -1,0 +1,6 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","if (!requireNamespace(""webex"")) {"
+"0","  stop(""You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\""psyteachr/webex\"")"")"
+"0","} else {"
+"0","  library(""webex"")"
+"0","}"
