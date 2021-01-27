@@ -33,7 +33,7 @@ library("kableExtra")
     
 1. Geh bitte los und suche verschieden große Gegenstände, die kreisförmig sind bzw. mindestens eine kreisförmige Fläche haben.
 
-2. Miss jeweils Umfang und Durchmesser des Kreises stelle deine Ergebnisse tabellarisch dar.
+2. Miss jeweils Umfang und Durchmesser des Kreises und stelle deine Ergebnisse tabellarisch dar.
 
 `r hide("Eure Messergebnisse")`
 
