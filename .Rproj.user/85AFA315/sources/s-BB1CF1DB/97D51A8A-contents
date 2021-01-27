@@ -141,6 +141,61 @@ Radius $r$ | $17cm$ | |
 Durchmesser $d$ | |  | $9,1 mm$
 Umfang $U$ |  | $3,2m$ | 
 
+
+<!-- r hide("Lösung")` -->
+
+<!-- **Die fehlende Größe des Parallelogramms lautet:** -->
+<!-- ```{r, 'kable'} -->
+<!-- ``` -->
+<!-- <br> |a) |b) | c) -->
+<!-- ------|------|------|----- -->
+<!-- Radius $r$ | $17cm$ | |  -->
+<!-- Durchmesser $d$ | $34cm$|  | $9,1 mm$ -->
+<!-- Umfang $U$ |$106,81cm$  | $3,2m$ |  -->
+
+
+<!--  **Rechnungen:** -->
+
+<!-- :::: {style="display: flex;"} -->
+
+<!-- ::: {} -->
+<!-- $$\begin{align} a) \quad\quad A &= g \cdot h \\ -->
+<!-- {}\\ -->
+<!-- A &= 5 cm \cdot 3 cm = 15 cm² \quad \end{align}$$ -->
+<!-- ::: -->
+
+<!-- ::: {} -->
+
+<!-- ::: -->
+
+<!-- ::: {} -->
+<!-- $$\begin{align} b) \quad\quad A\quad &= g \cdot h \\ -->
+<!-- {}\\ -->
+<!-- 625 cm² &= g \cdot 25cm  \quad\quad | : 25 cm\quad\\ -->
+<!-- {}\\ -->
+<!-- 25 cm &= g \end{align}$$ -->
+<!-- ::: -->
+
+<!-- ::: {} -->
+
+<!-- ::: -->
+
+<!-- ::: {} -->
+<!-- $$ \begin{align} c) \quad\quad A\quad &=  g \cdot h \\ -->
+<!-- {}\\ -->
+<!-- 72 cm² &= 90mm \cdot h\\ -->
+<!-- {}\\ -->
+<!-- 72 cm² &= 9cm \cdot h \quad\quad |:9cm\\ -->
+<!-- {}\\ -->
+<!-- 8cm &= h \end{align}$$ -->
+<!-- ::: -->
+
+<!-- ::::  -->
+
+
+<!-- `r unhide()` -->
+
+
 <br><br><br>
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
@@ -155,18 +210,30 @@ Walter Hudson, einer der umfangreichsten Männer der Welt, hatte einen Bauchumfa
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
-<!-- #### Aufgabe 3 -->
-<!-- Die Räder eines Fahrrades haben einen Durchmesser von $71cm$. Wie viele Umdrehungen macht jedes Rad pro km? -->
+#### Aufgabe 3
+![](./Bilder/Äquator.png)
 
-<!-- <br><br><br> -->
+a) Der Äquator hat eine Länge von etwa 40000 km. Wie groß ist der Erdradius $r$?
 
-<!-- Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html). -->
+b) Ein 40000 km langes Seil, das am Äquator straff um die Erde gespannt war, wird geringfügig um 1m verlängert und so gestrafft, dass der Abstand von der Erde überall gleich ist. Kannst du jetzt unter diesem Seil hindurchkriechen? 
+
+<br><br><br>
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
 
 
-<!-- #### Aufgabe 4 -->
-<!-- a) Der Äquator hat eine Länge von etwa 40000 km. Wie groß ist der Erdradius $r$? -->
-<!-- b) -->
+#### Aufgabe 4
+Die Räder eines Fahrrades haben einen Durchmesser von $71cm$. Wie viele Umdrehungen macht jedes Rad pro km?
 
-<!-- <br><br> -->
+`r hide("Tipp 1")`
 
-<!-- Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html). -->
+![](./Bilder/RadUmdrehung.png)
+
+Wenn sich das Rad einmal ganz dreht, bist du um den Radumfang weitergekommen. Wieviele Umdrehungen passen in einen Kilometer?
+
+`r unhide()`
+
+
+<br><br><br>
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
