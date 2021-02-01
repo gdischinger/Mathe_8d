@@ -3,7 +3,7 @@
     "path": "~/github/Mathe_8d/03FormelnErstellen/Kreisumfang.Rmd",
     "project_path": "03FormelnErstellen/Kreisumfang.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "704363814",
     "contents": "",
     "dirty": false,
     "created": 1612117290843.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "471,0",
-        "scrollLine": "457"
+        "cursorPosition": "467,0",
+        "scrollLine": "456"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612213281,
+    "lastKnownWriteTime": 1612215345,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612213281405,
+    "last_content_update": 1612215345042,
     "read_only": false,
     "read_only_alternatives": []
 }
