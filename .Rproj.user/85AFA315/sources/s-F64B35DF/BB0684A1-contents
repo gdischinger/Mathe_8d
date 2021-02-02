@@ -78,6 +78,7 @@ Für den Flächeninhalt gilt: $\quad A=\pi \cdot r²$
 
 #### {}
 
+<br><br>
 
 #### Aufgabe 1
 Berechne die fehlenden Größen.
@@ -200,7 +201,7 @@ $$ \begin{align} 9,1 mm &=2 \cdot r \quad\quad |: 2 \\
 
 `r unhide()`
 
-
+<br><br>
 
 #### Aufgabe 2
 Walter Hudson, einer der umfangreichsten Männer der Welt, hatte einen Bauchumfang von ca. $2,80 m$. Passt er durch eine $80 cm$ breite Tür?
@@ -244,10 +245,13 @@ Leider passt Walter Hudson nicht durch die Tür.
 
 `r unhide()`
 
-
+<br><br>
 
 #### Aufgabe 3
-![](./Bilder/Äquator.png)
+
+<img src="./Bilder/Äquator.png" height="200" />
+
+<!-- ![](./Bilder/Äquator.png) -->
 
 a) Der Äquator hat eine Länge von etwa 40000 km. Wie groß ist der Erdradius $r$?
 
@@ -340,7 +344,7 @@ Zumindest ich bin zu groß um darunter durch zu passen ....
 
 ::::
 
-
+<br><br>
 
 #### Aufgabe 4
 Die Räder eines Fahrrades haben einen Durchmesser von $71cm$. Wie viele Umdrehungen macht jedes Rad pro km?
@@ -554,3 +558,74 @@ b) Wie verändert sich der Umfang bzw. der Flächeninhalt eines Kreises, wenn ma
 
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+
+
+
+
+#### Aufgabe 4
+
+<!-- :::: {style="display: flex;"} -->
+
+:::: {class="box"}
+::: {}
+
+<br><br>
+Ein kreisrunder Froschteich hat den Radius $r_1=7m$.
+
+a) Um den Teich wird ein 3m breiter Weg angelegt. Welchen Flächeninhalt hat der Weg.
+
+b) Wie breit ist der Weg, wenn er einen Flächeninhalt von $130 m²$ hat?
+
+:::
+
+::: {}
+
+![](./Bilder/WegUmTeich.png)
+
+:::
+
+::::
+
+
+
+<br><br><br>
+
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+
+
+
+#### Aufgabe 5
+
+:::: {class="box"}
+::: {}
+
+<br><br>
+Aus einer quadratischen Platte mit der Seitenlänge $a$ wird eine Kreisscheibe herausgeschnitten (vgl. Skizze).
+
+a) Berechne den Verschnitt, wenn die Seite $a$ 4m lang ist.
+
+b) Stelle eine Formel auf, mit der man den Flächeninhalt des Verschnitts in Abhängigkeit von $a$ bestimmen kann.
+
+c) Wie viel Prozent der Gesamtfläche sind Verschnitt?
+
+:::
+
+::: {}
+
+![](./Bilder/KreisImQuadrat.png)
+
+:::
+
+::::
+
+
+
+
+<br><br><br>
+
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
