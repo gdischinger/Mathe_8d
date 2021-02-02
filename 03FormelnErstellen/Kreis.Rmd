@@ -53,19 +53,47 @@ In diesem Abschnitt dreht sich alles ~~im~~ um den Kreis!
 <br><br>
 
 
-## Zusammenfassung unserer Ergebnisse
+## Zusammenfassung der Ergebnisse
 
-Für den Durchmesser $d$ des Kreises gilt: $\quad d=2\cdot r$
+:::: {style="display: flex;"}
+
+::: {}
+
+Für den Durchmesser $d$ des Kreises gilt:
+
+<br>
 
 Für den Umfang $U$ des Kreises gilt:
 
-$$\begin{align} U&= d \cdot \pi \\
-{}\\
-U &= 2 \cdot r \cdot \pi
-\end{align}$$
-<!-- Ein Kreis mit dem Radius $r$ und dem Durchmesser $d$ hat den Umfang $\quad U= d \cdot \pi\quad$ oder $\quad U = 2 \cdot \pi \cdot r$, $\quad$ da für den Durchmesser $d$ gilt $\quad d=2\cdot r$. -->
+<br>
 
-Für den Flächeninhalt gilt: $\quad A=\pi \cdot r²$
+<br>
+
+Für den Flächeninhalt gilt:
+:::
+
+::: {}
+
+:::
+
+::: {}
+
+$\quad d=2\cdot r$
+
+<br>
+
+$\quad U= d \cdot \pi$
+
+$\quad U = 2 \cdot r \cdot \pi$
+
+<br>
+
+$\quad A=\pi \cdot r²$
+
+:::
+
+::::
+
 
 <br><br>
 <hr> 

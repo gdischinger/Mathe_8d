@@ -332,7 +332,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 
 ### Aufgabe 3
-![](./Bilder/Äquator.png)
+<img src="./Bilder/Äquator.png" height="200" />
 
 a) Der Äquator hat eine Länge von etwa 40000 km. Wie groß ist der Erdradius $r$?
 
