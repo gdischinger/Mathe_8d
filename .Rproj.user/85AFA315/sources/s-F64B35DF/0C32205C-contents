@@ -83,28 +83,27 @@ Zunächst zerteilt man den Kreis in gleich große (Kuchen-) Stücke.
 
 Diese ordnet man neu an: Man legt sie so nebeneinander, so dass sie eine annähernd parallelogrammförmige Fläche ergeben. Je größer die Anzahl der Kreisteile wird, desto mehr nähert sich die Fläche einem Rechteck an. Würde man den Kreis in unendlich viele Teile zerschneiden, ergäbe sich schließlich tatsächlich ein Rechteck.
 
-Den Flächeninhalt dieses Rechtecks kann man nun mit der bekannten Formel für den Flächeninhalt eines Rechtecks berechnen. Die Breite des Rechtecks entspricht dabei dem Radius $r$, seine Länge dem halben Kreisumfang ${1 \over 2} \cdot U= \pi \cdot r$.
-
-
-
-<!-- $$ \begin{align} A &= Länge \cdot Breite\\ -->
-<!-- \{}\\ -->
-<!-- A &= {1 \over 2} U \cdot r \\ -->
-<!-- \{}\\ -->
-<!-- A & ={1 \over 2} \pi \cdot 2 \cdot r \cdot r\\ -->
-<!-- \{}\\ -->
-<!-- A & = {1 \over 2} \cdot 2 \cdot \pi \cdot r²\\ -->
-<!-- \{}\\ -->
-<!-- A &= \pi \cdot r² -->
-<!-- \end{align} $$ -->
-
-
+Den Flächeninhalt dieses Rechtecks kann man nun mit der bekannten Formel $A=l \cdot b$ berechnen. 
+Die Breite des Rechtecks entspricht dabei dem Radius $r$, seine Länge dem halben Kreisumfang ${1 \over 2} \cdot U= \pi \cdot r$.
 
 
 
 ## Ergebnis
 
-$$A = \pi \cdot r²$$
+Damit ergibt sich für die Kreisfläche folgende Formel zur Berechnung des Flächeninhaltes:
+
+$$\begin{align} A &= Länge \cdot Breite\\
+{}\\
+A &= {1 \over 2} \cdot U \cdot r\\
+{}\\
+A & ={1 \over 2} \cdot \pi \cdot 2 \cdot r \cdot r\\
+{}\\
+A & = {1 \over 2} \cdot 2 \cdot \pi \cdot r²\\
+{}\\
+A &= \pi \cdot r²
+\end{align}$$
+
+Für den Flächeninhalt eines Kreises gilt also: $\quad A= \pi \cdot r²$
 
 <br><br>
 
