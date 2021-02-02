@@ -23,18 +23,19 @@ library("kableExtra")
 
 ::: {}
 
-<img src="./Bilder/KreisMittelpunktRadius.png" width="200" height="200" />
-
-:::
-
-::: {}
-
-:::
-
-::: {}
-
 <br><br><br><br>
 In diesem Abschnitt dreht sich alles ~~im~~ um den Kreis!
+
+:::
+
+::: {}
+
+:::
+
+::: {}
+
+<img src="./Bilder/KreisMittelpunktRadius.png" width="200" height="200" />
+
 :::
 
 ::::
@@ -42,7 +43,9 @@ In diesem Abschnitt dreht sich alles ~~im~~ um den Kreis!
 
 ## Die Vorüberlegungen zum Kreis findest Du hier:
 
+
 ### [Kreisumfang](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Kreisumfang.html)
+
 
 ### [Kreisfläche](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Kreisflaeche.html)
 
@@ -50,7 +53,7 @@ In diesem Abschnitt dreht sich alles ~~im~~ um den Kreis!
 <br><br>
 
 
-## Kurz zusammengefasst:
+## Zusammenfassung unserer Ergebnisse
 
 Für den Durchmesser $d$ des Kreises gilt: $\quad d=2\cdot r$
 
@@ -67,6 +70,9 @@ Für den Flächeninhalt gilt: $\quad A=\pi \cdot r²$
 <br><br>
 <hr> 
 
+## Aufgaben
+
+<br>
 
 ### Aufgaben zum Umfang{.tabset}
 
@@ -291,6 +297,75 @@ $$ r = {1 \over 2} \cdot d = {1 \over 2} \cdot 12732 km \approx 6366 km$$
 
 :::
 
+::: {}
+
+
+`r hide("Lösung der Teilaufgabe b)")`
+
+Für den Umfang eines Kreises gilt:
+
+$$U = 2 \cdot \pi \cdot r $$
+
+
+**Auflösen**
+
+Auflösen dieser Gleichung nach $r$ ergibt:
+
+$$ \begin{align} U &= 2 \cdot \pi \cdot r \quad\quad | :2 \pi \\
+{}\\
+{U \over 2 \cdot \pi} &= r
+\end{align}$$
+
+
+
+**Einsetzen**
+
+Setzt man nun die gegebenen Größen ein, ergibt sich:
+
+$$r = {4ooookm + 1m \over 2 \pi} = \underbrace{40000km \over 2\pi}_{Erdradius}+\underbrace{1m \over 2\pi}_{"Zugewinn"}$$
+
+Zum besseren Vorstellen hier noch eine Skizze:
+
+![](./Bilder/ÄquatorSeilSkizze.jpeg)
+
+Das Seil steht also ${1 \over 2\pi}m \approx 0,16 cm$ von der Erde ab. 
+
+Zumindest ich bin zu groß um darunter durch zu passen ....
+
+
+`r unhide()`
+
+
+:::
+
+::::
+
+
+
+#### Aufgabe 4
+Die Räder eines Fahrrades haben einen Durchmesser von $71cm$. Wie viele Umdrehungen macht jedes Rad pro km?
+
+`r hide("Tipp")`
+
+![](./Bilder/RadUmdrehung.png)
+
+Wenn sich das Rad einmal ganz dreht, bist du um den Radumfang weitergekommen. Wieviele Umdrehungen passen in einen Kilometer?
+
+`r unhide()`
+
+
+`r hide("Lösung")`
+
+Bei einem Durchmesser von $71cm$ hat das Rad einen Umfang von
+
+$$U = d \cdot \pi =  71 cm \cdot \pi \approx 223cm = 2,23m$$
+In einen Kilometer ($1000m$) passen also
+
+$${1000 m \over 2,23 m} \approx 448,43$$
+
+Radumdrehungen.
+
+`r unhide()`
 
 <br><br>
 
