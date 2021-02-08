@@ -969,11 +969,28 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 
 #### Aufgabe 2
-Die größte Pizza der Welt wurde 1991 in Florida (USA) gebacken. 150 Pizzabäcker arbeiteten 7 Stunden lang an der Riesenpizza mit einem Durchmesser von 47m. Als Zutaten wurden 8178,3kg Mehl, 2900kg Tomatensoße und eine Tonne Peperoniwurst verarbeitet.
+:::: {class="box"}
+::: {}
+
+<br><br>
+
+Die größte Pizza der Welt wurde 2012 in Italien gebacken. 
+
+5 Pizzabäcker arbeiteten 48 Stunden lang an der Riesenpizza mit einem Durchmesser von 39,93m. Als Zutaten wurden 9900kg Mehl, 5000kg Tomatensoße, 4400kg Mozzarella und 125kg Parmesan verarbeitet.
+
+:::
+
+::: {}
+
+<img src="./Bilder/groesstePizza.jpg" height="200" />
+
+:::
+
+::::
 
 a) Welchen Flächeninhalt besaß diese Pizza?
 
-b) Wie vielen Pizzen mit einem Durchmesser von 30cm entspricht diese Fläche?
+b) Wie vielen Pizzen mit einem "normalen" Durchmesser von 30cm entspricht diese Fläche?
 
 c) Wie viele Männer wären notwendig gewesen, um diese Pizza auf einer Riesentafel zu umfassen? Rechne mit einer Spannweite von ungefähr 1,80m für jeden Mann.
 
