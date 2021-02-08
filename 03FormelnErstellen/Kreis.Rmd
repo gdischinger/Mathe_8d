@@ -960,6 +960,34 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 Der Umfang eines Quadrates und eines Kreises beträgt jeweils 16 cm. Berechne und vergleiche die Flächeninhalte der beiden Figuren. Wie groß ist der Unterschied?
 
 
+<!-- `r hide("Lösung")` -->
+
+<!-- **Gegeben** -->
+
+<!--   * Ein Quadrat mit dem Umfang 16 cm. -->
+<!--   * Ein Kreis mit dem Umfang 16 cm. -->
+
+
+<!-- **Flächeninhalt des Quadrates** -->
+
+<!-- Ein Quadrat mit Umfang 16 cm hat eine Seitenlänge von $16cm : 4 = 4cm$. -->
+
+<!-- Daraus ergibt sich ein Flächeninhalt von $A_{Quadrat} = 4cm \cdot 4cm = 16cm²$ -->
+
+
+<!-- **Flächeninhalt des Kreises** -->
+
+<!-- Für den Radius eines Kreises mit einem Umfang von 16 cm gilt: $r = {U \over 2 \cdot \pi} = {16cm \over 2 \cdot \pi} \approx  2,55cm$. -->
+
+<!-- Daraus ergibt sich ein Flächeninhalt von $A_{Kreis}= \pi \cdot r^2 \approx \pi \cdot (2,55cm)^2 \approx 20,37 cm^2$ -->
+
+
+<!-- **Vergleich der beiden Flächeninhalte** -->
+
+<!-- Der Flächeninhalt des Kreises ist um $A_{Kreis} - A_{Quadrat} \approx 20,37 cm² - 16 cm ² \approx 4,37 cm²$ größer als der Flächeninhalt des Quadrates. -->
+
+
+<!-- `r unhide()` -->
 
 <br><br><br>
 
@@ -993,6 +1021,48 @@ a) Welchen Flächeninhalt besaß diese Pizza?
 b) Wie vielen Pizzen mit einem "normalen" Durchmesser von 30cm entspricht diese Fläche?
 
 c) Wie viele Männer wären notwendig gewesen, um diese Pizza auf einer Riesentafel zu umfassen? Rechne mit einer Spannweite von ungefähr 1,80m für jeden Mann.
+
+<!-- :::: {class="box"} -->
+<!-- ::: {} -->
+
+<!-- `r hide("Lösung der Teilaufgabe a)")` -->
+
+<!-- Für den Flächeninhalt der größten Pizza der Welt gilt:  -->
+<!-- $$ \begin{align} A &=\pi \cdot r^2 =\\ -->
+<!--                    &= \pi \cdot (39,93m)² \approx \\ -->
+<!--                    & \approx 5008,97 m² \end{align}$$ -->
+
+<!-- `r unhide()` -->
+
+<!-- ::: -->
+
+<!-- ::: {} -->
+
+<!-- `r hide("Lösung der Teilaufgabe b)")` -->
+
+<!-- Eine "normale" Pizza hat einen Flächeninhalt von  -->
+<!-- $$ \begin{align} A &= \pi \cdot (30cm)^2 \approx \\ -->
+<!--                     &\approx 2827,43 cm^2 \approx \\ -->
+<!--                     & \approx 0,28 m ^2 \end{align} $$ -->
+
+<!-- `r unhide()` -->
+
+<!-- ::: -->
+
+<!-- ::: {} -->
+
+<!-- `r hide("Lösung der Teilaufgabe c)")` -->
+
+
+
+<!-- `r unhide()` -->
+
+<!-- ::: -->
+
+<!-- :::: -->
+
+
+
 
 
 <br><br><br>
@@ -1055,7 +1125,7 @@ a) Welche Formen haben die Flächen, die jeden Tag neu hinzukommen? Fertige eine
 
 `r hide("Tipp zur Teilaufgabe b)")`
 
-Eine Formel zur Berechnung eines Kreisrings gab es schon mal... In der Aufgabe mit dem Seerosenteich.
+Eine Formel zur Berechnung eines Kreisrings gab es schon mal... In der Aufgabe mit dem Froschteich.
 
 `r unhide()`
 

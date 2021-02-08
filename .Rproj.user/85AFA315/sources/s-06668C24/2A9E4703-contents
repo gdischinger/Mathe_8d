@@ -960,6 +960,34 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 Der Umfang eines Quadrates und eines Kreises beträgt jeweils 16 cm. Berechne und vergleiche die Flächeninhalte der beiden Figuren. Wie groß ist der Unterschied?
 
 
+`r hide("Lösung")`
+
+**Gegeben**
+
+  * Ein Quadrat mit dem Umfang 16 cm.
+  * Ein Kreis mit dem Umfang 16 cm.
+
+
+**Flächeninhalt des Quadrates**
+
+Ein Quadrat mit Umfang 16 cm hat eine Seitenlänge von $16cm : 4 = 4cm$.
+
+Daraus ergibt sich ein Flächeninhalt von $A_{Quadrat} = 4cm \cdot 4cm = 16cm²$
+
+
+**Flächeninhalt des Kreises**
+
+Für den Radius eines Kreises mit einem Umfang von 16 cm gilt: $r = {U \over 2 \cdot \pi} = {16cm \over 2 \cdot \pi} \approx  2,55cm$.
+
+Daraus ergibt sich ein Flächeninhalt von $A_{Kreis}= \pi \cdot r^2 \approx \pi \cdot (2,55cm)^2 \approx 20,37 cm^2$
+
+
+**Vergleich der beiden Flächeninhalte**
+
+Der Flächeninhalt des Kreises ist um $A_{Kreis} - A_{Quadrat} \approx 20,37 cm² - 16 cm ² \approx 4,37 cm²$ größer als der Flächeninhalt des Quadrates.
+
+
+`r unhide()`
 
 <br><br><br>
 
@@ -969,18 +997,65 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 
 #### Aufgabe 2
-
 :::: {class="box"}
 ::: {}
 
 <br><br>
-In welchem Verhältnis muss der Radius $r_1$ des inneren Kreises zur Breite $b$ des Ringes stehen, damit die Fläche des Ringes gleich der Kreisfläche $k_1$ ist?
+
+Die größte Pizza der Welt wurde 2012 in Italien gebacken. 
+
+5 Pizzabäcker arbeiteten 48 Stunden lang an der Riesenpizza mit einem Durchmesser von 39,93m. Als Zutaten wurden 9900kg Mehl, 5000kg Tomatensoße, 4400kg Mozzarella und 125kg Parmesan verarbeitet.
 
 :::
 
 ::: {}
 
-![](./Bilder/WegUmTeich.png)
+<img src="./Bilder/groesstePizza.jpg" height="200" />
+
+:::
+
+::::
+
+a) Welchen Flächeninhalt besaß diese Pizza?
+
+b) Wie vielen Pizzen mit einem "normalen" Durchmesser von 30cm entspricht diese Fläche?
+
+c) Wie viele Männer wären notwendig gewesen, um diese Pizza auf einer Riesentafel zu umfassen? Rechne mit einer Spannweite von ungefähr 1,80m für jeden Mann.
+
+:::: {class="box"}
+::: {}
+
+`r hide("Lösung der Teilaufgabe a)")`
+
+Für den Flächeninhalt der größten Pizza der Welt gilt: 
+$$ \begin{align} A &=\pi \cdot r^2 =\\
+                   &= \pi \cdot (39,93m)² \approx \\
+                   & \approx 5008,97 m² \end{align}$$
+
+`r unhide()`
+
+:::
+
+::: {}
+
+`r hide("Lösung der Teilaufgabe b)")`
+
+Eine "normale" Pizza hat einen Flächeninhalt von 
+$$ \begin{align} A &= \pi \cdot (30cm)^2 \approx \\
+                    &\approx 2827,43 cm^2 \approx \\
+                    & \approx 0,28 m ^2 \end{align} $$
+
+`r unhide()`
+
+:::
+
+::: {}
+
+`r hide("Lösung der Teilaufgabe c)")`
+
+
+
+`r unhide()`
 
 :::
 
@@ -989,8 +1064,114 @@ In welchem Verhältnis muss der Radius $r_1$ des inneren Kreises zur Breite $b$ 
 
 
 
+
 <br><br><br>
 
 
 Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+
+
+#### Aufgabe 3
+:::: {class="box"}
+::: {}
+
+<br><br>
+Eine hungrige Ziege wird mit einer ein Meter langen Schnur in der Mitte einer Wiese angepflockt. Damit sie die Wiese nach und nach abgrasen kann, wird die Schnur jeden Tag um einen Meter verlängert.
+
+
+:::
+
+::: {}
+
+<img src="./Bilder/ziegeamseil.png" height="200" />
+
+:::
+
+::::
+
+a) Welche Formen haben die Flächen, die jeden Tag neu hinzukommen? Fertige eine Skizze an, berechne die Flächen für den 1., 2. und 3. Tag und trage deine Ergebnisse in eine Tabelle ein.
+
+
+
+```{r, 'kable'}
+```
+<br> |Länge der Schnur (in Metern) | Neu hinzukommende Fläche (in m²) 
+------|------|-----
+1. Tag | | 
+2. Tag | | 
+3. Tag | | 
+4. Tag | | 
+5. Tag | | 
+6. Tag | | 
+7. Tag | | 
+8. Tag | | 
+9. Tag | | 
+10. Tag | | 
+
+
+:::: {class="box"}
+::: {}
+
+`r hide("Tipp zur Teilaufgabe a)")`
+
+![](./Bilder/hungrigeZiege.png)
+
+`r unhide()`
+
+:::
+
+::: {}
+
+`r hide("Tipp zur Teilaufgabe b)")`
+
+Eine Formel zur Berechnung eines Kreisrings gab es schon mal... In der Aufgabe mit dem Froschteich.
+
+`r unhide()`
+
+:::
+
+::::
+
+<br>
+
+b) Stelle nun eine allgemeine Berechnungsformel für die am n-ten Tag neu hinzukommende Fläche $A(n)$ auf. Vervollständige mit Hilfe dieser Formel obige Tabelle.
+
+c) Welche Fläche hat die Ziege nach 15 Tagen insgesamt abgegrast?
+
+d) Wie viele Tage müssen mindestens vergehen, damit die Ziege insgesamt mehr als 150m² abgegrast hat?
+
+
+
+<br><br><br>
+
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
+
+
+<!-- #### Aufgabe 4 -->
+
+<!-- :::: {class="box"} -->
+<!-- ::: {} -->
+
+<!-- <br><br> -->
+<!-- In welchem Verhältnis muss der Radius $r_1$ des inneren Kreises zur Breite $b$ des Ringes stehen, damit die Fläche des Ringes gleich der Kreisfläche $k_1$ ist? -->
+
+<!-- ::: -->
+
+<!-- ::: {} -->
+
+<!-- ![](./Bilder/WegUmTeich.png) -->
+
+<!-- ::: -->
+
+<!-- :::: -->
+
+
+
+
+<!-- <br><br><br> -->
+
+
+<!-- Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html). -->
 
