@@ -1,27 +1,28 @@
 {
-    "id": "E41C1EB1",
-    "path": "~/github/Mathe_8d/03FormelnErstellen/Grundlagen/BinomischeFormeln.Rmd",
-    "project_path": "03FormelnErstellen/Grundlagen/BinomischeFormeln.Rmd",
+    "id": "2518557C",
+    "path": "~/github/Mathe_8d/03FormelnErstellen/Kreisflaeche.Rmd",
+    "project_path": "03FormelnErstellen/Kreisflaeche.Rmd",
     "type": "r_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1612776165246.0,
+    "created": 1612851894850.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 2,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "17,7",
-        "scrollLine": "9"
+        "cursorPosition": "619,12",
+        "scrollLine": "605",
+        "last_setup_crc32": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1611653457,
+    "lastKnownWriteTime": 1612723754,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1611653457,
+    "last_content_update": 1612723754,
     "read_only": false,
     "read_only_alternatives": []
 }

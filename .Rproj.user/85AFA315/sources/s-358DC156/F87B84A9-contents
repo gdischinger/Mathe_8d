@@ -1002,7 +1002,7 @@ Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d
 
 <br><br>
 
-Die größte Pizza der Welt wurde 2012 in Italien gebacken. 
+Die größte Pizza der Welt wurde 2012 in Italien gebacken.
 
 5 Pizzabäcker arbeiteten 48 Stunden lang an der Riesenpizza mit einem Durchmesser von 39,93m. Als Zutaten wurden 9900kg Mehl, 5000kg Tomatensoße, 4400kg Mozzarella und 125kg Parmesan verarbeitet.
 
@@ -1027,10 +1027,13 @@ c) Wie viele Männer wären notwendig gewesen, um diese Pizza auf einer Riesenta
 
 `r hide("Lösung der Teilaufgabe a)")`
 
-Für den Flächeninhalt der größten Pizza der Welt gilt: 
+Für den Radius der größten Pizza der Welt gilt:
+$$r = {d \over 2} = {39,93\;m \over 2} = 19,965\; m$$
+
+Für den Flächeninhalt der größten Pizza der Welt gilt:
 $$ \begin{align} A &=\pi \cdot r^2 =\\
-                   &= \pi \cdot (39,93m)² \approx \\
-                   & \approx 5008,97 m² \end{align}$$
+                   &= \pi \cdot (19,965\;m)² \approx \\
+                   & \approx 1252,24\;m² \end{align}$$
 
 `r unhide()`
 
@@ -1040,10 +1043,18 @@ $$ \begin{align} A &=\pi \cdot r^2 =\\
 
 `r hide("Lösung der Teilaufgabe b)")`
 
-Eine "normale" Pizza hat einen Flächeninhalt von 
-$$ \begin{align} A &= \pi \cdot (30cm)^2 \approx \\
-                    &\approx 2827,43 cm^2 \approx \\
-                    & \approx 0,28 m ^2 \end{align} $$
+Für den Radius einer "normalen" Pizza gilt:
+$$r = {d \over 2} = {0,3\;m \over 2} = 0,15\; m$$
+
+Eine "normale" Pizza hat einen Flächeninhalt von
+$$ \begin{align} A &= \pi \cdot (0,15\;m)^2 \approx \\
+                    & \approx 0,070686\;m ^2 \end{align} $$
+
+Wie viele "normale" Pizzen passen in die größte Pizza der Welt?
+
+$$1252,24\;m² : 0,070686\;m ^2 \approx 17715,5$$
+
+Die Fläche der größten Pizza der Welt entspricht etwa der 17715,5-fachen Fläche einer "normalen" Pizza.
 
 `r unhide()`
 
@@ -1053,7 +1064,15 @@ $$ \begin{align} A &= \pi \cdot (30cm)^2 \approx \\
 
 `r hide("Lösung der Teilaufgabe c)")`
 
+Für den Umfang der größten Pizza der Welt gilt:
+$$ \begin{align} U &= 2 \cdot \pi \cdot r =\\
+                   &= 2 \cdot \pi \cdot 19,965\; m \approx \\
+                   & \approx 125,44\;m \end{align}$$
 
+Berechnung der Anzahl der Männer mit Spannweite $1,80\;m$, die nötig sind, um die Riesenpizza zu umfassen:
+
+$$125,44\;m : 1,80\;m \approx 70$$
+70 Männer mit einer Spannweite von $1,80\;m$ hätten die Weltrekordpizza umfassen können.
 
 `r unhide()`
 
@@ -1096,18 +1115,18 @@ a) Welche Formen haben die Flächen, die jeden Tag neu hinzukommen? Fertige eine
 
 ```{r, 'kable'}
 ```
-<br> |Länge der Schnur (in Metern) | Neu hinzukommende Fläche (in m²) 
+<br> |Länge der Schnur (in Metern) | Neu hinzukommende Fläche (in m²)
 ------|------|-----
-1. Tag | | 
-2. Tag | | 
-3. Tag | | 
-4. Tag | | 
-5. Tag | | 
-6. Tag | | 
-7. Tag | | 
-8. Tag | | 
-9. Tag | | 
-10. Tag | | 
+1. Tag | |
+2. Tag | |
+3. Tag | |
+4. Tag | |
+5. Tag | |
+6. Tag | |
+7. Tag | |
+8. Tag | |
+9. Tag | |
+10. Tag | |
 
 
 :::: {class="box"}
