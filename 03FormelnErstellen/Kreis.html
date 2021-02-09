@@ -1021,7 +1021,7 @@ Lösung der Teilaufgabe c)
 <thead>
 <tr class="header">
 <th><br></th>
-<th>Länge der Schnur (in Metern)</th>
+<th>Länge des Seils (in Metern)</th>
 <th>Neu hinzukommende Fläche (in m²)</th>
 </tr>
 </thead>
@@ -1102,6 +1102,164 @@ Tipp zur Teilaufgabe b)
 <li><p>Welche Fläche hat die Ziege nach 15 Tagen insgesamt abgegrast?</p></li>
 <li><p>Wie viele Tage müssen mindestens vergehen, damit die Ziege insgesamt mehr als 150m² abgegrast hat?</p></li>
 </ol>
+<div class="box">
+<div>
+<div class="solution">
+<button>
+Lösung der Teilaufgabe a)
+</button>
+<p>Die erste Fläche <span class="math inline">\(A_1\)</span> ist ein Kreis mit dem Radius <span class="math inline">\(1\;m\)</span>.</p>
+<p>Alle weiteren Flächen sind Kreisringe mit der Breite <span class="math inline">\(1\;m\)</span>.</p>
+<p>Die Skizze findest du im Tipp1 zur Teilaufgabe 1a).</p>
+<p><strong>Berechnung der ersten drei Flächen</strong></p>
+<p><span class="math display">\[\begin{align} A_1 &amp; = \pi \cdot r^2_1 = \\
+                    &amp;= \pi \cdot (1m)^2 \approx 3,14\;m^2 \quad \end{align}\]</span></p>
+<p><span class="math display">\[\begin{align} A_2 &amp;= \pi \cdot r^2_2 - \pi \cdot r^2_1 =\\
+                    &amp;= \pi \cdot (2m)^2 - \pi\cdot 1\;m^2 =\\
+                    &amp;= \pi \cdot 4m^2 - \pi\;m^2 =\\
+                    &amp;= \pi \cdot (4m^2- 1m^2)=\\
+                    &amp;= 3\pi\;m^2\approx 9,42\;m^2
+\end{align}\]</span></p>
+<p><span class="math display">\[\begin{align} A_3 &amp;= \pi \cdot r^2_3 - \pi \cdot r^2_2 =\\
+                    &amp;= \pi \cdot (3m)^2 - 4\pi\;m^2 =\\
+                    &amp;= \pi \cdot 9m^2 - 4\pi\;m^2 =\\
+                    &amp;= \pi \cdot (9m^2-4m^2)=\\
+                    &amp;= 5\pi\;m^2\approx 15,71\;m^2
+\end{align}\]</span></p>
+<p>Folglich sieht die Tabelle jetzt so aus:</p>
+<table>
+<thead>
+<tr class="header">
+<th><br></th>
+<th>Länge des Seils (m)</th>
+<th>Neu hinzu- kommende Fläche (m²)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Tag</td>
+<td>1</td>
+<td>3,14</td>
+</tr>
+<tr class="even">
+<td>2. Tag</td>
+<td>2</td>
+<td>9,42</td>
+</tr>
+<tr class="odd">
+<td>3. Tag</td>
+<td>3</td>
+<td>15,71</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<div class="solution">
+<button>
+Lösung der Teilaufgabe b)
+</button>
+<p>Das Seil, mit dem die Ziege angebunden ist, hat am n-ten Tag eine Länge von <span class="math inline">\(n\)</span> Metern. Am Vortag, also am (n-1)-ten Tag, hatte das Seil eine Länge von <span class="math inline">\((n-1)\)</span> Metern. Für die am n-ten Tag neu hinzukommende Fläche gilt somit:</p>
+<p><span class="math display">\[\begin{align} A_n &amp;= \pi \cdot r^2_n - \pi \cdot r^2_{n-1}=\\
+                    &amp;=\pi \cdot n^2 - \pi \cdot (n-1)^2=\\
+                    &amp;= \pi \cdot n^2 - \pi \cdot (n^2 - 2n + 1)= \\
+                    &amp;=\pi \cdot (n^2 - (n^2- 2n + 1))=\\
+                    &amp;=\pi \cdot (n^2- n^2+2n-1)=\\
+                    &amp;=\pi \cdot(2n-1)
+\end{align}\]</span></p>
+<p>Damit ergibt sich folgende Tabelle:</p>
+<table>
+<thead>
+<tr class="header">
+<th><br></th>
+<th>Länge des Seils (m)</th>
+<th>Neu hinzu- kommende Fläche (m²)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Tag</td>
+<td>1</td>
+<td>3,14</td>
+</tr>
+<tr class="even">
+<td>2. Tag</td>
+<td>2</td>
+<td>9,42</td>
+</tr>
+<tr class="odd">
+<td>3. Tag</td>
+<td>3</td>
+<td>15,71</td>
+</tr>
+<tr class="even">
+<td>4. Tag</td>
+<td>4</td>
+<td>21,99</td>
+</tr>
+<tr class="odd">
+<td>5. Tag</td>
+<td>5</td>
+<td>28,27</td>
+</tr>
+<tr class="even">
+<td>6. Tag</td>
+<td>6</td>
+<td>34,56</td>
+</tr>
+<tr class="odd">
+<td>7. Tag</td>
+<td>7</td>
+<td>40,84</td>
+</tr>
+<tr class="even">
+<td>8. Tag</td>
+<td>8</td>
+<td>47,12</td>
+</tr>
+<tr class="odd">
+<td>9. Tag</td>
+<td>9</td>
+<td>53,41</td>
+</tr>
+<tr class="even">
+<td>10. Tag</td>
+<td>10</td>
+<td>59,69</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<div class="solution">
+<button>
+Lösung der Teilaufgabe c)
+</button>
+<p>Nach 15 Tagen hat die Ziege eine Kreisfläche mit einem Radius von <span class="math inline">\(15\)</span> Metern abgefressen. Also:</p>
+<p><span class="math display">\[\begin{align} F_{abgegrast} &amp;= \pi \cdot (15m)^2=\\
+                              &amp;= 225\pi\;m^2 \approx \\
+                              &amp;\approx 706,86\;m^2\end{align}\]</span></p>
+</div>
+</div>
+<div>
+<div class="solution">
+<button>
+Lösung der Teilaufgabe d)
+</button>
+<p><strong>Vorüberlegung</strong> Gefragt ist, wann die abgefressene Kreisfläche größer oder gleich 150m² ist. Der Radius des Kreises entspricht dabei der Seillänge, aus der praktischer Weise ganz einfach auf die Anzahl der vergangenen Tage geschlossen werden kann. Das Seil hat ja am ersten Tag eine Länge von einem Meter, am zweiten Tag eine Länge von zwei Metern, am dritten Tag eine Länge von drei Metern usw. Am n-ten Tag hat es eine Länge von n Metern.</p>
+<p>Wenn man also den Radius des Kreises kennt, weiß man, wann die Ziege 150m² “gemäht” hat.</p>
+<p><strong>Berechnung der zu 150m² passenden Seillänge l</strong></p>
+<p><span class="math display">\[\begin{align} l &amp;= \sqrt{A\over\pi}\\
+                  &amp; = \sqrt{150\;m^2 \over \pi} \approx\\
+                  &amp;\approx 7\;m\end{align}\]</span></p>
+<p>Wenn das Seil <span class="math inline">\(7\;m\)</span> lang ist, hat die Ziege 150m² abgefressen. Es braucht also 7 Tage.</p>
+<p><strong>Alternative:</strong></p>
+<p>Addiere die in der Tabelle festgehaltenen Werte für die neu hinzugekommene Fläche, bis der Wert 150 übersteigt. Also: <span class="math inline">\(3,14 + 9,42 + 15,71 + 21,99 + ...\overset{?}{=}150\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
 <!-- #### Aufgabe 4 -->

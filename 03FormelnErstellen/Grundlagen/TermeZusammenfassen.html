@@ -202,6 +202,20 @@ summary {
         flex: 1 1 0;
       }
 </style>
+<script language="javascript">
+function toggle(num) {
+var ele = document.getElementById("toggleText" + num);
+var text = document.getElementById("displayText" + num);
+if(ele.style.display == "block") {
+ele.style.display = "none";
+text.innerHTML = "show";
+}
+else {
+ele.style.display = "block";
+text.innerHTML = "hide";
+}
+}
+</script>
 <div id="gleichartige-terme-zusammenfassen---3-äpfel-und-4-äpfel-sind-7-äpfel" class="section level2">
 <h2>Gleichartige Terme zusammenfassen - 3 Äpfel und 4 Äpfel sind 7 Äpfel</h2>
 <p>Stimmen zwei Terme in allen Variablen (Buchstaben) überein, bezeichnet man sie als <strong>gleichartig</strong>. <strong>Gleichartige Terme</strong> unterscheiden sich also nur in ihrem Zahlenfaktor, dem sogenannten Koeffizienten. Sie werden addiert, indem man ihre Koeffizienten addiert. Ebenso werden sie subtrahiert, indem man ihre Koeffizienten subtrahiert.</p>
@@ -220,19 +234,19 @@ summary {
 </thead>
 <tbody>
 <tr class="odd">
-<td><span class="math inline">\(4pq\)</span> und <span class="math inline">\(2pq\)</span></td>
-<td><span class="math inline">\(4pq+2pq = 6pq\)</span></td>
-<td><span class="math inline">\(4pq-2pq = 2pq\)</span></td>
+<td><span class="math inline">\(4\color{red}{pq}\)</span> und <span class="math inline">\(2\color{red}{pq}\)</span></td>
+<td><span class="math inline">\(4\color{red}{pq}+2\color{red}{pq} = 6\color{red}{pq}\)</span></td>
+<td><span class="math inline">\(4\color{red}{pq}-2\color{red}{pq} = 2\color{red}{pq}\)</span></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(3,5xyz\)</span> und <span class="math inline">\(x5zy\)</span></td>
-<td><span class="math inline">\(3,5xyz + x5zy = 3,5 xyz + 5xyz = 8,5xyz\)</span></td>
-<td><span class="math inline">\(3,5xyz-5xyz= -1,5xyz\)</span></td>
+<td><span class="math inline">\(3,5\color{blue}{xyz}\)</span> und <span class="math inline">\(\color{blue}{x}5\color{blue}{yz}\)</span></td>
+<td><span class="math inline">\(3,5\color{blue}{xyz} + \color{blue}{x}5\color{blue}{yz} = 3,5\color{blue}{xyz} + 5\color{blue}{xyz} = 8,5\color{blue}{xyz}\)</span></td>
+<td><span class="math inline">\(3,5\color{blue}{xyz}-5\color{blue}{xyz}= -1,5\color{blue}{xyz}\)</span></td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(6a^2b\)</span> und <span class="math inline">\({1\over 2} a^2 b\)</span></td>
-<td><span class="math inline">\(6a^2b + {1\over 2}a^2b = 6{1 \over 2}a² b\)</span></td>
-<td><span class="math inline">\(6a^2b - {1\over 2}a^2b = 5{1 \over 2}a² b\)</span></td>
+<td><span class="math inline">\(6\color{red}{a^2b}\)</span> und <span class="math inline">\({1\over 2}\color{red}{a^2b}\)</span></td>
+<td><span class="math inline">\(6\color{red}{a^2b} + {1\over 2}\color{red}{a^2b} = 6{1 \over 2}\color{red}{a^2b}\)</span></td>
+<td><span class="math inline">\(6\color{red}{a^2b}- {1\over 2}\color{red}{a^2b} = 5{1 \over 2}\color{red}{a^2b}\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -244,10 +258,183 @@ summary {
 </div>
 <div id="aufgabe-1" class="section level4">
 <h4>Aufgabe 1</h4>
+<p>Vereinfache, indem du zusammenfasst.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(1);">
+5 Äpfel, 7 Birnen, 3 Äpfel, 4 Birnen
+</button>
+<div id="toggleText1" style="display: none">
+<p>8 Äpfel, 11 Birnen</p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(2);">
+3 Messer, 4 Gabeln, 1 Messer, 2 Gabeln
+</button>
+<div id="toggleText2" style="display: none">
+<p>4 Messer, 6 Gabeln</p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(3);">
+7m und 40kg und 1,5m und 2,8kg
+</button>
+<div id="toggleText3" style="display: none">
+<p>8,5m und 42,8kg</p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(4);">
+<span class="math inline">\(a+20a+200a+2000a\)</span>
+</button>
+<div id="toggleText4" style="display: none">
+<p><span class="math inline">\(2221a\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(5);">
+<span class="math inline">\(1000b+4b+200b\)</span>
+</button>
+<div id="toggleText5" style="display: none">
+<p><span class="math inline">\(1204b\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(6);">
+<span class="math inline">\(10c-11c+12c-13c+14c\)</span>
+</button>
+<div id="toggleText6" style="display: none">
+<p><span class="math inline">\(12c\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(7);">
+<span class="math inline">\(125d-80d+56d-21d\)</span>
+</button>
+<div id="toggleText7" style="display: none">
+<p><span class="math inline">\(80d\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(8);">
+<span class="math inline">\(7f+3e+5f+5e+3f+7e\)</span>
+</button>
+<div id="toggleText8" style="display: none">
+<p><span class="math inline">\(15e+15f\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(9);">
+<span class="math inline">\(125g^2-80g+56g-21g^2\)</span>
+</button>
+<div id="toggleText9" style="display: none">
+<p><span class="math inline">\(104g^2-24g\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(10);">
+<span class="math inline">\(z^3-2z+3z^2-4z^3-5z+6z^2\)</span>
+</button>
+<div id="toggleText10" style="display: none">
+<p><span class="math inline">\(-3z^3+9z^2-7z\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(11);">
+<span class="math inline">\(k^2-3k+4k^4+12k^3\)</span>
+</button>
+<div id="toggleText11" style="display: none">
+<p><span class="math inline">\(4k^4+12k^3+k^2-3k\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 </div>
 <div id="aufgabe-2" class="section level4">
 <h4>Aufgabe 2</h4>
+<p>Vereinfache, indem du gleichartige Terme zusammenfasst.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(12);">
+<span class="math inline">\(7ab+3bc-3ab-bc\)</span>
+</button>
+<div id="toggleText12" style="display: none">
+<p><span class="math inline">\(4ab+2bc\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(13);">
+<span class="math inline">\(3de+2d^2e+4d^2e-2de\)</span>
+</button>
+<div id="toggleText13" style="display: none">
+<p><span class="math inline">\(de+6d^2e\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(14);">
+<span class="math inline">\(-6f+3g-9f+f-g\)</span>
+</button>
+<div id="toggleText14" style="display: none">
+<p><span class="math inline">\(-14f+2g\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(15);">
+<span class="math inline">\(3h+4i+7j+3i+4h\)</span>
+</button>
+<div id="toggleText15" style="display: none">
+<p><span class="math inline">\(7h+7i+7j\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(20);">
+<span class="math inline">\(99xy+2xy-3z+7z-xy\)</span>
+</button>
+<div id="toggleText20" style="display: none">
+<p><span class="math inline">\(100xy+4z\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(17);">
+<span class="math inline">\(pq+2p^2q^2-2pq+3p^2q^2+3pq\)</span>
+</button>
+<div id="toggleText17" style="display: none">
+<p><span class="math inline">\(2pq+5p^2q^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(18);">
+<span class="math inline">\(3st-3t-5st+2st\)</span>
+</button>
+<div id="toggleText18" style="display: none">
+<p><span class="math inline">\(-3t\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(19);">
+<span class="math inline">\(15uv+21uv+3vw-7vw-6uv\)</span>
+</button>
+<div id="toggleText19" style="display: none">
+<p><span class="math inline">\(30uv-4vw\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(16);">
+<span class="math inline">\(3nop-2op+3np+2nop+2op-3np\)</span>
+</button>
+<div id="toggleText16" style="display: none">
+<p><span class="math inline">\(5nop\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(21);">
+<span class="math inline">\(xy+2yz+3xz+4xz+5xz+6xy+7xy\)</span>
+</button>
+<div id="toggleText21" style="display: none">
+<p><span class="math inline">\(14xy+12xz+2yz\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(22);">
+<span class="math inline">\(6x^3+6x^2-2x^2-2x-4x^4+2x^3-4x^3+2x^2\)</span>
+</button>
+<div id="toggleText22" style="display: none">
+<p><span class="math inline">\(-4x^4+4x^3+6x^2-2x\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(23);">
+<span class="math inline">\(4z^2+3z+1-2z+5-z^2-9\)</span>
+</button>
+<div id="toggleText23" style="display: none">
+<p><span class="math inline">\(3z^2+z-3\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 </div>
 </div>
@@ -261,7 +448,7 @@ summary {
 <li>fasst gleiche Variablen zu einer Potenz zusammen.</li>
 </ol>
 <p><strong>Beispiele:</strong></p>
-<p><span class="math inline">\(f \cdot r \cdot a \cdot n \cdot z \cdot 7 = 7 \cdot a \cdot f \cdot n \cdot r \cdot z = 7\; afnrz\)</span></p>
+<p><span class="math inline">\(r \cdot a \cdot b \cdot e = a \cdot b \cdot e \cdot r = aber\)</span></p>
 <p><span class="math inline">\(a \cdot n \cdot n \cdot a = a^2 \cdot n^2 = a^2n^2\)</span></p>
 <p><span class="math inline">\(2 \cdot i \cdot 3 \cdot s \cdot 4 \cdot e = 2 \cdot 3 \cdot 4 \cdot e \cdot i \cdot s = 24\; eis\)</span></p>
 <p><span class="math inline">\(2 \cdot b \cdot (-1) \cdot a \cdot r \cdot 2 \cdot b \cdot 3 \cdot a \cdot r \cdot a= 2 \cdot (-1) \cdot 2 \cdot 3 \cdot a^3 \cdot b^2 \cdot r^2 = -12 \; a^3b^2r^2\)</span></p>
@@ -273,10 +460,190 @@ summary {
 </div>
 <div id="aufgabe-1-1" class="section level4">
 <h4>Aufgabe 1</h4>
+<p>Vereinfache die folgenden Terme.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(24);">
+<span class="math inline">\(4 \cdot u \cdot u \cdot v \cdot v \cdot 4 \cdot u \cdot 4\)</span>
+</button>
+<div id="toggleText24" style="display: none">
+<p><span class="math inline">\(64u^3v^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(25);">
+<span class="math inline">\(9 \cdot x \cdot y \cdot 9 \cdot y \cdot x \cdot y \cdot z\)</span>
+</button>
+<div id="toggleText25" style="display: none">
+<p><span class="math inline">\(81x^2y^3z\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(26);">
+<span class="math inline">\(z \cdot 5 \cdot 5 \cdot z \cdot z \cdot 5\)</span>
+</button>
+<div id="toggleText26" style="display: none">
+<p><span class="math inline">\(125z^3\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(27);">
+<span class="math inline">\(11 \cdot x^2 \cdot y^2 \cdot z^3 \cdot 2 \cdot x^3\)</span>
+</button>
+<div id="toggleText27" style="display: none">
+<p><span class="math inline">\(22x^5y^2z^3\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(28);">
+<span class="math inline">\(c^3 \cdot b^2 \cdot 2 \cdot a \cdot 5 \cdot b^2 \cdot a^2\)</span>
+</button>
+<div id="toggleText28" style="display: none">
+<p><span class="math inline">\(10a^3b^4c^3\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(29);">
+<span class="math inline">\(s \cdot t \cdot s \cdot s \cdot t^2 \cdot s^2 \cdot t^2 \cdot 4\)</span>
+</button>
+<div id="toggleText29" style="display: none">
+<p><span class="math inline">\(4s^5t^5\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(30);">
+<span class="math inline">\(3 \cdot p \cdot a \cdot p \cdot a \cdot 6 \cdot m \cdot a \cdot m \cdot a\)</span>
+</button>
+<div id="toggleText30" style="display: none">
+<p><span class="math inline">\(18a^4m^2p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(31);">
+<span class="math inline">\(m \cdot a \cdot t \cdot h \cdot e \cdot m \cdot a \cdot t \cdot i \cdot k\)</span>
+</button>
+<div id="toggleText31" style="display: none">
+<p><span class="math inline">\(a^2ehikm^2t^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(32);">
+<span class="math inline">\(r \cdot a \cdot t^2 \cdot e\)</span>
+</button>
+<div id="toggleText32" style="display: none">
+<p><span class="math inline">\(aert^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(33);">
+<span class="math inline">\(p \cdot i \cdot l^2 \cdot e \cdot p \cdot a \cdot l^2 \cdot e\)</span>
+</button>
+<div id="toggleText33" style="display: none">
+<p><span class="math inline">\(ae^2il^4p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(34);">
+<span class="math inline">\(o \cdot t^2 \cdot o \cdot s \cdot m \cdot o \cdot p \cdot s\)</span>
+</button>
+<div id="toggleText34" style="display: none">
+<p><span class="math inline">\(mo^3ps^2t^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(35);">
+<span class="math inline">\(k \cdot k^9 \cdot i^8 \cdot i^2 \cdot b^3 \cdot c^4 \cdot c^6 \cdot b^7\)</span>
+</button>
+<div id="toggleText35" style="display: none">
+<p><span class="math inline">\(b^{10}c^{10}i^{10}k^{10}\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 </div>
 <div id="aufgabe-2-1" class="section level4">
 <h4>Aufgabe 2</h4>
+<p>Vereinfache die folgenden Terme.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(36);">
+<span class="math inline">\(5x^4 \cdot 3x^2 \cdot 7x^4\)</span>
+</button>
+<div id="toggleText36" style="display: none">
+<p><span class="math inline">\(105x^{10}\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(37);">
+<span class="math inline">\(8x^3 \cdot (-2x^2)\)</span>
+</button>
+<div id="toggleText37" style="display: none">
+<p><span class="math inline">\(-16x^5\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(38);">
+<span class="math inline">\((-8x^2) \cdot (-4x^3) \cdot (-2x^8)\)</span>
+</button>
+<div id="toggleText38" style="display: none">
+<p><span class="math inline">\(-64x^{13}\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(39);">
+<span class="math inline">\(3b^2 \cdot7a^4\)</span>
+</button>
+<div id="toggleText39" style="display: none">
+<p><span class="math inline">\(21a^4b^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(40);">
+<span class="math inline">\(-2x^2 \cdot (-4y^2) \cdot 8y^3 \cdot3x^2\)</span>
+</button>
+<div id="toggleText40" style="display: none">
+<p><span class="math inline">\(192x^4y^5\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(41);">
+<span class="math inline">\(3i^3 \cdot 2i \cdot (-2j^7) \cdot 4j^2\)</span>
+</button>
+<div id="toggleText41" style="display: none">
+<p><span class="math inline">\(-48i^4 j^7\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(42);">
+<span class="math inline">\(5ij \cdot 3ji \cdot2ji^2 \cdot (-3j^2i)\)</span>
+</button>
+<div id="toggleText42" style="display: none">
+<p><span class="math inline">\(-90i^5 j^5\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(43);">
+<span class="math inline">\(cd^2 \cdot de^2 \cdot ec^2 \cdot cde\)</span>
+</button>
+<div id="toggleText43" style="display: none">
+<p><span class="math inline">\(c^4d^4e^4\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(44);">
+<span class="math inline">\(-3x \cdot 8y \cdot 7 \cdot xy \cdot (-5z)\)</span>
+</button>
+<div id="toggleText44" style="display: none">
+<p><span class="math inline">\(840 x^2 y^2 z\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(45);">
+<span class="math inline">\(abba \cdot baba \cdot aba \cdot bab\)</span>
+</button>
+<div id="toggleText45" style="display: none">
+<p><span class="math inline">\(a^7 b^7\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(46);">
+<span class="math inline">\(8st \cdot 7ts \cdot 9 \cdot t^2 s^2\)</span>
+</button>
+<div id="toggleText46" style="display: none">
+<p><span class="math inline">\(504 s^4 t^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(47);">
+<span class="math inline">\(a^2 b^3 \cdot c^2 a ^3 \cdot 4a \cdot 5b \cdot 3c\)</span>
+</button>
+<div id="toggleText47" style="display: none">
+<p><span class="math inline">\(60 a^6 b^4 c^3\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 </div>
 </div>
@@ -340,10 +707,269 @@ Plus- und Minusklammern
 </div>
 <div id="aufgabe-1-2" class="section level4">
 <h4>Aufgabe 1</h4>
+<p>Vereinfache die folgenden Terme. Eventuell musst du zunächst Produktterme vereinfachen, um gleichartige Terme zu finden.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(48);">
+<span class="math inline">\(2a+3c+4b+3c+2b+a\)</span>
+</button>
+<div id="toggleText48" style="display: none">
+<p><span class="math inline">\(3a+6b+6c\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(52);">
+<span class="math inline">\({k^2 \over 3}+{2 \over 3}k-{5 \over 6}k^2+{4 \over 3}k\)</span>
+</button>
+<div id="toggleText52" style="display: none">
+<p><span class="math inline">\(-{1 \over 2}k^2+2k\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(50);">
+<span class="math inline">\(7xy-3yx-2xy+5yx\)</span>
+</button>
+<div id="toggleText50" style="display: none">
+<p><span class="math inline">\(7xy\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(51);">
+<span class="math inline">\({b \over 4}+{c \over 8}-{b \over 4}+{c \over 2}-3a\)</span>
+</button>
+<div id="toggleText51" style="display: none">
+<p><span class="math inline">\({5 \over 8}c-3a\)</span></p>
+</div>
+</div>
+<div>
+
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(49);">
+<span class="math inline">\(5xy+3xz-2yz+zx-3xy+4zy\)</span>
+</button>
+<div id="toggleText49" style="display: none">
+<p><span class="math inline">\(2xy+4xz+2yz\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(53);">
+<span class="math inline">\({5 \over 12}x^2-{7 \over 12}x-{3 \over 2}+{x \over 12} -{x^2\over 12}+1-{x \over 4}\)</span>
+</button>
+<div id="toggleText53" style="display: none">
+<p><span class="math inline">\({1 \over 3}x^2 - {3 \over 4}x-{1 \over 2}\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(54);">
+<span class="math inline">\(0,3t-2,1v+1,7t+3,1v-3,1u\)</span>
+</button>
+<div id="toggleText54" style="display: none">
+<p><span class="math inline">\(2t+v-3,1u\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(55);">
+<span class="math inline">\(1,6m-1,2n+1,4m+1,7n\)</span>
+</button>
+<div id="toggleText55" style="display: none">
+<p><span class="math inline">\(3m+0,5n\)</span></p>
+</div>
+</div>
+<div>
+
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(56);">
+<span class="math inline">\(3,2mn-0,5nm-1,2mn-3,1m^2n+2,1nm^2\)</span>
+</button>
+<div id="toggleText56" style="display: none">
+<p><span class="math inline">\(-m^2 n+1,5mn\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(57);">
+<span class="math inline">\(-2 \cdot 3x+14x \cdot3 -2y \cdot 4-3y \cdot (-3)\)</span>
+</button>
+<div id="toggleText57" style="display: none">
+<p><span class="math inline">\(36x+y\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(58);">
+<span class="math inline">\(5\cdot 5o+3\cdot (-7)p-7p \cdot 3+3o\cdot (-3)-3p\cdot(-3)\)</span>
+</button>
+<div id="toggleText58" style="display: none">
+<p><span class="math inline">\(16o-33p\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(59);">
+<span class="math inline">\(3\cdot a \cdot 4 \cdot b-7 \cdot a \cdot b \cdot 3+7a \cdot 3c + 3c \cdot 7a\)</span>
+</button>
+<div id="toggleText59" style="display: none">
+<p><span class="math inline">\(-9ab+42ac\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 </div>
 <div id="aufgabe-2-2" class="section level4">
 <h4>Aufgabe 2</h4>
+<p>Vereinfache die folgenden Terme. Beachte die Vorrangregeln!</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(60);">
+<span class="math inline">\(12b-(7b-2b)\)</span>
+</button>
+<div id="toggleText60" style="display: none">
+<p><span class="math inline">\(7b\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(61);">
+<span class="math inline">\(-5e \cdot 6 - (5e+7e)\)</span>
+</button>
+<div id="toggleText61" style="display: none">
+<p><span class="math inline">\(-42e\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(62);">
+<span class="math inline">\((2f \cdot 2)^2\)</span>
+</button>
+<div id="toggleText62" style="display: none">
+<p><span class="math inline">\(16f^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(63);">
+<span class="math inline">\(g \cdot (g^2 + g^2)\)</span>
+</button>
+<div id="toggleText63" style="display: none">
+<p><span class="math inline">\(2g^3\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(64);">
+<span class="math inline">\(ij^2 + (ij)^2 + i^2 j^2\)</span>
+</button>
+<div id="toggleText64" style="display: none">
+<p><span class="math inline">\(2i^2 j^2 + ij^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(65);">
+<span class="math inline">\(7j \cdot 2k + 6jk\)</span>
+</button>
+<div id="toggleText65" style="display: none">
+<p><span class="math inline">\(20jk\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(66);">
+<span class="math inline">\(-3kl+4k \cdot 5l\)</span>
+</button>
+<div id="toggleText66" style="display: none">
+<p><span class="math inline">\(17kl\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(67);">
+<span class="math inline">\(12l - 6l \cdot (-3)\)</span>
+</button>
+<div id="toggleText67" style="display: none">
+<p><span class="math inline">\(30l\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(68);">
+<span class="math inline">\(8+2 \cdot m \cdot (-3)\)</span>
+</button>
+<div id="toggleText68" style="display: none">
+<p><span class="math inline">\(-6m + 8\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(69);">
+<span class="math inline">\(4n^2 + 6n^2 \cdot 0,5p\)</span>
+</button>
+<div id="toggleText69" style="display: none">
+<p><span class="math inline">\(4n^2 + 3n^2 p\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(70);">
+<span class="math inline">\(2p^2 + (2p)^2\)</span>
+</button>
+<div id="toggleText70" style="display: none">
+<p><span class="math inline">\(6p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(71);">
+<span class="math inline">\(3 \cdot (4a-2a)\)</span>
+</button>
+<div id="toggleText71" style="display: none">
+<p><span class="math inline">\(6a\)</span></p>
+</div>
+</div>
+</div>
+<p><br><br><br></p>
+</div>
+<div id="aufgabe-3" class="section level4">
+<h4>Aufgabe 3</h4>
+<p>Vereinfache die folgenden Terme. Beachte die Vorrangregeln!</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(72);">
+<span class="math inline">\(c \cdot 2c \cdot(c+2c)\)</span>
+</button>
+<div id="toggleText72" style="display: none">
+<p><span class="math inline">\(6c^3\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(73);">
+<span class="math inline">\((14a - 6a) \cdot (8b+b)\)</span>
+</button>
+<div id="toggleText73" style="display: none">
+<p><span class="math inline">\(72ab\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(74);">
+<span class="math inline">\(a(b+b)+b(a+a)\)</span>
+</button>
+<div id="toggleText74" style="display: none">
+<p><span class="math inline">\(4ab\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(75);">
+<span class="math inline">\(c \cdot 2c \cdot c -(2c)^3\)</span>
+</button>
+<div id="toggleText75" style="display: none">
+<p><span class="math inline">\(-6c^3\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(76);">
+<span class="math inline">\(2(e \cdot 3 \cdot d + 2de)^2\)</span>
+</button>
+<div id="toggleText76" style="display: none">
+<p><span class="math inline">\(50d^2 e^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(77);">
+<span class="math inline">\(2((a-x)+(a+x))\)</span>
+</button>
+<div id="toggleText77" style="display: none">
+<p><span class="math inline">\(4a\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(78);">
+<span class="math inline">\(2fel+4tel+4lef-2let\)</span>
+</button>
+<div id="toggleText78" style="display: none">
+<p><span class="math inline">\(6efl+2elt\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(79);">
+<span class="math inline">\((2n^2 + 3n \cdot (n+2n))^2\)</span>
+</button>
+<div id="toggleText79" style="display: none">
+<p><span class="math inline">\(121n^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(80);">
+<span class="math inline">\(((z+z+z)^2-3z^2)^2\)</span>
+</button>
+<div id="toggleText80" style="display: none">
+<p><span class="math inline">\(36z^4\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br></p>
 </div>
 </div>

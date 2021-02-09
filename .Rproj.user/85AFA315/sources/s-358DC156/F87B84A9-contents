@@ -1115,7 +1115,7 @@ a) Welche Formen haben die Flächen, die jeden Tag neu hinzukommen? Fertige eine
 
 ```{r, 'kable'}
 ```
-<br> |Länge der Schnur (in Metern) | Neu hinzukommende Fläche (in m²)
+<br> |Länge des Seils (in Metern) | Neu hinzukommende Fläche (in m²)
 ------|------|-----
 1. Tag | |
 2. Tag | |
@@ -1160,6 +1160,126 @@ c) Welche Fläche hat die Ziege nach 15 Tagen insgesamt abgegrast?
 
 d) Wie viele Tage müssen mindestens vergehen, damit die Ziege insgesamt mehr als 150m² abgegrast hat?
 
+
+:::: {class="box"}
+::: {}
+
+`r hide("Lösung der Teilaufgabe a)")`
+Die erste Fläche $A_1$ ist ein Kreis mit dem Radius $1\;m$.
+
+Alle weiteren Flächen sind Kreisringe mit der Breite $1\;m$.
+
+Die Skizze findest du im Tipp1 zur Teilaufgabe 1a).
+
+**Berechnung der ersten drei Flächen**
+
+$$\begin{align} A_1 & = \pi \cdot r^2_1 = \\
+                    &= \pi \cdot (1m)^2 \approx 3,14\;m^2 \quad \end{align}$$
+            
+$$\begin{align} A_2 &= \pi \cdot r^2_2 - \pi \cdot r^2_1 =\\
+                    &= \pi \cdot (2m)^2 - \pi\cdot 1\;m^2 =\\
+                    &= \pi \cdot 4m^2 - \pi\;m^2 =\\
+                    &= \pi \cdot (4m^2- 1m^2)=\\
+                    &= 3\pi\;m^2\approx 9,42\;m^2
+\end{align}$$
+
+$$\begin{align} A_3 &= \pi \cdot r^2_3 - \pi \cdot r^2_2 =\\
+                    &= \pi \cdot (3m)^2 - 4\pi\;m^2 =\\
+                    &= \pi \cdot 9m^2 - 4\pi\;m^2 =\\
+                    &= \pi \cdot (9m^2-4m^2)=\\
+                    &= 5\pi\;m^2\approx 15,71\;m^2
+\end{align}$$
+
+Folglich sieht die Tabelle jetzt so aus:
+
+<br> |Länge des Seils (m) | Neu hinzu- kommende Fläche (m²)
+------|------|-----
+1. Tag | 1 | 3,14
+2. Tag | 2 | 9,42
+3. Tag | 3 | 15,71
+
+
+`r unhide()`
+
+:::
+
+::: {}
+
+`r hide("Lösung der Teilaufgabe b)")`
+
+Das Seil, mit dem die Ziege angebunden ist, hat am n-ten Tag eine Länge von $n$ Metern. Am Vortag, also am (n-1)-ten Tag, hatte das Seil eine Länge von $(n-1)$ Metern. Für die am n-ten Tag neu hinzukommende Fläche gilt somit:
+
+$$\begin{align} A_n &= \pi \cdot r^2_n - \pi \cdot r^2_{n-1}=\\
+                    &=\pi \cdot n^2 - \pi \cdot (n-1)^2=\\
+                    &= \pi \cdot n^2 - \pi \cdot (n^2 - 2n + 1)= \\
+                    &=\pi \cdot (n^2 - (n^2- 2n + 1))=\\
+                    &=\pi \cdot (n^2- n^2+2n-1)=\\
+                    &=\pi \cdot(2n-1)
+\end{align}$$
+
+Damit ergibt sich folgende Tabelle:
+
+<br> |Länge des Seils (m) | Neu hinzu- kommende Fläche (m²)
+------|------|-----
+1. Tag | 1 | 3,14
+2. Tag | 2 | 9,42
+3. Tag | 3 | 15,71
+4. Tag | 4 | 21,99
+5. Tag | 5 | 28,27
+6. Tag | 6 | 34,56
+7. Tag | 7 | 40,84
+8. Tag | 8 | 47,12
+9. Tag | 9 | 53,41
+10. Tag | 10| 59,69
+
+
+
+`r unhide()`
+
+:::
+
+::: {}
+
+`r hide("Lösung der Teilaufgabe c)")`
+
+Nach 15 Tagen hat die Ziege eine Kreisfläche mit einem Radius von $15$ Metern abgefressen. Also:
+
+$$\begin{align} F_{abgegrast} &= \pi \cdot (15m)^2=\\
+                              &= 225\pi\;m^2 \approx \\
+                              &\approx 706,86\;m^2\end{align}$$
+
+`r unhide()`
+
+:::
+
+::: {}
+
+`r hide("Lösung der Teilaufgabe d)")`
+
+**Vorüberlegung**
+Gefragt ist, wann die abgefressene Kreisfläche größer oder gleich 150m² ist. Der Radius des Kreises entspricht dabei der Seillänge, aus der praktischer Weise ganz einfach auf die Anzahl der vergangenen Tage geschlossen werden kann. Das Seil hat ja am ersten Tag eine Länge von einem Meter, am zweiten Tag eine Länge von zwei Metern, am dritten Tag eine Länge von drei Metern usw. Am n-ten Tag hat es eine Länge von n Metern.
+
+Wenn man also den Radius des Kreises kennt, weiß man, wann die Ziege 150m² "gemäht" hat.
+
+**Berechnung der zu 150m² passenden Seillänge l**
+
+$$\begin{align} l &= \sqrt{A\over\pi}\\
+                  & = \sqrt{150\;m^2 \over \pi} \approx\\
+                  &\approx 7\;m\end{align}$$
+                  
+Wenn das Seil $7\;m$ lang ist, hat die Ziege 150m² abgefressen. Es braucht also 7 Tage.
+
+**Alternative:**
+
+Addiere die in der Tabelle festgehaltenen Werte für die neu hinzugekommene Fläche, bis der Wert 150 übersteigt. Also:
+$3,14 + 9,42 + 15,71 + 21,99 + ...\overset{?}{=}150$
+
+
+`r unhide()`
+
+:::
+
+::::
 
 
 <br><br><br>
