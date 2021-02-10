@@ -1,0 +1,86 @@
+---
+title: "Dreieck"
+output: webex::webex_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+```{css, echo=FALSE}
+.box {
+        display: flex;
+      }
+
+      .box > * {
+        flex: 1 1 0;
+      }
+```
+
+
+```{css, echo=FALSE}
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+```
+
+
+### Aufgabe 1
+Im folgenden mathematischen "Versuchsaufbau" kannst du mit einem Dreieck experimentieren. Ziehe an den Ecken. Verschiebe sie. Beobachte, wie sich die Höhen verhalten. Wirf auch einen Blick auf die Formeln zur Berechnung des Flächeninhaltes. 
+
+<iframe scrolling="no" title="Veränderbares Dreieck mit Höhen und Flächeninhalt " src="https://www.geogebra.org/material/iframe/id/nqv4nbtg/width/1302/height/568/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1302px" height="568px" style="zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; -o-transform: scale(1); -o-transform-origin: 0 0; -webkit-transform: scale(1); -webkit-transform-origin: 0 0;"> </iframe>
+
+<br>
+
+a) Verändere das Dreieck so, dass eine Höhe außerhalb des Dreiecks liegt. Schaffst du es, dass nur eine Höhe außerhalb des Dreiecks liegt?
+
+b) Verändere das Dreieck so, dass eine Höhe genau auf einer Dreiecksseite liegt. Schaffst du es, dass nur eine Höhe auf einer Dreiecksseite liegt? Welches besondere Dreieck entsteht, wenn eine Höhe mit einer Dreiecksseite übereinstimmt? Was fällt dir in diesem Fall bei den Formeln zur Berechnung des Flächeninhaltes auf?
+
+c) Konstruiere drei unterschiedliche Dreiecke mit dem Flächeninhalt 100.
+
+<br><br>
+
+### Aufgabe 2
+Berechne die fehlende Größe des Dreiecks.
+
+```{r, 'kable'}
+```
+<br>             |a)           |b)        | c)           | d)              | e)          | f) 
+-----------------|-------------|----------|--------------|-----------------|-------------|----------
+ Grundseite g    | $6 cm$      | $4 m$    |              | ${1 \over 2}cm$ |  $3,2 km$   |     
+ Höhe h          |             |          | $8400 m$     | $8cm$           |             | $125cm$ 
+ Flächeninhalt A | $12,6 cm^2$ | $32 m^2$ | $10,08 km^2$ |                 | $8,64 km^2$ | $2 m^2$
+
+
+<br><br>
+
+### Aufgabe 3
+Zeichne  das Dreieck in ein Koordinatensystem und ermittle den Flächeninhalt. Wähle als Achseneinteilung 2 Kästchen = 1 Einheit.
+
+a) A(3|0); B(8|0); C(6|5)
+
+b) A(9|1); B(9|9); C(5|5)
+
+
+<br><br>
+
+### Aufgabe 4
+
+![Erkläre und korrigiere den Fehler.](../Bilder/FlächenberechnungDreieckFehlerFinden.png){width=600}
+
+
+
+<br><br><br><br><br>
+
+Hier geht es zurück zur Übersichtsseite [**Grundlagenausdauer**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html).
+
+
+
+Hier geht es zurück zur [**Startseite**](https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html).
