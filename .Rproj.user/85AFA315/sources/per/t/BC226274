@@ -1,27 +1,27 @@
 {
-    "id": "6CD5E00C",
+    "id": "BC226274",
     "path": "~/github/Mathe_8d/03FormelnErstellen/Grundlagen/TermeZusammenfassen.Rmd",
     "project_path": "03FormelnErstellen/Grundlagen/TermeZusammenfassen.Rmd",
     "type": "r_markdown",
-    "hash": "1215789897",
+    "hash": "2745628288",
     "contents": "",
     "dirty": false,
-    "created": 1612802901816.0,
+    "created": 1612857131225.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "311,0",
-        "scrollLine": "182"
+        "cursorPosition": "1178,74",
+        "scrollLine": "1167"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612827058,
+    "lastKnownWriteTime": 1613074708,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612827058708,
+    "last_content_update": 1613074708711,
     "read_only": false,
     "read_only_alternatives": []
 }

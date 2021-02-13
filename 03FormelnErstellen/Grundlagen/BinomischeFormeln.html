@@ -202,52 +202,1069 @@ summary {
         flex: 1 1 0;
       }
 </style>
+<script language="javascript">
+function toggle(num) {
+var ele = document.getElementById("toggleText" + num);
+var text = document.getElementById("displayText" + num);
+if(ele.style.display == "block") {
+ele.style.display = "none";
+text.innerHTML = "show";
+}
+else {
+ele.style.display = "block";
+text.innerHTML = "hide";
+}
+}
+</script>
+<p>Die binomischen Formeln sind Spezialfälle der Multiplikation von zwei Summen. Merkt man sich diese drei Formeln, spart man sich oft zwei Zwischenschritte. Damit ist man schneller und macht (hoffentlich) weniger Fehler.</p>
+<p><strong>Die 1. binomische Formel</strong></p>
+<p><span class="math display">\[(\color{blue}{a}+\color{red}{b})^2= \color{blue}{a}^2 +2\color{blue}{a}\color{red}{b} + \color{red}{b}^2\]</span></p>
+<p><strong>Die 2. binomische Formel</strong></p>
+<p><span class="math display">\[(\color{blue}{a}-\color{red}{b})^2= \color{blue}{a}^2 -2\color{blue}{a}\color{red}{b} + \color{red}{b}^2\]</span></p>
+<p><strong>Die 3. binomische Formel</strong></p>
+<p><span class="math display">\[(\color{blue}{a}+\color{red}{b})(\color{blue}{a}-\color{red}{b}) = \color{blue}{a}^2 - \color{red}{b}^2\]</span></p>
 <div id="aufgaben" class="section level2 tabset">
 <h2 class="tabset">Aufgaben</h2>
 <div id="section" class="section level3">
 <h3></h3>
-<p><span class="math display">\[ \begin{align} (a+b)² \quad &amp;= a² +2ab + b²\\
-                   {}\\
-                   (a-b)² \quad &amp;= a² -2ab + b²\\
-                   {}\\
-                   (a+b)(a-b) &amp;= a² - b²
-\end{align}\]</span></p>
-<p><br><br></p>
+<p><br><br><br><br><br></p>
+<p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
 </div>
 <div id="aufgabe-1" class="section level3">
 <h3>Aufgabe 1</h3>
-<p>Multipliziere aus. <span class="math display">\[\begin{align}
-a) \quad &amp;(5a+7)² \\
-{}\\
-b) \quad &amp;(4b-2)²  \\
-{}\\
-c) \quad &amp;(7-3x)(7+3x)  \\
-{}\\
-d) \quad &amp;({1 \over 3}x + {2 \over 5}y)²  \\
-{}\\
-e) \quad &amp;( {3 \over 4} a- {2 \over 3} b)²  \\
-{}\\
-f) \quad &amp;({2 \over 3}s - {3 \over 2}t)({2 \over 3}s + {3 \over 2}t)
-\end{align}\]</span></p>
-<p><br><br></p>
+<p>Wende die erste binomische Formel an.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(1);">
+<span class="math inline">\((18u+9a)^2\)</span>
+</button>
+<div id="toggleText1" style="display: none">
+<p><span class="math inline">\(324u^2+324au+81a^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(2);">
+<span class="math inline">\((6+22b)^2\)</span>
+</button>
+<div id="toggleText2" style="display: none">
+<p><span class="math inline">\(484b^2+264b+36\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(3);">
+<span class="math inline">\((13+11d)^2\)</span>
+</button>
+<div id="toggleText3" style="display: none">
+<p><span class="math inline">\(169+286d+121d^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(4);">
+<span class="math inline">\((16l+11r)^2\)</span>
+</button>
+<div id="toggleText4" style="display: none">
+<p><span class="math inline">\(256l^2+352lr+121r^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(5);">
+<span class="math inline">\((24n+5w)^2\)</span>
+</button>
+<div id="toggleText5" style="display: none">
+<p><span class="math inline">\(576n^2+240nw+25w^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(6);">
+<span class="math inline">\((14+16s)^2\)</span>
+</button>
+<div id="toggleText6" style="display: none">
+<p><span class="math inline">\(196+ 448s+256s^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(7);">
+<span class="math inline">\((8f+14z)^2\)</span>
+</button>
+<div id="toggleText7" style="display: none">
+<p><span class="math inline">\(64f^2+224fz+196z^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(8);">
+<span class="math inline">\((h+13i)^2\)</span>
+</button>
+<div id="toggleText8" style="display: none">
+<p><span class="math inline">\(h^2+26hi+169i^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(9);">
+<span class="math inline">\((17n+13r)^2\)</span>
+</button>
+<div id="toggleText9" style="display: none">
+<p><span class="math inline">\(289n^2+442nr+169r^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(10);">
+<span class="math inline">\((11b+4p)^2\)</span>
+</button>
+<div id="toggleText10" style="display: none">
+<p><span class="math inline">\(121b^2+88bp+16p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(11);">
+<span class="math inline">\((3+18w)^2\)</span>
+</button>
+<div id="toggleText11" style="display: none">
+<p><span class="math inline">\(9+108w+324w^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(12);">
+<span class="math inline">\((20i+24h)^2\)</span>
+</button>
+<div id="toggleText12" style="display: none">
+<p><span class="math inline">\(400i^2+960hi+576h^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(13);">
+<span class="math inline">\((20r+8i)^2\)</span>
+</button>
+<div id="toggleText13" style="display: none">
+<p><span class="math inline">\(400r^2+320ir+64i^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(14);">
+<span class="math inline">\((c+5d)^2\)</span>
+</button>
+<div id="toggleText14" style="display: none">
+<p><span class="math inline">\(c^2+10cd+25d^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(15);">
+<span class="math inline">\((7+19x^2)^2\)</span>
+</button>
+<div id="toggleText15" style="display: none">
+<p><span class="math inline">\(49+266x^2+361x^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(16);">
+<span class="math inline">\((22s+9fs)^2\)</span>
+</button>
+<div id="toggleText16" style="display: none">
+<p><span class="math inline">\(484s^2+396fs^2+81f^2s^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(17);">
+<span class="math inline">\((22b+2l^2)^2\)</span>
+</button>
+<div id="toggleText17" style="display: none">
+<p><span class="math inline">\(484b^2+88bl^2+4l^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(18);">
+<span class="math inline">\((15vw+17a)^2\)</span>
+</button>
+<div id="toggleText18" style="display: none">
+<p><span class="math inline">\(225v^2w^2+510avw+289a^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(19);">
+<span class="math inline">\((4le+7el)^2\)</span>
+</button>
+<div id="toggleText19" style="display: none">
+<p><span class="math inline">\(121e^2l^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(20);">
+<span class="math inline">\((2t^2+23t)^2\)</span>
+</button>
+<div id="toggleText20" style="display: none">
+<p><span class="math inline">\(4t^4+92t^3+529t^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(21);">
+<span class="math inline">\((18h^3+13n)^2\)</span>
+</button>
+<div id="toggleText21" style="display: none">
+<p><span class="math inline">\(324h^6+468h^3n+169n^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(22);">
+<span class="math inline">\((13+16m^4)^2\)</span>
+</button>
+<div id="toggleText22" style="display: none">
+<p><span class="math inline">\(169+416m^4+256m^8\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(23);">
+<span class="math inline">\((10l+7lp)^2\)</span>
+</button>
+<div id="toggleText23" style="display: none">
+<p><span class="math inline">\(100l^2+140l^2p+49l^2p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(24);">
+<span class="math inline">\((6p+ {7 \over p})^2\)</span>
+</button>
+<div id="toggleText24" style="display: none">
+<p><span class="math inline">\(36p^2+ 84 +{49 \over p^2}\)</span></p>
+</div>
+</div>
+</div>
+<p><br><br><br><br><br></p>
+<p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
 </div>
 <div id="aufgabe-2" class="section level3">
 <h3>Aufgabe 2</h3>
-<p>Schreibe als Produkt. <span class="math display">\[\begin{align}
-a) \quad &amp; x²+8x+16\\
-{}\\
-b) \quad &amp; 4a²- 12ab +9b¹  \\
-{}\\
-c) \quad &amp; 16s²-25t²  \\
-{}\\
-d) \quad &amp;{1 \over 4} +y+y² \\
-{}\\
-e) \quad &amp;{1 \over 9}x² - {4 \over 3}x + 4  \\
-{}\\
-f) \quad &amp;-{25 \over 9}s² + {16 \over 25}t²
-\end{align}\]</span></p>
+<p>Wende die zweite binomische Formel an.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(25);">
+<span class="math inline">\((2h-15k)^2\)</span>
+</button>
+<div id="toggleText25" style="display: none">
+<p><span class="math inline">\(4h^2-60hk+225k^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(26);">
+<span class="math inline">\((6z-5b)^2\)</span>
+</button>
+<div id="toggleText26" style="display: none">
+<p><span class="math inline">\(36z^2-60bz+25b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(27);">
+<span class="math inline">\((22i-19w)^2\)</span>
+</button>
+<div id="toggleText27" style="display: none">
+<p><span class="math inline">\(484i^2-836iw+361w^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(28);">
+<span class="math inline">\(((-18c)+19h)^2\)</span>
+</button>
+<div id="toggleText28" style="display: none">
+<p><span class="math inline">\(324c^2-684ch+361h^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(29);">
+<span class="math inline">\(((-15m)+24a)^2\)</span>
+</button>
+<div id="toggleText29" style="display: none">
+<p><span class="math inline">\(576a^2-720am+225m^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(30);">
+<span class="math inline">\(((-13u)-7l)^2\)</span>
+</button>
+<div id="toggleText30" style="display: none">
+<p><span class="math inline">\(169u^2+182lu+49l^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(31);">
+<span class="math inline">\((14e-c^2)^2\)</span>
+</button>
+<div id="toggleText31" style="display: none">
+<p><span class="math inline">\(196e^2+28ce+c^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(32);">
+<span class="math inline">\((-3x+3s)^2\)</span>
+</button>
+<div id="toggleText32" style="display: none">
+<p><span class="math inline">\(9s^2-18sx+9x^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(33);">
+<span class="math inline">\((22-25s)^2\)</span>
+</button>
+<div id="toggleText33" style="display: none">
+<p><span class="math inline">\(484-1100s+625s^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(34);">
+<span class="math inline">\(((-10s)+13qs)^2\)</span>
+</button>
+<div id="toggleText34" style="display: none">
+<p><span class="math inline">\(100s^2-260qs^2+169q^2s^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(35);">
+<span class="math inline">\(((-24w)+8z)^2\)</span>
+</button>
+<div id="toggleText35" style="display: none">
+<p><span class="math inline">\(576w^2-384wz+64z^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(36);">
+<span class="math inline">\((21b-24z)^2\)</span>
+</button>
+<div id="toggleText36" style="display: none">
+<p><span class="math inline">\(441b^2-1008bz+576z^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(37);">
+<span class="math inline">\((16v^2+6)^2\)</span>
+</button>
+<div id="toggleText37" style="display: none">
+<p><span class="math inline">\(256v^4+192v^2+36\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(38);">
+<span class="math inline">\((7t-6do)^2\)</span>
+</button>
+<div id="toggleText38" style="display: none">
+<p><span class="math inline">\(49t^2-84dot+36d^2o^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(39);">
+<span class="math inline">\((e-12r)^2\)</span>
+</button>
+<div id="toggleText39" style="display: none">
+<p><span class="math inline">\(e^2-24er+144r^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(40);">
+<span class="math inline">\(((-w)+24b)^2\)</span>
+</button>
+<div id="toggleText40" style="display: none">
+<p><span class="math inline">\(w^2-48bw+576b^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(41);">
+<span class="math inline">\((15m-25)^2\)</span>
+</button>
+<div id="toggleText41" style="display: none">
+<p><span class="math inline">\(225m^2-750m+625\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(42);">
+<span class="math inline">\(((-6)-22h)^2\)</span>
+</button>
+<div id="toggleText42" style="display: none">
+<p><span class="math inline">\(36+264h+484h^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(43);">
+<span class="math inline">\(((-10j)+2q)^2\)</span>
+</button>
+<div id="toggleText43" style="display: none">
+<p><span class="math inline">\(100j^2-40jq+4q^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(44);">
+<span class="math inline">\((19l-12t)^2\)</span>
+</button>
+<div id="toggleText44" style="display: none">
+<p><span class="math inline">\(361l^2-456lt+144t^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(45);">
+<span class="math inline">\((12w^2-3h^2)^2\)</span>
+</button>
+<div id="toggleText45" style="display: none">
+<p><span class="math inline">\(144w^4-72h^2w^2+9h^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(46);">
+<span class="math inline">\(((-8q)-18c)^2\)</span>
+</button>
+<div id="toggleText46" style="display: none">
+<p><span class="math inline">\(64q^2+288cq+324c^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(47);">
+<span class="math inline">\(((-15e)-{1,4 \over e})^2\)</span>
+</button>
+<div id="toggleText47" style="display: none">
+<p><span class="math inline">\(225e^2+42+{1,96 \over e^2}\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(48);">
+<span class="math inline">\((6p- {7 \over p})^2\)</span>
+</button>
+<div id="toggleText48" style="display: none">
+<p><span class="math inline">\(36p^2- 84 +{49 \over p^2}\)</span></p>
+</div>
+</div>
+</div>
+<p><br><br><br><br><br></p>
+<p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
+<p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
+</div>
+<div id="aufgabe-3" class="section level3">
+<h3>Aufgabe 3</h3>
+<p>Wende die dritte binomische Formel an.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(49);">
+<span class="math inline">\((8u+9a)(8u-9a)\)</span>
+</button>
+<div id="toggleText49" style="display: none">
+<p><span class="math inline">\(64u^2-81a^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(50);">
+<span class="math inline">\((2a+22b)(2a-22b)\)</span>
+</button>
+<div id="toggleText50" style="display: none">
+<p><span class="math inline">\(4a^2-484b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(51);">
+<span class="math inline">\((13d+11)(13d-11)\)</span>
+</button>
+<div id="toggleText51" style="display: none">
+<p><span class="math inline">\(169d^2-121\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(52);">
+<span class="math inline">\((15k+12r)(15k-12r)\)</span>
+</button>
+<div id="toggleText52" style="display: none">
+<p><span class="math inline">\(225k^2-144r^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(53);">
+<span class="math inline">\((24v+7w)(24v-7w)\)</span>
+</button>
+<div id="toggleText53" style="display: none">
+<p><span class="math inline">\(576v^2-49w^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(54);">
+<span class="math inline">\((16s+14t)(16s-14t)\)</span>
+</button>
+<div id="toggleText54" style="display: none">
+<p><span class="math inline">\(256s^2-196t^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(55);">
+<span class="math inline">\(({1 \over 8}f+{3\over 7}e)({1 \over 8}f-{3\over 7}e)\)</span>
+</button>
+<div id="toggleText55" style="display: none">
+<p><span class="math inline">\({1 \over 64}f^2-{9 \over 49}e^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(56);">
+<span class="math inline">\((3h+13i)(3h-13i)\)</span>
+</button>
+<div id="toggleText56" style="display: none">
+<p><span class="math inline">\(9h^2-169i^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(57);">
+<span class="math inline">\(({5 \over 6} n + 2g)({5 \over 6} n - 2g)\)</span>
+</button>
+<div id="toggleText57" style="display: none">
+<p><span class="math inline">\({25 \over 36} n^2 - 4g^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(58);">
+<span class="math inline">\((11b-4p)(11b+4p)\)</span>
+</button>
+<div id="toggleText58" style="display: none">
+<p><span class="math inline">\(121b^2-16p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(59);">
+<span class="math inline">\((3a+17b)(3a-17b)\)</span>
+</button>
+<div id="toggleText59" style="display: none">
+<p><span class="math inline">\(9a^2-289b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(60);">
+<span class="math inline">\((7g+0,4h)(7g-0,4h)\)</span>
+</button>
+<div id="toggleText60" style="display: none">
+<p><span class="math inline">\(49g^2-0,16h^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(61);">
+<span class="math inline">\((20r+8i)(20r-8i)\)</span>
+</button>
+<div id="toggleText61" style="display: none">
+<p><span class="math inline">\(400r^2-64i^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(62);">
+<span class="math inline">\(({1 \over 2}+b)({1 \over 2}-b)\)</span>
+</button>
+<div id="toggleText62" style="display: none">
+<p><span class="math inline">\({1 \over 4}-b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(63);">
+<span class="math inline">\((7+19x^2)(7-19x^2)\)</span>
+</button>
+<div id="toggleText63" style="display: none">
+<p><span class="math inline">\(49-361x^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(64);">
+<span class="math inline">\((21t+9ft)(21t-9ft)\)</span>
+</button>
+<div id="toggleText64" style="display: none">
+<p><span class="math inline">\(441t^2-81f^2t^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(65);">
+<span class="math inline">\((12b+2l^2)(12b-2l^2)\)</span>
+</button>
+<div id="toggleText65" style="display: none">
+<p><span class="math inline">\(144b^2-4l^4\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(66);">
+<span class="math inline">\((13vw+16a)(13vw-16a)\)</span>
+</button>
+<div id="toggleText66" style="display: none">
+<p><span class="math inline">\(169v^2w^2-256a^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(67);">
+<span class="math inline">\((42da+7ad)(42da-7ad)\)</span>
+</button>
+<div id="toggleText67" style="display: none">
+<p><span class="math inline">\(1715a^2d^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(68);">
+<span class="math inline">\((2t^2+11t)(2t^2-11t)\)</span>
+</button>
+<div id="toggleText68" style="display: none">
+<p><span class="math inline">\(4t^4-121t^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(69);">
+<span class="math inline">\((6h^3+13n)(6h^3-13n)\)</span>
+</button>
+<div id="toggleText69" style="display: none">
+<p><span class="math inline">\(36h^6-169n^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(70);">
+<span class="math inline">\((5+16m^4)(5-16m^4)\)</span>
+</button>
+<div id="toggleText70" style="display: none">
+<p><span class="math inline">\(25-256m^8\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(71);">
+<span class="math inline">\((10l+7lp)(10l-7lp)\)</span>
+</button>
+<div id="toggleText71" style="display: none">
+<p><span class="math inline">\(100l^2-49l^2p^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(72);">
+<span class="math inline">\(({10 \over 11}+{7 \over p})({10 \over 11}-{7 \over p})\)</span>
+</button>
+<div id="toggleText72" style="display: none">
+<p><span class="math inline">\({100 \over 121} - {49 \over p^2}\)</span></p>
+</div>
+</div>
+</div>
+<p><br><br><br><br><br></p>
+<p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
+<p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
+</div>
+<div id="aufgabe-4" class="section level3">
+<h3>Aufgabe 4</h3>
+<p>Wende eine passende binomische Formel an.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(73);">
+<span class="math inline">\((1,8j-23g)^2\)</span>
+</button>
+<div id="toggleText73" style="display: none">
+<p><span class="math inline">\(3,24j^2-82,8gj+529g^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(74);">
+<span class="math inline">\((1,8j+23g)(1,8j-23g)\)</span>
+</button>
+<div id="toggleText74" style="display: none">
+<p><span class="math inline">\(3,24j^2-529g^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(75);">
+<span class="math inline">\((7u-1,3)^2\)</span>
+</button>
+<div id="toggleText75" style="display: none">
+<p><span class="math inline">\(49u^2-18,2u+1,69\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(76);">
+<span class="math inline">\((2,1i+9q)^2\)</span>
+</button>
+<div id="toggleText76" style="display: none">
+<p><span class="math inline">\(4,41i^2+37,8iq+81q^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(77);">
+<span class="math inline">\((2,4n-1,6f)^2\)</span>
+</button>
+<div id="toggleText77" style="display: none">
+<p><span class="math inline">\(5,76n^2-7,68fn+2,56f^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(78);">
+<span class="math inline">\((-0,5j+0,5l)^2\)</span>
+</button>
+<div id="toggleText78" style="display: none">
+<p><span class="math inline">\(0,25j^2-0,5jl+0,25l^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(79);">
+<span class="math inline">\((10h+1,4z)^2\)</span>
+</button>
+<div id="toggleText79" style="display: none">
+<p><span class="math inline">\(100h^2+28hz+1,96z^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(80);">
+<span class="math inline">\((1,2x+6h)^2\)</span>
+</button>
+<div id="toggleText80" style="display: none">
+<p><span class="math inline">\(1,44x^2+14,4hx+36h^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(81);">
+<span class="math inline">\((2,2t-1,3u)^2\)</span>
+</button>
+<div id="toggleText81" style="display: none">
+<p><span class="math inline">\(4,84t^2-5,72tu+1,69u^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(82);">
+<span class="math inline">\((-0,15+2,4u)^2\)</span>
+</button>
+<div id="toggleText82" style="display: none">
+<p><span class="math inline">\(0,0225-0,72u+5,76u^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(83);">
+<span class="math inline">\((0,23t-11g)^2\)</span>
+</button>
+<div id="toggleText83" style="display: none">
+<p><span class="math inline">\(0,0529t^2-5,06gt+121g^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(84);">
+<span class="math inline">\((10k+{3 \over 4}w)(10k-{3 \over 4}w)\)</span>
+</button>
+<div id="toggleText84" style="display: none">
+<p><span class="math inline">\(100k^2-{9 \over 16}w^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(85);">
+<span class="math inline">\(({18 \over 19}v+{7 \over 19})^2\)</span>
+</button>
+<div id="toggleText85" style="display: none">
+<p><span class="math inline">\({324\over 361}v^2+{252 \over 361}v+{49 \over 361}\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(86);">
+<span class="math inline">\((-{12 \over 7}-{3 \over 5}m)^2\)</span>
+</button>
+<div id="toggleText86" style="display: none">
+<p><span class="math inline">\({144 \over 49}+{72\over 35}m+{9 \over 25}m^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(87);">
+<span class="math inline">\((-{1\over 3}n+{21 \over 11}l)^2\)</span>
+</button>
+<div id="toggleText87" style="display: none">
+<p><span class="math inline">\({1 \over 9}n^2 -{14 \over 11}ln + {441\over 121}l^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(88);">
+<span class="math inline">\(({10 \over 11} + {1 \over 2}n)^2\)</span>
+</button>
+<div id="toggleText88" style="display: none">
+<p><span class="math inline">\({100 \over 121}+{10 \over 11}n+{1 \over 4}n^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(89);">
+<span class="math inline">\((2m-{1\over 22}b)(2m+{1\over 22}b)\)</span>
+</button>
+<div id="toggleText89" style="display: none">
+<p><span class="math inline">\(4m^2-{1 \over 484}b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(90);">
+<span class="math inline">\(({1 \over 6}n-{2 \over 3}g)^2\)</span>
+</button>
+<div id="toggleText90" style="display: none">
+<p><span class="math inline">\({1 \over 36}n^2 - {2 \over 9}gn + {4 \over 9}g^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(91);">
+<span class="math inline">\(({1 \over 2} +b)({1 \over 2}-b)\)</span>
+</button>
+<div id="toggleText91" style="display: none">
+<p><span class="math inline">\({1 \over 4}-b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(92);">
+<span class="math inline">\((-{1 \over 7}s-{5 \over 8}g)^2\)</span>
+</button>
+<div id="toggleText92" style="display: none">
+<p><span class="math inline">\({1 \over 49}s^2 + {5 \over 28}gs + {25 \over 64}g^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(93);">
+<span class="math inline">\(({4 \over 7}n-{5 \over 9})^2\)</span>
+</button>
+<div id="toggleText93" style="display: none">
+<p><span class="math inline">\({16 \over 49}n^2-{40 \over 63}n+{25 \over 81}\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(94);">
+<span class="math inline">\((-{2 \over 3}a-{3 \over 4}b)(-{2 \over 3}a+{3 \over 4}b)\)</span>
+</button>
+<div id="toggleText94" style="display: none">
+<p><span class="math inline">\({4 \over 9}a^2-{9 \over 4}b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(95);">
+<span class="math inline">\(({8 \over 9}r+{1 \over 5}b)^2\)</span>
+</button>
+<div id="toggleText95" style="display: none">
+<p><span class="math inline">\({64 \over 81}r^2+{16\over 45}br+{1 \over 25}b^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(96);">
+<span class="math inline">\((-{2 \over 3}r+{3 \over 4}r)^2\)</span>
+</button>
+<div id="toggleText96" style="display: none">
+<p><span class="math inline">\({1 \over 144}r^2\)</span></p>
+</div>
+</div>
+</div>
+<p><br><br><br><br><br></p>
+<p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
+<p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
+</div>
+<div id="aufgabe-5" class="section level3">
+<h3>Aufgabe 5</h3>
+<p>Wende eine passende binomische Formel an, um die Summe als Produkt zu schreiben.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(97);">
+<span class="math inline">\(4r^2-12rx+9x^2\)</span>
+</button>
+<div id="toggleText97" style="display: none">
+<p><span class="math inline">\((2r-3x)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(98);">
+<span class="math inline">\(121z^2+374uz+289u^2\)</span>
+</button>
+<div id="toggleText98" style="display: none">
+<p><span class="math inline">\((11z+17u)\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(99);">
+<span class="math inline">\(4b^2-36bc+81c^2\)</span>
+</button>
+<div id="toggleText99" style="display: none">
+<p><span class="math inline">\((2b-9c)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(100);">
+<span class="math inline">\(k^2-46gk+529g^2\)</span>
+</button>
+<div id="toggleText100" style="display: none">
+<p><span class="math inline">\((-k+23g)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(101);">
+<span class="math inline">\(324j^2+432j+144\)</span>
+</button>
+<div id="toggleText101" style="display: none">
+<p><span class="math inline">\((18j+12)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(102);">
+<span class="math inline">\(400c^2-1000cg+625g^2\)</span>
+</button>
+<div id="toggleText102" style="display: none">
+<p><span class="math inline">\((20c-25g)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(103);">
+<span class="math inline">\(196a^2+56a+4\)</span>
+</button>
+<div id="toggleText103" style="display: none">
+<p><span class="math inline">\((14a+2)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(104);">
+<span class="math inline">\(2,25r^2+15rs+25s^2\)</span>
+</button>
+<div id="toggleText104" style="display: none">
+<p><span class="math inline">\((1,5r+5s)^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(105);">
+<span class="math inline">\(16s^4+11,2s^2w+1,96w^2\)</span>
+</button>
+<div id="toggleText105" style="display: none">
+<p><span class="math inline">\((4s^2+1,4w)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(106);">
+<span class="math inline">\(0,16g^2+8gn+100n^2\)</span>
+</button>
+<div id="toggleText106" style="display: none">
+<p><span class="math inline">\((0,4g+10n)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(107);">
+<span class="math inline">\(0,09y^4-2,4y^2z+16z^2\)</span>
+</button>
+<div id="toggleText107" style="display: none">
+<p><span class="math inline">\((0,3y^2-4z)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(108);">
+<span class="math inline">\(4w^4+8,4w^2f^2+4,41f^4\)</span>
+</button>
+<div id="toggleText108" style="display: none">
+<p><span class="math inline">\((2w^2+2,1f^2)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(109);">
+<span class="math inline">\(0,81d^4-16,2d^2l+81l^2\)</span>
+</button>
+<div id="toggleText109" style="display: none">
+<p><span class="math inline">\((0,9d^2-9l)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(110);">
+<span class="math inline">\(400y^4-92y^2k^2+5,29k^4\)</span>
+</button>
+<div id="toggleText110" style="display: none">
+<p><span class="math inline">\((20y^2-2,3k^2)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(111);">
+<span class="math inline">\({1 \over 4}t^2-{6 \over 7}tx+{36 \over 49}x^2\)</span>
+</button>
+<div id="toggleText111" style="display: none">
+<p><span class="math inline">\(({1 \over 2}t-{6 \over 7}x)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(112);">
+<span class="math inline">\({16 \over 81}g^2-{16 \over 45}ga+{4 \over 25}a^2\)</span>
+</button>
+<div id="toggleText112" style="display: none">
+<p><span class="math inline">\(({4 \over 9}g-{2 \over 5}a)^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(113);">
+<span class="math inline">\({1 \over 81}h^2+{4 \over 27}hv+{4 \over 9}v^2\)</span>
+</button>
+<div id="toggleText113" style="display: none">
+<p><span class="math inline">\(({1 \over 9}h+{2 \over 3}v)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(114);">
+<span class="math inline">\({9 \over 16}y^2-{2 \over 3}ys+{16 \over 81}s^2\)</span>
+</button>
+<div id="toggleText114" style="display: none">
+<p><span class="math inline">\(({3 \over 4}y-{4 \over 9}s)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(115);">
+<span class="math inline">\({1 \over 4}i^2-{4 \over 5}in+{16 \over 25}n^2\)</span>
+</button>
+<div id="toggleText115" style="display: none">
+<p><span class="math inline">\(({1 \over 2}i-{4 \over 5}n)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(116);">
+<span class="math inline">\({1 \over 16}r^2-{5 \over 16}ir+{25 \over 64}i^2\)</span>
+</button>
+<div id="toggleText116" style="display: none">
+<p><span class="math inline">\(({1 \over 4}r-{5 \over 8}i)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(117);">
+<span class="math inline">\({49 \over 64}i^2-{35 \over 36}gi+{25 \over 81}g^2\)</span>
+</button>
+<div id="toggleText117" style="display: none">
+<p><span class="math inline">\(({7 \over 8}i-{5 \over 9}g)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(118);">
+<span class="math inline">\({25 \over 49}r^2+{10 \over 9}r+{49 \over 81}\)</span>
+</button>
+<div id="toggleText118" style="display: none">
+<p><span class="math inline">\(({5 \over 7}r+{7 \over 9})^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(119);">
+<span class="math inline">\({4 \over 81}g^2-{20 \over 63}gh+{25 \over 49}h^2\)</span>
+</button>
+<div id="toggleText119" style="display: none">
+<p><span class="math inline">\(({2 \over 9}g-{5 \over 7}h)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(120);">
+<span class="math inline">\({1 \over 4}j^2+{5 \over 6}ju+{25 \over 36}u^2\)</span>
+</button>
+<div id="toggleText120" style="display: none">
+<p><span class="math inline">\(({1 \over 2}j+{5 \over 6}u)^2\)</span></p>
+</div>
+</div>
+</div>
+<p><br><br><br><br><br></p>
+<p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
+<p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>
+</div>
+<div id="aufgabe-6" class="section level3">
+<h3>Aufgabe 6</h3>
+<p>Ergänze die Summe um einen Summanden so, dass du sie mit Hilfe der ersten oder zweiten binomischen Formel in ein Produkt umwandeln kannst. Schreibe die geschickt ergänzte Summe anschließend als Produkt.</p>
+<div class="box">
+<div>
+<button id="displayText" onclick="javascript:toggle(121);">
+<span class="math inline">\(9+576b^2\)</span>
+</button>
+<div id="toggleText121" style="display: none">
+<p><span class="math inline">\(9-144b+576b^2=(3-24b)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(122);">
+<span class="math inline">\(400k^2+324y^2\)</span>
+</button>
+<div id="toggleText122" style="display: none">
+<p><span class="math inline">\(400k^2+720ky+324y^2=(20k+18y)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(123);">
+<span class="math inline">\(44pt+484t^2\)</span>
+</button>
+<div id="toggleText123" style="display: none">
+<p><span class="math inline">\(p^2+44pt+484t^2=(p+22t)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(124);">
+<span class="math inline">\(225b^2-90bc\)</span>
+</button>
+<div id="toggleText124" style="display: none">
+<p><span class="math inline">\(225b^2-90bc+9c^2=(15b-3c)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(125);">
+<span class="math inline">\(46i+529\)</span>
+</button>
+<div id="toggleText125" style="display: none">
+<p><span class="math inline">\(i^2+46i+529=(i+23)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(126);">
+<span class="math inline">\(16w^2+64l^2\)</span>
+</button>
+<div id="toggleText126" style="display: none">
+<p><span class="math inline">\(16w^2+64wl+64l^2=(4w+8l)^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(127);">
+<span class="math inline">\(2,56+5,29d^2\)</span>
+</button>
+<div id="toggleText127" style="display: none">
+<p><span class="math inline">\(2,56+7,36d+5,29d^2=(1,6+2,3d)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(128);">
+<span class="math inline">\(100g^2-36gq\)</span>
+</button>
+<div id="toggleText128" style="display: none">
+<p><span class="math inline">\(100g^2-36gq+3,24q^2=(10g-1,8q)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(129);">
+<span class="math inline">\(5,72fl+1,69f^2\)</span>
+</button>
+<div id="toggleText129" style="display: none">
+<p><span class="math inline">\(4,84l^2+5,72fl+1,69f^2=(2,2l+1,3f)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(130);">
+<span class="math inline">\(-10,4sz+16z^2\)</span>
+</button>
+<div id="toggleText130" style="display: none">
+<p><span class="math inline">\(1,69s^2-10,4sz+16z^2=(1,3s-4z)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(131);">
+<span class="math inline">\(4,41n^2+2,25d^2\)</span>
+</button>
+<div id="toggleText131" style="display: none">
+<p><span class="math inline">\(4,41n^2-6,3dn+2,25d^2=(2,1n-1,5d)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(132);">
+<span class="math inline">\(0,81e^2-10,8be\)</span>
+</button>
+<div id="toggleText132" style="display: none">
+<p><span class="math inline">\(0,81e^2-10,8be+36b^2=(0,9e-6b)^2\)</span></p>
+</div>
+</div>
+<div>
+<button id="displayText" onclick="javascript:toggle(133);">
+<span class="math inline">\({1 \over 14}tz+{25 \over 196}z^2\)</span>
+</button>
+<div id="toggleText133" style="display: none">
+<p><span class="math inline">\({1 \over 100}t^2+{1 \over 14}tz+{25 \over 196}z^2=({1 \over 10}t+{5 \over 14}z)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(134);">
+<span class="math inline">\({16 \over 81}d^2-{2 \over 9}dq\)</span>
+</button>
+<div id="toggleText134" style="display: none">
+<p><span class="math inline">\({16 \over 81}d^2-{2 \over 9}dq+{1 \over 16}q^2=({4 \over 9}d-{1 \over 4}q)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(135);">
+<span class="math inline">\({49 \over 256}v^2+{7 \over 18}vt\)</span>
+</button>
+<div id="toggleText135" style="display: none">
+<p><span class="math inline">\({49 \over 256}v^2+{7 \over 18}vt+{16 \over 81}t^2=({7 \over 16}v+{4 \over 9}t)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(136);">
+<span class="math inline">\({4 \over 5}w+{1 \over 4}w^2\)</span>
+</button>
+<div id="toggleText136" style="display: none">
+<p><span class="math inline">\({16 \over 25}+{4 \over 5}w+{1 \over 4}w^2=({4 \over 5}+{1 \over 2}w)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(137);">
+<span class="math inline">\({36 \over 169}s^2+{25 \over 64}p^2\)</span>
+</button>
+<div id="toggleText137" style="display: none">
+<p><span class="math inline">\({36 \over 169}s^2+{15 \over 26}sp+{25 \over 64}p^2=({6 \over 13}s+{5 \over 8}p)^2\)</span></p>
+</div>
+<p><br></p>
+<button id="displayText" onclick="javascript:toggle(138);">
+<span class="math inline">\({36 \over 121}y^2+{25 \over 49}a^2\)</span>
+</button>
+<div id="toggleText138" style="display: none">
+<p><span class="math inline">\({36 \over 121}y^2+{60 \over 77}ya+{25 \over 49}a^2=({6 \over 11}y+{5 \over 7}a)^2\)</span></p>
+</div>
+</div>
+</div>
 <p><br><br><br><br><br></p>
 <p>Hier geht es zurück zur Übersichtsseite <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/Grundlagenausdauer.html"><strong>Grundlagenausdauer</strong></a>.</p>
 <p>Hier geht es zurück zur <a href="https://gdischinger.github.io/Mathe_8d/03FormelnErstellen/FlächenberechnungErinnerung.html"><strong>Startseite</strong></a>.</p>

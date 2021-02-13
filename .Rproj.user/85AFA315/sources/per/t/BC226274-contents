@@ -1021,12 +1021,247 @@ $$ (b+c) \cdot \color{blue}{a}  = b \cdot \color{blue}{a} + c \cdot \color{blue}
 <br><br><br>
 
 #### Aufgabe 1
+Löse die Klammer auf, indem du ausmultiplizierst.
 
+:::: {class="box"}
+::: {}
+
+<button id="displayText" onclick="javascript:toggle(81);">$5\cdot (x+2y)$</button>
+<div id="toggleText81" style="display: none">
+
+$5x+10y$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(82);">$7\cdot (3x-4y)$</button>
+<div id="toggleText82" style="display: none">
+
+$21x-28y$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(83);">$-7\cdot (2a-3b)$</button>
+<div id="toggleText83" style="display: none">
+
+$-14a+21b$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(84);">$3\cdot (a+3b-c)$</button>
+<div id="toggleText84" style="display: none">
+
+$3a+9b-3c$
+
+</div>
+
+:::
+
+::: {}
+
+<button id="displayText" onclick="javascript:toggle(85);">$-5 \cdot (2a-2x+7)$</button>
+<div id="toggleText85" style="display: none">
+
+$-10a+10x-35$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(86);">$7 \cdot(2x-3y+5z-11)$</button>
+<div id="toggleText86" style="display: none">
+
+$14x-21y+35z-77$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(87);">$x \cdot (a+b+c)$</button>
+<div id="toggleText87" style="display: none">
+
+$ax+bx+cx$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(88);">$x\cdot (3y-2z)$</button>
+<div id="toggleText88" style="display: none">
+
+$3xy-2xz$
+
+</div>
+
+:::
+
+::: {}
+
+<button id="displayText" onclick="javascript:toggle(89);">$2y \cdot (5x-2z)$</button>
+<div id="toggleText89" style="display: none">
+
+$10xy-4yz$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(90);">$2x \cdot (5x-9)$</button>
+<div id="toggleText90" style="display: none">
+
+$10x^2-18x$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(91);">$7a\cdot (ac+ad)$</button>
+<div id="toggleText91" style="display: none">
+
+$7a^2 c +7a^2 d$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(92);">$-5s \cdot (s+st-s^2)$</button>
+<div id="toggleText92" style="display: none">
+
+$-5s^2-5s^2t+5s^3$
+
+</div>
+
+:::
+
+::::
 
 <br><br><br>
 
-#### Aufgabe 2
 
+#### Aufgabe 2
+Löse die Klammer auf, indem du ausmultiplizierst oder vereinfachst.
+
+:::: {class="box"}
+::: {}
+
+<button id="displayText" onclick="javascript:toggle(93);">$6 \cdot (2x-5y)$</button>
+<div id="toggleText93" style="display: none">
+
+$12x-30y$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(94);">$6 \cdot (2x-5x)$</button>
+<div id="toggleText94" style="display: none">
+
+$-18x$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(95);">$2d\cdot (4e-f)$</button>
+<div id="toggleText95" style="display: none">
+
+$8de-2df$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(96);">$2d\cdot (4e-e)$</button>
+<div id="toggleText96" style="display: none">
+
+$6de$
+
+</div>
+
+:::
+
+::: {}
+
+<button id="displayText" onclick="javascript:toggle(97);">$4\cdot (4a^2+5a^2)$</button>
+<div id="toggleText97" style="display: none">
+
+$36a^2$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(98);">$4\cdot (4a^2+5x^2)$</button>
+<div id="toggleText98" style="display: none">
+
+$16a^2 + 20x^2$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(99);">$(7x-4)\cdot (-5)$</button>
+<div id="toggleText99" style="display: none">
+
+$-35x+20$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(100);">$mn \cdot (m+2n)$</button>
+<div id="toggleText100" style="display: none">
+
+$m^2 n + 2mn^2$
+
+</div>
+
+:::
+
+::: {}
+
+<button id="displayText" onclick="javascript:toggle(101);">$m \cdot (n+2n) \cdot m$</button>
+<div id="toggleText101" style="display: none">
+
+$3m^2 n$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(102);">$a^2 \cdot(b+a)$</button>
+<div id="toggleText102" style="display: none">
+
+$a^3 + a^2b$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(103);">$a^2 \cdot (a^2 +a)$</button>
+<div id="toggleText103" style="display: none">
+
+$a^4 + a^3$
+
+</div>
+
+<br>
+
+<button id="displayText" onclick="javascript:toggle(104);">$-3d^2 \cdot (-2de^2 +6e)$</button>
+<div id="toggleText104" style="display: none">
+
+$6d^3 e^2 -18d^2 e$
+
+</div>
+
+:::
+
+::::
 
 <br><br><br>
 
