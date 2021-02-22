@@ -1,27 +1,28 @@
 {
-    "id": "CB523415",
-    "path": "~/github/Mathe_8d/03FormelnErstellen/Vieleck.Rmd",
-    "project_path": "03FormelnErstellen/Vieleck.Rmd",
+    "id": "43E2F359",
+    "path": "~/github/Mathe_8d/03FormelnErstellen/Kreis.Rmd",
+    "project_path": "03FormelnErstellen/Kreis.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1891432827",
     "contents": "",
     "dirty": false,
-    "created": 1613524363712.0,
+    "created": 1613961345107.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "289,0",
-        "scrollLine": "280"
+        "cursorPosition": "1406,0",
+        "scrollLine": "1390",
+        "last_setup_crc32": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1611651997,
+    "lastKnownWriteTime": 1613961418,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1611651997,
+    "last_content_update": 1613961418078,
     "read_only": false,
     "read_only_alternatives": []
 }

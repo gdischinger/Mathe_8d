@@ -1305,6 +1305,26 @@ Es ist ein heißer Sommer. Etwas Abkühlung ist gefragt. Auch Anna, die gerade 1
 
 ::::
 
+`r hide("Lösung")`
+
+**Vorüberlegung**
+
+Gesucht ist der Durchmesser des Planschbeckens. Kennt man ihn, kann man vielleicht abschätzen, ob sich Anna noch bequem in das Planschbecken legen kann.
+
+**Ermittlung des Durchmessers**
+
+Gegeben ist die Kreisfläche: $A = 2\;m^2$
+
+Folglich gilt für den Radius: $r = \sqrt{A \over \pi} \approx 0,8\;m$
+
+Damit ergibt sich ein Durchmesser von etwa $1,60\;m$
+
+**Antwort**
+
+Da Mädchen mit 12 Jahren im Durchschnitt $1,49\;m$ sind, kann man davon ausgehen, dass Anna zumindest bequem im Wasser liegen kann. Mit Schwimmen wird's aber nix.
+
+`r unhide()`
+
 <br><br><br>
 
 
@@ -1328,6 +1348,25 @@ Beim Torwandschießen versucht man, einen Fußball durch ein Loch zu schießen. 
 
 ::::
 
+`r hide("Lösung")`
+
+**Berechnung des Fußballdurchmessers**
+
+Es gilt: $d={U \over \pi} \approx 22,3\;cm$
+
+**Vergleich der beiden Durchmesser**
+
+Der Durchmesser des Torwandloches ist um ungefähr $55\;cm - 22,3\;cm \approx 32,7\;cm$ größer als der Durchmesser des Balles.
+
+**Platz zwischen dem Ball und dem Rand des Loches**
+
+Da auf beiden Seiten gleich viel Abstand zum Rand des Torwandloches sein soll, muss man diese Differenz noch halbieren. 
+
+Also sind rund um den Ball noch etwa $32,7\;cm : 2 \approx 16,35\;cm$ Platz.
+
+
+`r unhide()`
+
 
 <br><br><br>
 
@@ -1343,7 +1382,13 @@ Es ist Corona. Trotzdem - zumindest die Abiturprüfungen können wohl nicht vom 
 
 Nimm an, die Aula sei quadratförmig und habe einen Flächeninhalt von $100\;m^2$. Die Abiturienten müssen natürlich einen Abstand von 2m zueinander einhalten.
 
-Wie viele Abiturienten passen unter diesen Bedingungen in die Aula? Erstelle zunächst eine Skizze!
+a) Wie viele Abiturienten passen unter diesen Bedingungen in die Aula? Erstelle zunächst eine Skizze!
+
+b) Die drei Mathelehrer, die mit der Bearbeitung dieser Aufgabe betraut wurden, kommen leider zu recht unterschiedlichen Ergebnissen und geraten darüber in Streit. Herr A. behauptet fest, es würden lediglich 25 Abiturient:innen in die Aula passen. Herr B. dagegen, berechnet die für jede:n benötigte Kreisfläche und folgert, dass 31 Abiturient:innen in die Aula passen. Bei Herrn C., der die punktförmigen Abiturient:innen auch an die Wand setzt, passen sogar 36 Personen in die Aula. Vollziehe die drei Ansätze nach! Erstelle zu jeder Situation entweder eine Skizze oder führe eine kurze Rechnung durch. 
+
+c) Wie kann es sein, dass Herr C. 36 Abiturient:innen in die Aula stecken kann, obwohl Herr B. doch durch Rechnung gezeigt hat, dass nur 31 Personen unter Coronabedingungen in die Aula passen?
+
+d) Herr B., der niemandem mehr als die minimal benötigte Kreisfläche zugestehen möchte, ist erbost über die Flächenverschwendung von Herrn A. Wie viel Prozent der Fläche "verschwendet" Herr A.? Wie viel Prozent der Fläche "verschwendet" Herr C., von dessen Ansatz Herr B. begeistert ist? 
 
 :::
 
@@ -1354,6 +1399,11 @@ Wie viele Abiturienten passen unter diesen Bedingungen in die Aula? Erstelle zun
 :::
 
 ::::
+
+
+`r hide("Lösung")`
+
+`r unhide()`
 
 
 <br><br><br>
