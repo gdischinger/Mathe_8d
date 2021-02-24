@@ -1,0 +1,16 @@
+---
+title: "Abschlussquiz"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Bearbeite folgende Aufgaben. Du brauchst dazu **einen Zettel und einen Stift**! Beachte bitte, dass auch **mehrere Lösungen richtig** sein können. Überprüfe am Ende deine Ergebnisse und **stelle deine Rechnungen in OneNote ein** - im Abschnitt Hausaufgaben auf einer Seite mit dem Titel 24. Februar. Manche Aufgaben kannst du vielleicht ohne Zwischenschritte lösen, dann müssen sie auch nicht auf deinem Schmierpapier vermerkt sein. Andere Aufgaben wirst du aber nicht ohne Zwischenschritte lösen können....
+
+<br><br>
+
+<!-- <iframe scrolling="no" title="Der Kreisfläche auf der Spur - ein Versuchsaufbau" src="./Aqui.html" width="1302px" height="632px" style="zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; -o-transform: scale(1); -o-transform-origin: 0 0; -webkit-transform: scale(1); -webkit-transform-origin: 0 0;"> </iframe> -->
+
+<!-- <br><br><br> -->

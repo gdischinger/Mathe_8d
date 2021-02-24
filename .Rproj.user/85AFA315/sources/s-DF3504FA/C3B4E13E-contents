@@ -1,0 +1,1249 @@
+---
+title: "Überprüfe dein Wissen!"
+output: webex::webex_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+
+```{css, echo=FALSE}
+td, tr {
+     border-radius: 10px 10px 10px 10px;
+     padding: 25px 15px;
+     border: 0;
+} 
+
+
+tr:nth-child(odd){ 
+  border-radius: 10px 10px 10px 10px;
+  background-color: #cae1ff; !important 
+}
+
+td:hover { background-color: #dddd; !important }
+
+table {
+    color:black ;
+    /*background-color: #356185 !important;*/
+    background-color: transparent;
+}
+
+caption {
+    color:black;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table td, .book .book-body .page-wrapper .page-inner section.normal table th {
+    padding: 6px 13px;
+    border: 0;
+}
+}
+
+# ✓ {
+# 	color: #0c0;
+# }
+# 
+# ✗ {
+# 	color: #c00;
+# }
+```
+
+
+<form id="FFAbschlussquiz">
+<table border=0 cellspacing="0" cellpadding="5">
+
+<!-- Frage 1 -->
+<tr>
+<td colspan="4">1. Die Formel für den Flächeninhalt eines Trapezes lautet ...</td>
+<td><h3 id="stimmts1">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="1" name="q1" type="checkbox" value="1" />
+      $A = a+c \cdot {h\over 2}$
+</td>
+<td width=25%>     
+<input id="2" name="q1" type="checkbox" value="2" />
+      $A = (a+c) \cdot {h\over 2}$ 
+</td>
+<td width=25%> 
+<input id="3" name="q1" type="checkbox" value="3" />
+      $A = {a+c\over 2} \cdot h$
+</td>
+<td width=25%> 
+<input id="4" name="q1" type="checkbox" value="4" />
+      $A={1 \over 2} \cdot a +c \cdot h$
+</td>
+</tr>
+
+<!-- Frage 2 -->
+<tr>
+<td colspan="4"> 2. Die Höhe des Dreiecks erhält man mit der Formel ... </td>
+<td><h3 id="stimmts2">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="5" name="q2" type="checkbox" value="5" />
+      $h={1\over 2}\cdot A \cdot g$
+</td>
+<td>     
+<input id="6" name="q2" type="checkbox" value="6" />
+      $h=2\cdot A \cdot g$
+</td>
+<td> 
+<input id="7" name="q2" type="checkbox" value="7" />
+       $h={A\over 2\cdot g}$
+</td>
+<td>
+<input id="8" name="q2" type="checkbox" value="8" />
+      $h={2\cdot A \over g}$
+</td>
+</tr>
+
+<!-- Frage 3 -->
+<tr>
+<td colspan="4"> 3. Die Formel zur Berechnung einer Kreisfläche lautet ... </td>
+<td><h3 id="stimmts3">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="9" name="q3" type="checkbox" value="9" />
+      $A = \pi \cdot r^2$
+</td>
+<td width=25%>     
+<input id="10" name="q3" type="checkbox" value="10" />
+      $A = 2 \cdot \pi \cdot r$ 
+</td>
+<td width=25%> 
+<input id="11" name="q3" type="checkbox" value="11" />
+      $A = \pi \cdot d$
+</td>
+<td width=25%> 
+<input id="12" name="q3" type="checkbox" value="12" />
+      $A= \pi \cdot {d^2 \over 4}$
+</td>
+</tr>
+
+<!-- Frage 4 -->
+<tr>
+<td colspan="4"> 4. Für den Radius eines Kreises gilt ... </td>
+<td><h3 id="stimmts4">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="13" name="q4" type="checkbox" value="13" />
+      $r = {1 \over 2}d$
+</td>
+<td>     
+<input id="14" name="q4" type="checkbox" value="14" />
+      $r = {U \over 2 \pi}$
+</td>
+<td> 
+<input id="15" name="q4" type="checkbox" value="15" />
+      $r = \sqrt{A\over \pi}$
+</td>
+<td>
+<input id="16" name="q4" type="checkbox" value="16" />
+     $r = {\sqrt{A}\over \pi}$
+</td>
+</tr>
+
+<!-- Frage 5 -->
+<tr>
+<td colspan="4"> 5. Multipliziere aus: $(4a+3b)^2$ </td>
+<td><h3 id="stimmts5">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="17" name="q5" type="checkbox" value="17" />
+      $4a^2 + 9b^2$
+</td>
+<td width=25%>     
+<input id="18" name="q5" type="checkbox" value="18" />
+      $16a^2+ 24ab+ 9b^2$ 
+</td>
+<td width=25%> 
+<input id="19" name="q5" type="checkbox" value="19" />
+      $4a^2+ 12ab+3b^2$
+</td>
+<td width=25%> 
+<input id="20" name="q5" type="checkbox" value="20" />
+      $4a^2+ 24ab+3b^2$
+</td>
+</tr>
+
+<!-- Frage 6 -->
+<tr>
+<td colspan="4">  6. Multipliziere aus: $(3t-{2 \over 3}s)^2$ </td>
+<td><h3 id="stimmts6">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="21" name="q6" type="checkbox" value="21" />
+      $3t^2-4st+{2\over 3}s^2$
+</td>
+<td>     
+<input id="22" name="q6" type="checkbox" value="22" />
+      $9t^2-4st-{2\over 3}s^2$
+</td>
+<td> 
+<input id="23" name="q6" type="checkbox" value="23" />
+      $9t^2-4st+{4\over 9}s^2$
+</td>
+<td>
+<input id="24" name="q6" type="checkbox" value="24" />
+      $9t^2-{4\over 9}s^2$
+</td>
+</tr>
+
+<!-- Frage 7 -->
+<tr>
+<td colspan="4">  7. Multipliziere aus: $({1\over 4} + 7a)({1\over 4} -7a)$ </td>
+<td><h3 id="stimmts7">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="25" name="q7" type="checkbox" value="25" />
+      ${1 \over 16} - 49a^2$
+</td>
+<td width=25%>     
+<input id="26" name="q7" type="checkbox" value="26" />
+      $49a^2 -{1 \over 16}$
+</td>
+<td width=25%> 
+<input id="27" name="q7" type="checkbox" value="27" />
+       ${1 \over 4} - 7a^2$
+</td>
+<td width=25%> 
+<input id="28" name="q7" type="checkbox" value="28" />
+      ${2 \over 4} - 14a^2$
+</td>
+</tr>
+
+<!-- Frage 8 -->
+<tr>
+<td colspan="4"> 8. Verwandle in ein Produkt: $4s^2 -20st + 25t^2$ </td>
+<td><h3 id="stimmts8">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="29" name="q8" type="checkbox" value="29" />
+      $(2s-5t)(2s+5t)$
+</td>
+<td>     
+<input id="30" name="q8" type="checkbox" value="30" />
+       $(2s-5t)^2$
+</td>
+<td> 
+<input id="31" name="q8" type="checkbox" value="31" />
+       $(4s-25t)^2$
+</td>
+<td>
+<input id="32" name="q8" type="checkbox" value="32" />
+       $(5t-2s)^2$
+</td>
+</tr>
+
+<!-- Frage 9 -->
+<tr>
+<td colspan="4"> 9. Verwandle in ein Produkt: ${9 \over 25} x^2 - 49y^2$</td>
+<td><h3 id="stimmts9">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="33" name="q9" type="checkbox" value="33" />
+      $({3 \over 5}x - 7y)^2$
+</td>
+<td width=25%>     
+<input id="34" name="q9" type="checkbox" value="34" />
+       $({3 \over 5}x + 7y)({3 \over 5}x - 7y)$
+</td>
+<td width=25%> 
+<input id="35" name="q9" type="checkbox" value="35" />
+     $({3 \over 5}x - 7y)({3 \over 5}x + 7y)$
+</td>
+<td width=25%> 
+<input id="36" name="q9" type="checkbox" value="36" />
+      $(7y- {3 \over 5}x)^2$
+</td>
+</tr>
+
+<!-- Frage 10 -->
+<tr>
+<td colspan="4"> 10. Fasse zusammen: $2x-3\cdot(5+y) - 12y+{1 \over 2}\cdot(6x+12)$ </td>
+<td><h3 id="stimmts10">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="37" name="q10" type="checkbox" value="37" />
+      $5x-9y-9$
+</td>
+<td>     
+<input id="38" name="q10" type="checkbox" value="38" />
+      $5x-9y+21$
+</td>
+<td> 
+<input id="39" name="q10" type="checkbox" value="39" />
+      $5x-15y-9$
+</td>
+<td>
+<input id="40" name="q10" type="checkbox" value="40" />
+      $5x-15y+21$
+</td>
+</tr>
+
+<!-- Frage 11 -->
+<tr>
+<td colspan="4"> 11. Fasse zusammen: $-2x(3x+4y-7)+(2x+3)(7y-5)$ </td>
+<td><h3 id="stimmts11">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="41" name="q11" type="checkbox" value="41" />
+      $-6x^2+6xy+4x+21y-15$
+</td>
+<td width=25%>     
+<input id="42" name="q11" type="checkbox" value="42" />
+      $6x^2+22xy+4x+21y+15$ 
+</td>
+<td width=25%> 
+<input id="43" name="q11" type="checkbox" value="43" />
+       $-6x^2+22xy+24x+21y+15$ 
+</td>
+<td width=25%> 
+<input id="44" name="q11" type="checkbox" value="44" />
+     $22xy+30x+21y+15$ 
+</td>
+</tr>
+
+<!-- Frage 12 -->
+<tr>
+<td colspan="4"> 12. Hätte Susanne (s) 28 Briefmarken mehr, dann hätte sie dreimal soviele Briefmarken wie Tamara (t). Durch welchen Term wird dieser Sachverhalt ausgedrückt? </td>
+<td><h3 id="stimmts12">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="45" name="q12" type="checkbox" value="45" />
+      $s = 3t-28$
+</td>
+<td>     
+<input id="46" name="q12" type="checkbox" value="46" />
+      $3s = t-28$
+</td>
+<td> 
+<input id="47" name="q12" type="checkbox" value="47" />
+      $t = 3s+28$
+</td>
+<td>
+<input id="48" name="q12" type="checkbox" value="48" />
+      $s = 3(t-28)$
+</td>
+</tr>
+
+<!-- Frage 13 -->
+<tr>
+<td colspan="4"> 13. Welche Ausage(n) passen zu der Gleichung $x+(x+2)+(x+4)=99$?</td>
+<td><h3 id="stimmts13">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="49" name="q13" type="checkbox" value="49" />
+      Die Summe von drei aufeinanderfolgenden Zahlen beträgt 99.
+</td>
+<td width=25%>     
+<input id="50" name="q13" type="checkbox" value="50" />
+      Die Summe von drei aufeinanderfolgenden geraden Zahlen beträgt 99.
+</td>
+<td width=25%> 
+<input id="51" name="q13" type="checkbox" value="51" />
+      Die Summe von drei aufeinanderfolgenden ungeraden Zahlen beträgt 99.
+</td>
+<td width=25%> 
+<input id="52" name="q13" type="checkbox" value="52" />
+      Das Doppelte und das Vierfache einer Zahl ergeben zusammen 99.
+</td>
+</tr>
+
+<!-- Frage 14 -->
+<tr>
+<td colspan="2"> 14. Drücke den Flächeninhalt des Trapezes in Abhängigkeit von a aus. </td>
+<td colspan="2"> <input type="image" src="../Bilder/A14AQ.png" height="100px"></td>
+<td><h3 id="stimmts14">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="53" name="q14" type="checkbox" value="53" />
+      $A=10,5 \cdot a^2$
+</td>
+<td>     
+<input id="54" name="q14" type="checkbox" value="54" />
+       $A=15 \cdot a^2$
+</td>
+<td> 
+<input id="55" name="q14" type="checkbox" value="55" />
+       $A=21 \cdot a^2$
+</td>
+<td>
+<input id="56" name="q14" type="checkbox" value="56" />
+      $A=30 \cdot a^2$
+</td>
+</tr>
+
+<!-- Frage 15 -->
+<tr>
+<td colspan="2"> 15. Stelle eine Formel auf, mit der du den Flächeninhalt des vierblättrigen Kleeblattes in Abhängingkeit vom Kreisradius (r) bestimmen kannst. </td>
+<td colspan="2"> <input type="image" src="../Bilder/A15AQ.png" height="100px"></td>
+<td><h3 id="stimmts15">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="57" name="q15" type="checkbox" value="57" />
+      $A=4 \cdot \pi \cdot r^2$
+</td>
+<td width=25%>     
+<input id="58" name="q15" type="checkbox" value="58" />
+       $A= r^2+ 4 \cdot \pi \cdot r^2$
+</td>
+<td width=25%> 
+<input id="59" name="q15" type="checkbox" value="59" />
+      $A=(4 + 3\pi) \cdot r^2$
+</td>
+<td width=25%> 
+<input id="60" name="q15" type="checkbox" value="60" />
+      $A=(2r)^2+ 4 \cdot {3\over 4} \pi \cdot r^2$
+</td>
+</tr>
+
+<!-- Frage 16 -->
+<tr>
+<td colspan="2"> 16. Für welchen Wert von x hat das Trapez einen Flächeninhalt von $14cm^2$ ?</td>
+<td colspan="2"> <input type="image" src="../Bilder/A16AQ.png" height="100px"></td>
+<td><h3 id="stimmts16">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="61" name="q16" type="checkbox" value="61" />
+      $x=3,4cm$
+</td>
+<td>     
+<input id="62" name="q16" type="checkbox" value="62" />
+      $x=23,52cm$.
+</td>
+<td> 
+<input id="63" name="q16" type="checkbox" value="63" />
+      $x=18,4cm$
+</td>
+<td>
+<input id="64" name="q16" type="checkbox" value="64" />
+      $x=8,4cm$
+</td>
+</tr>
+
+<!-- Frage 17 -->
+<tr>
+<td colspan="4"> 17. Wie lang ist die Seite $c$ in einem Dreieck mit Höhe $h_c=47\;cm$ und Flächeninhalt $A=1,363m^2$ </td>
+<td><h3 id="stimmts17">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="65" name="q17" type="checkbox" value="65" />
+      $2,9\;cm$
+</td>
+<td width=25%>     
+<input id="66" name="q17" type="checkbox" value="66" />
+      $0,058\;cm$ 
+</td>
+<td width=25%> 
+<input id="67" name="q17" type="checkbox" value="67" />
+      $1,45\;cm$
+</td>
+<td width=25%> 
+<input id="68" name="q17" type="checkbox" value="68" />
+      $5,8\;cm$
+</td>
+</tr>
+
+<!-- Frage 18 -->
+<tr>
+<td colspan="4"> 18. Ein Parallelogramm und ein Dreieck haben gleich lange Grundseiten und den gleichen Flächeninhalt. Welche der folgenden Aussagen trifft dann zu?</td>
+<td><h3 id="stimmts18">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="69" name="q18" type="checkbox" value="69" />
+      Die Höhe des Parallelogramms ist doppelt so lang wie die Höhe des Dreiecks.
+</td>
+<td>     
+<input id="70" name="q18" type="checkbox" value="70" />
+      Die Höhe des Dreiecks ist doppelt so lang wie die Höhe des Parallelogramms.
+</td>
+<td> 
+<input id="71" name="q18" type="checkbox" value="71" />
+      Die Höhe des Dreiecks muss um 2 Längeneinheiten länger sein als die Höhe des Parallelogramms.
+</td>
+<td>
+<input id="72" name="q18" type="checkbox" value="72" />
+      Der Flächeninhalt eines Parallelogramms und eines Dreiecks kann niemals gleich sein.
+</td>
+</tr>
+
+<!-- Frage 19 -->
+<tr>
+<td colspan="2"> 19. Berechne den Flächeninhalt und kreuze die richtige Lösung an. </td>
+<td colspan="2"> <input type="image" src="../Bilder/A19AQ.png" height="100px"></td>
+<td><h3 id="stimmts19">  </h3></td>
+</tr>
+<tr>
+<td width=25%>
+<input id="73" name="q19" type="checkbox" value="73" />
+      $78,4\;cm^2$
+</td>
+<td width=25%>     
+<input id="74" name="q19" type="checkbox" value="74" />
+      $111,36\;cm^2$ 
+</td>
+<td width=25%> 
+<input id="75" name="q19" type="checkbox" value="75" />
+      $101,12\;cm^2$
+</td>
+<td width=25%> 
+<input id="76" name="q19" type="checkbox" value="76" />
+      Der Flächeninhalt kann aus diesen Angaben nicht ermittelt werden.
+</td>
+</tr>
+
+<!-- Frage 20 -->
+<tr>
+<td colspan="2"> 20. Berechne den Flächeninhalt des Fünfecks und kreuze die richtige Lösung an. </td>
+<td colspan="2"> <input type="image" src="../Bilder/A20AQ.png" height="100px"></td>
+<td><h3 id="stimmts20">  </h3></td>
+</tr>
+<tr>
+<td>
+<input id="77" name="q20" type="checkbox" value="77" />
+      $A=125\;cm^2$
+</td>
+<td>     
+<input id="78" name="q20" type="checkbox" value="78" />
+      $A=127\;cm^2$
+</td>
+<td> 
+<input id="79" name="q20" type="checkbox" value="79" />
+      $A= 124\;cm^2$
+</td>
+<td>
+<input id="80" name="q20" type="checkbox" value="80" />
+      $A=130\;cm^2$
+</td>
+</tr>
+
+</table>
+
+<!-- Fragen zu Ende - Auswertungsbutton - Auswertung -->
+
+<br><br>
+
+<input onclick="gradeTest()" name="submit" type="button" value="Überprüfen"/>
+
+<br>
+
+Du hast <span id="ergebnis"> noch keine </span> von <span id="anzahlFragen"> all den </span> Aufgaben richtig gelöst!
+</form>
+
+<br><br>
+
+<!-- Auswertungsfunktion -->
+ 
+```{js, echo=FALSE}
+
+function gradeTest() {
+   //variables with global implications
+   var totalQuestions = 20;
+   var correctAnswers = 0;
+   var alertText;
+   var i;
+   var x1;
+   var x2;
+   var x3;
+   var x4;
+   var x5;
+   var x6;
+   var x7;
+   var x8;
+   var x9;
+   var x10;
+   var x11;
+   var x12;
+   var x13;
+   var x14;
+   var x15;
+   var x16;
+   var x17;
+   var x18;
+   var x19;
+   var x20;
+   
+<!-- Frage 1 -->
+   
+   var a1 = document.getElementsByName('q1');
+   var a1answers = new Array();
+   var a1right = new Array('2','3');
+   var a1bool = true;
+ 
+   for(i = 0; i < a1.length; i++) {
+      if(a1[i].checked) {
+         a1answers.push(a1[i].value);
+      }
+   }
+   a1answers.sort();
+   a1right.sort();
+   if(a1answers.length == a1right.length) {
+      for(i = 0; i < a1answers.length; i++) {
+         if(a1answers[i] != a1right[i]) {
+            a1bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a1bool = false;
+   }
+   if(a1bool == true) {
+      correctAnswers++;
+      x1 = '<font color = #0d0>✓</font>';
+   }
+   else{ x1 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 2    -->
+   
+   var a2 = document.getElementsByName('q2');
+   var a2answers = new Array();
+   var a2right = new Array('8');
+   var a2bool = true;
+ 
+   for(i = 0; i < a2.length; i++) {
+      if(a2[i].checked) {
+         a2answers.push(a2[i].value);
+      }
+   }
+   a2answers.sort();
+   a2right.sort();
+   if(a2answers.length == a2right.length) {
+      for(i = 0; i < a2answers.length; i++) {
+         if(a2answers[i] != a2right[i]) {
+            a2bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a2bool = false;
+   }
+   if(a2bool == true) {
+      correctAnswers++;
+      x2 = '<font color = #0d0>✓</font>';
+   }
+   else{ x2 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 3    -->
+   
+   var a3 = document.getElementsByName('q3');
+   var a3answers = new Array();
+   var a3right = new Array('9','12');
+   var a3bool = true;
+ 
+   for(i = 0; i < a3.length; i++) {
+      if(a3[i].checked) {
+         a3answers.push(a3[i].value);
+      }
+   }
+   a3answers.sort();
+   a3right.sort();
+   if(a3answers.length == a3right.length) {
+      for(i = 0; i < a3answers.length; i++) {
+         if(a3answers[i] != a3right[i]) {
+            a3bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a3bool = false;
+   }
+   if(a3bool == true) {
+      correctAnswers++;
+      x3 = '<font color = #0d0>✓</font>';
+   }
+   else{ x3 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 4 -->
+
+var a4 = document.getElementsByName('q4');
+   var a4answers = new Array();
+   var a4right = new Array('13','14','15');
+   var a4bool = true;
+ 
+   for(i = 0; i < a4.length; i++) {
+      if(a4[i].checked) {
+         a4answers.push(a4[i].value);
+      }
+   }
+   a4answers.sort();
+   a4right.sort();
+   if(a4answers.length == a4right.length) {
+      for(i = 0; i < a4answers.length; i++) {
+         if(a4answers[i] != a4right[i]) {
+            a4bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a4bool = false;
+   }
+   if(a4bool == true) {
+      correctAnswers++;
+      x4 = '<font color = #0d0>✓</font>';
+   }
+   else{ x4 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 5    -->
+
+var a5 = document.getElementsByName('q5');
+   var a5answers = new Array();
+   var a5right = new Array('18');
+   var a5bool = true;
+ 
+   for(i = 0; i < a5.length; i++) {
+      if(a5[i].checked) {
+         a5answers.push(a5[i].value);
+      }
+   }
+   a5answers.sort();
+   a5right.sort();
+   if(a5answers.length == a5right.length) {
+      for(i = 0; i < a5answers.length; i++) {
+         if(a5answers[i] != a5right[i]) {
+            a5bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a5bool = false;
+   }
+   if(a5bool == true) {
+      correctAnswers++;
+      x5 = '<font color = #0d0>✓</font>';
+   }
+   else{ x5 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 6    -->
+   
+   var a6 = document.getElementsByName('q6');
+   var a6answers = new Array();
+   var a6right = new Array('23');
+   var a6bool = true;
+ 
+   for(i = 0; i < a6.length; i++) {
+      if(a6[i].checked) {
+         a6answers.push(a6[i].value);
+      }
+   }
+   a6answers.sort();
+   a6right.sort();
+   if(a6answers.length == a6right.length) {
+      for(i = 0; i < a6answers.length; i++) {
+         if(a6answers[i] != a6right[i]) {
+            a6bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a6bool = false;
+   }
+   if(a6bool == true) {
+      correctAnswers++;
+      x6 = '<font color = #0d0>✓</font>';
+   }
+   else{ x6 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 7 -->
+
+var a7 = document.getElementsByName('q7');
+   var a7answers = new Array();
+   var a7right = new Array('25');
+   var a7bool = true;
+ 
+   for(i = 0; i < a7.length; i++) {
+      if(a7[i].checked) {
+         a7answers.push(a7[i].value);
+      }
+   }
+   a7answers.sort();
+   a7right.sort();
+   if(a7answers.length == a7right.length) {
+      for(i = 0; i < a7answers.length; i++) {
+         if(a7answers[i] != a7right[i]) {
+            a7bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a7bool = false;
+   }
+   if(a7bool == true) {
+      correctAnswers++;
+      x7 = '<font color = #0d0>✓</font>';
+   }
+   else{ x7 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 8    -->
+
+var a8 = document.getElementsByName('q8');
+   var a8answers = new Array();
+   var a8right = new Array('30','32');
+   var a8bool = true;
+ 
+   for(i = 0; i < a8.length; i++) {
+      if(a8[i].checked) {
+         a8answers.push(a8[i].value);
+      }
+   }
+   a8answers.sort();
+   a8right.sort();
+   if(a8answers.length == a8right.length) {
+      for(i = 0; i < a8answers.length; i++) {
+         if(a8answers[i] != a8right[i]) {
+            a8bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a8bool = false;
+   }
+   if(a8bool == true) {
+      correctAnswers++;
+      x8 = '<font color = #0d0>✓</font>';
+   }
+   else{ x8 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 9    -->
+
+var a9 = document.getElementsByName('q9');
+   var a9answers = new Array();
+   var a9right = new Array('34','35');
+   var a9bool = true;
+ 
+   for(i = 0; i < a9.length; i++) {
+      if(a9[i].checked) {
+         a9answers.push(a9[i].value);
+      }
+   }
+   a9answers.sort();
+   a9right.sort();
+   if(a9answers.length == a9right.length) {
+      for(i = 0; i < a9answers.length; i++) {
+         if(a9answers[i] != a9right[i]) {
+            a9bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a9bool = false;
+   }
+   if(a9bool == true) {
+      correctAnswers++;
+      x9 = '<font color = #0d0>✓</font>';
+   }
+   else{ x9 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 10    -->
+
+var a10 = document.getElementsByName('q10');
+   var a10answers = new Array();
+   var a10right = new Array('39');
+   var a10bool = true;
+ 
+   for(i = 0; i < a10.length; i++) {
+      if(a10[i].checked) {
+         a10answers.push(a10[i].value);
+      }
+   }
+   a10answers.sort();
+   a10right.sort();
+   if(a10answers.length == a10right.length) {
+      for(i = 0; i < a10answers.length; i++) {
+         if(a10answers[i] != a10right[i]) {
+            a10bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a10bool = false;
+   }
+   if(a10bool == true) {
+      correctAnswers++;
+      x10 = '<font color = #0d0>✓</font>';
+   }
+   else{ x10 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 11    -->
+
+var a11 = document.getElementsByName('q11');
+   var a11answers = new Array();
+   var a11right = new Array('41');
+   var a11bool = true;
+ 
+   for(i = 0; i < a11.length; i++) {
+      if(a11[i].checked) {
+         a11answers.push(a11[i].value);
+      }
+   }
+   a11answers.sort();
+   a11right.sort();
+   if(a11answers.length == a11right.length) {
+      for(i = 0; i < a11answers.length; i++) {
+         if(a11answers[i] != a11right[i]) {
+            a11bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a11bool = false;
+   }
+   if(a11bool == true) {
+      correctAnswers++;
+      x11 = '<font color = #0d0>✓</font>';
+   }
+   else{ x11 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 12 -->
+
+var a12 = document.getElementsByName('q12');
+   var a12answers = new Array();
+   var a12right = new Array('45');
+   var a12bool = true;
+ 
+   for(i = 0; i < a12.length; i++) {
+      if(a12[i].checked) {
+         a12answers.push(a12[i].value);
+      }
+   }
+   a12answers.sort();
+   a12right.sort();
+   if(a12answers.length == a12right.length) {
+      for(i = 0; i < a12answers.length; i++) {
+         if(a12answers[i] != a12right[i]) {
+            a12bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a12bool = false;
+   }
+   if(a12bool == true) {
+      correctAnswers++;
+      x12 = '<font color = #0d0>✓</font>';
+   }
+   else{ x12 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 13 -->
+
+var a13 = document.getElementsByName('q13');
+   var a13answers = new Array();
+   var a13right = new Array('51');
+   var a13bool = true;
+ 
+   for(i = 0; i < a13.length; i++) {
+      if(a13[i].checked) {
+         a13answers.push(a13[i].value);
+      }
+   }
+   a13answers.sort();
+   a13right.sort();
+   if(a13answers.length == a13right.length) {
+      for(i = 0; i < a13answers.length; i++) {
+         if(a13answers[i] != a13right[i]) {
+            a13bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a13bool = false;
+   }
+   if(a13bool == true) {
+      correctAnswers++;
+      x13 = '<font color = #0d0>✓</font>';
+   }
+   else{ x13 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 14    -->
+
+var a14 = document.getElementsByName('q14');
+   var a14answers = new Array();
+   var a14right = new Array('54');
+   var a14bool = true;
+ 
+   for(i = 0; i < a14.length; i++) {
+      if(a14[i].checked) {
+         a14answers.push(a14[i].value);
+      }
+   }
+   a14answers.sort();
+   a14right.sort();
+   if(a14answers.length == a14right.length) {
+      for(i = 0; i < a14answers.length; i++) {
+         if(a14answers[i] != a14right[i]) {
+            a14bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a14bool = false;
+   }
+   if(a14bool == true) {
+      correctAnswers++;
+      x14 = '<font color = #0d0>✓</font>';
+   }
+   else{ x14 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 15    -->
+
+var a15 = document.getElementsByName('q15');
+   var a15answers = new Array();
+   var a15right = new Array('59','60');
+   var a15bool = true;
+ 
+   for(i = 0; i < a15.length; i++) {
+      if(a15[i].checked) {
+         a15answers.push(a15[i].value);
+      }
+   }
+   a15answers.sort();
+   a15right.sort();
+   if(a15answers.length == a15right.length) {
+      for(i = 0; i < a15answers.length; i++) {
+         if(a15answers[i] != a15right[i]) {
+            a15bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a15bool = false;
+   }
+   if(a15bool == true) {
+      correctAnswers++;
+      x15 = '<font color = #0d0>✓</font>';
+   }
+   else{ x15 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 16    -->
+
+var a16 = document.getElementsByName('q16');
+   var a16answers = new Array();
+   var a16right = new Array('64');
+   var a16bool = true;
+ 
+   for(i = 0; i < a16.length; i++) {
+      if(a16[i].checked) {
+         a16answers.push(a16[i].value);
+      }
+   }
+   a16answers.sort();
+   a16right.sort();
+   if(a16answers.length == a16right.length) {
+      for(i = 0; i < a16answers.length; i++) {
+         if(a16answers[i] != a16right[i]) {
+            a16bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a16bool = false;
+   }
+   if(a16bool == true) {
+      correctAnswers++;
+      x16 = '<font color = #0d0>✓</font>';
+   }
+   else{ x16 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 17    -->
+
+var a17 = document.getElementsByName('q17');
+   var a17answers = new Array();
+   var a17right = new Array('68');
+   var a17bool = true;
+ 
+   for(i = 0; i < a17.length; i++) {
+      if(a17[i].checked) {
+         a17answers.push(a17[i].value);
+      }
+   }
+   a17answers.sort();
+   a17right.sort();
+   if(a17answers.length == a17right.length) {
+      for(i = 0; i < a17answers.length; i++) {
+         if(a17answers[i] != a17right[i]) {
+            a17bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a17bool = false;
+   }
+   if(a17bool == true) {
+      correctAnswers++;
+      x17 = '<font color = #0d0>✓</font>';
+   }
+   else{ x17 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 18 -->
+
+var a18 = document.getElementsByName('q18');
+   var a18answers = new Array();
+   var a18right = new Array('70');
+   var a18bool = true;
+ 
+   for(i = 0; i < a18.length; i++) {
+      if(a18[i].checked) {
+         a18answers.push(a18[i].value);
+      }
+   }
+   a18answers.sort();
+   a18right.sort();
+   if(a18answers.length == a18right.length) {
+      for(i = 0; i < a18answers.length; i++) {
+         if(a18answers[i] != a18right[i]) {
+            a18bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a18bool = false;
+   }
+   if(a18bool == true) {
+      correctAnswers++;
+      x18 = '<font color = #0d0>✓</font>';
+   }
+   else{ x18 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 19    -->
+
+var a19 = document.getElementsByName('q19');
+   var a19answers = new Array();
+   var a19right = new Array('73');
+   var a19bool = true;
+ 
+   for(i = 0; i < a19.length; i++) {
+      if(a19[i].checked) {
+         a19answers.push(a19[i].value);
+      }
+   }
+   a19answers.sort();
+   a19right.sort();
+   if(a19answers.length == a19right.length) {
+      for(i = 0; i < a19answers.length; i++) {
+         if(a19answers[i] != a19right[i]) {
+            a19bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a19bool = false;
+   }
+   if(a19bool == true) {
+      correctAnswers++;
+      x19 = '<font color = #0d0>✓</font>';
+   }
+   else{ x19 = '<font color = #f00>✗</font>' ;}
+   
+<!-- Frage 20 -->
+
+var a20 = document.getElementsByName('q20');
+   var a20answers = new Array();
+   var a20right = new Array('79');
+   var a20bool = true;
+ 
+   for(i = 0; i < a20.length; i++) {
+      if(a20[i].checked) {
+         a20answers.push(a20[i].value);
+      }
+   }
+   a20answers.sort();
+   a20right.sort();
+   if(a20answers.length == a20right.length) {
+      for(i = 0; i < a20answers.length; i++) {
+         if(a20answers[i] != a20right[i]) {
+            a20bool = false;
+            break;
+         }
+      }
+   }
+   else {
+      a20bool = false;
+   }
+   if(a20bool == true) {
+      correctAnswers++;
+      x20 = '<font color = #0d0>✓</font>';
+   }
+   else{ x20 = '<font color = #f00>✗</font>' ;}
+   
+
+<!-- AuswertungsErgebnis -->
+
+   if(correctAnswers == totalQuestions) {
+      alertText = "Alles richtig! Bestens!";
+   }
+   else {
+      alertText = "Du hast " + correctAnswers + " von " + totalQuestions + " Antworten richtig!";
+   }
+   document.getElementById('ergebnis').innerHTML = correctAnswers;
+   document.getElementById('anzahlFragen').innerHTML = totalQuestions;
+   
+   document.getElementById('stimmts1').innerHTML = x1;
+   document.getElementById('stimmts2').innerHTML = x2;
+   document.getElementById('stimmts3').innerHTML = x3;
+   document.getElementById('stimmts4').innerHTML = x4;
+   document.getElementById('stimmts5').innerHTML = x5;
+   document.getElementById('stimmts6').innerHTML = x6;
+   document.getElementById('stimmts7').innerHTML = x7;
+   document.getElementById('stimmts8').innerHTML = x8;
+   document.getElementById('stimmts9').innerHTML = x9;
+   document.getElementById('stimmts10').innerHTML = x10;
+   document.getElementById('stimmts11').innerHTML = x11;
+   document.getElementById('stimmts12').innerHTML = x12;
+   document.getElementById('stimmts13').innerHTML = x13;
+   document.getElementById('stimmts14').innerHTML = x14;
+   document.getElementById('stimmts15').innerHTML = x15;
+   document.getElementById('stimmts16').innerHTML = x16;
+   document.getElementById('stimmts17').innerHTML = x17;
+   document.getElementById('stimmts18').innerHTML = x18;
+   document.getElementById('stimmts19').innerHTML = x19;
+   document.getElementById('stimmts20').innerHTML = x20;
+   <!-- alert(alertText); -->
+}
+
+
+
+
+```
