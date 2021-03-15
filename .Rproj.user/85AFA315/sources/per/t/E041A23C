@@ -1,26 +1,26 @@
 {
-    "id": "3D8BD3D3",
-    "path": "~/github/Mathe_8d/03FormelnErstellen/Kreisumfang.Rmd",
-    "project_path": "03FormelnErstellen/Kreisumfang.Rmd",
+    "id": "E041A23C",
+    "path": "~/github/Mathe_8d/03FormelnErstellen/MontefuerPi.Rmd",
+    "project_path": "03FormelnErstellen/MontefuerPi.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1741342309",
     "contents": "",
     "dirty": false,
-    "created": 1614153957873.0,
+    "created": 1615794465388.0,
     "source_on_save": false,
     "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "35,31",
-        "scrollLine": "41"
+        "cursorPosition": "15,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612308124,
+    "lastKnownWriteTime": 1615768527,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612308124,
+    "last_content_update": 1615768527,
     "read_only": false,
     "read_only_alternatives": []
 }

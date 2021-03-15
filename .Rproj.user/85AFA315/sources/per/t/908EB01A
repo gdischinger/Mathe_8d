@@ -1,20 +1,20 @@
 {
-    "id": "A367EAB1",
+    "id": "908EB01A",
     "path": "~/github/Mathe_8d/03FormelnErstellen/Kreis.Rmd",
     "project_path": "03FormelnErstellen/Kreis.Rmd",
     "type": "r_markdown",
     "hash": "1891432827",
     "contents": "",
     "dirty": false,
-    "created": 1614153960620.0,
+    "created": 1614557177111.0,
     "source_on_save": false,
-    "relative_order": 6,
+    "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1410,0",
-        "scrollLine": "1393",
+        "cursorPosition": "19,3",
+        "scrollLine": "0",
         "last_setup_crc32": ""
     },
     "folds": "",
@@ -22,7 +22,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1614155354622,
+    "last_content_update": 1614155354,
     "read_only": false,
     "read_only_alternatives": []
 }

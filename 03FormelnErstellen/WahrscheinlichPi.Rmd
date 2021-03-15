@@ -1,0 +1,24 @@
+---
+title: "Wahrscheinlich Pi"
+output: webex::webex_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("webex")
+library("kableExtra")
+```
+
+```{css, echo=FALSE}
+.box {
+        display: flex;
+      }
+
+      .box > * {
+        flex: 1 1 0;
+      }
+```
+
+
+<iframe scrolling="no" title="MonteCarlo für Pi" src="https://www.geogebra.org/material/iframe/id/mk7e4zmv/width/1302/height/571/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1302px" height="571px" style="border:0px;"> </iframe>
+
